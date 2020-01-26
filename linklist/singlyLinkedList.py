@@ -15,7 +15,7 @@ class Node(object):
         """
         self.__data = data
         self.__next = next_node
-
+    """https://www.liaoxuefeng.com/wiki/1016959663602400/1017502538658208"""
     @property
     def data(self):
         """Node节点存储数据的获取.
