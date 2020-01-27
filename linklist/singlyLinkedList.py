@@ -16,6 +16,7 @@ class Node(object):
         self.__data = data
         self.__next = next_node
     """https://www.liaoxuefeng.com/wiki/1016959663602400/1017502538658208"""
+    """装饰器 get"""
     @property
     def data(self):
         """Node节点存储数据的获取.
@@ -54,7 +55,7 @@ class SinglyLinkedList(object):
 
     def __init__(self):
         """单向列表的初始化方法."""
-        self.__head = None
+        self.head = None
 
     def find_by_value(self, value):
         """按照数据值在单向列表中查找.
@@ -63,7 +64,7 @@ class SinglyLinkedList(object):
         返回:
             Node
         """
-        node = self.__head
+        node = self.head
         while (node is not None) and (node.data != value):
             node = node.next_node
         return node
@@ -75,7 +76,7 @@ class SinglyLinkedList(object):
         返回:
             Node
         """
-        node = self.__head
+        node = self.head
         pos = 0
         while (node is not None) and (pos != index):
             node = node.next_node
@@ -88,8 +89,10 @@ class SinglyLinkedList(object):
             value:将要存储的数据
         """
         node = Node(value)
-        node.next_node = self.__head
-        self.__head = node
+        """.__head初始值为None"""
+        node.next_node = self.head
+        """此处将__head值重新赋值"""
+        self.head = node
 
     def insert_after(self, node, value):
         """在链表的某个指定Node节点之后插入一个存储value数据的Node节点.
@@ -110,15 +113,15 @@ class SinglyLinkedList(object):
             node:指定的一个Node节点
             value:将要存储在新的Node节点中的数据
         """
-        if (node is None) or (self.__head is None):  # 如果指定在一个空节点之前或者空链表之前插入数据节点，则什么都不做
+        if (node is None) or (self.head is None):  # 如果指定在一个空节点之前或者空链表之前插入数据节点，则什么都不做
             return
 
-        if node == self.__head:  # 如果是在链表头之前插入数据节点，则直接插入
+        if node == self.head:  # 如果是在链表头之前插入数据节点，则直接插入
             self.insert_to_head(value)
             return
 
         new_node = Node(value)
-        pro = self.__head
+        pro = self.head
         not_found = False  # 如果在整个链表中都没有找到指定插入的Node节点，则该标记量设置为True
         while pro.next_node != node:  # 寻找指定Node之前的一个Node
             if pro.next_node is None:  # 如果已经到了链表的最后一个节点，则表明该链表中没有找到指定插入的Node节点
@@ -135,14 +138,14 @@ class SinglyLinkedList(object):
         参数:
             node:指定的Node节点
         """
-        if self.__head is None:  # 如果链表是空的，则什么都不做
+        if self.head is None:  # 如果链表是空的，则什么都不做
             return
 
-        if node == self.__head:  # 如果指定删除的Node节点是链表的头节点
-            self.__head = node.next_node
+        if node == self.head:  # 如果指定删除的Node节点是链表的头节点
+            self.head = node.next_node
             return
 
-        pro = self.__head
+        pro = self.head
         not_found = False  # 如果在整个链表中都没有找到指定删除的Node节点，则该标记量设置为True
         while pro.next_node != node:
             if pro.next_node is None:  # 如果已经到链表的最后一个节点，则表明该链表中没有找到指定删除的Node节点
@@ -158,14 +161,14 @@ class SinglyLinkedList(object):
         参数:
             value:指定的存储数据
         """
-        if self.__head is None:  # 如果链表是空的，则什么都不做
+        if self.head is None:  # 如果链表是空的，则什么都不做
             return
 
-        if self.__head.data == value:  # 如果链表的头Node节点就是指定删除的Node节点
-            self.__head = self.__head.next_node
+        if self.head.data == value:  # 如果链表的头Node节点就是指定删除的Node节点
+            self.head = self.head.next_node
 
-        pro = self.__head
-        node = self.__head.next_node
+        pro = self.head
+        node = self.head.next_node
         not_found = False
         while node.data != value:
             if node.next_node is None:  # 如果已经到链表的最后一个节点，则表明该链表中没有找到执行Value值的Node节点
@@ -185,8 +188,8 @@ class SinglyLinkedList(object):
         参数:
             n:需要删除的倒数第N个序数
         """
-        fast = self.__head
-        slow = self.__head
+        fast = self.head
+        slow = self.head
         step = 0
 
         while step <= n:
@@ -207,8 +210,8 @@ class SinglyLinkedList(object):
         返回:
             node:链表的中间节点
         """
-        fast = self.__head
-        slow = self.__head
+        fast = self.head
+        slow = self.head
 
         while fast.next_node is not None:
             fast = fast.next_node.next_node
@@ -227,7 +230,7 @@ class SinglyLinkedList(object):
 
     def print_all(self):
         """打印当前链表所有节点数据."""
-        pos = self.__head
+        pos = self.head
         if pos is None:
             print("当前链表还没有数据")
             return
@@ -238,16 +241,16 @@ class SinglyLinkedList(object):
 
     def reversed_self(self):
         """翻转链表自身."""
-        if self.__head is None or self.__head.next is None:  # 如果链表为空，或者链表只有一个节点
+        if self.head is None or self.head.next is None:  # 如果链表为空，或者链表只有一个节点
             return
 
-        pre = self.__head
-        node = self.__head.next
+        pre = self.head
+        node = self.head.next
         while node is not None:
             pre, node = self.__reversed_with_two_node(pre, node)
 
-        self.__head.next = None
-        self.__head = pre
+        self.head.next = None
+        self.head = pre
 
     def __reversed_with_two_node(self, pre, node):
         """翻转相邻两个节点.
@@ -272,8 +275,8 @@ class SinglyLinkedList(object):
             True:有环
             False:没有环
         """
-        fast = self.__head
-        slow = self.__head
+        fast = self.head
+        slow = self.head
 
         while (fast.next_node is not None) and (fast is not None):
             fast = fast.next_node
@@ -282,3 +285,21 @@ class SinglyLinkedList(object):
                 return True
 
         return False
+
+
+if __name__ == "__main__":
+    l = SinglyLinkedList()
+    for i in range(15):
+        l.insert_to_head(i)
+    # node9 = l.find_by_value(9)
+    # l.insert_value_before(node9, 20)
+    # l.insert_value_before(node9, 16)
+    # l.insert_value_before(node9, 16)
+    # l.delete_by_value(16)
+    # node11 = l.find_by_index(3)
+    # l.delete_by_node(node11)
+    # l.delete_by_node(l._head)
+    # l.delete_by_value(13)
+    print(l.head.data)
+    # for value in l:
+    #     print(value)
