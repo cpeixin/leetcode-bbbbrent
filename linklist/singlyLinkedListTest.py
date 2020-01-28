@@ -33,6 +33,19 @@ class SinglyLinkedList(object):
         self.head = None
         self.tail = None
 
+
+    def find_by_value(self, value):
+        if value is None or self.head is None:
+            return
+
+        offset = self.head
+
+        while offset.data != value:
+            offset = offset.next_node
+
+        return offset
+
+
     def insert_to_head(self, data):
         """
         next_node为None注意
@@ -61,12 +74,45 @@ class SinglyLinkedList(object):
             self.tail.next_node = node
             self.tail = node
 
+    def insert_before(self, node, data):
+        if node is None or self.head is None:
+            return
+
+        if node==self.head:
+            self.insert_to_head(data)
+            return
+
+        """从头节点遍历"""
+        new_node = Node(data)
+        offset = self.head
+        not_found = False
+
+        while offset.next_node != node:
+            offset = offset.next_node
+
+
+        new_node.next_node = offset.next_node
+
+        offset.next_node = new_node
+
+    def foeach(self, node):
+        """遍历链表"""
+        while node.next_node != None and node != None:
+            node = node.next_node
+            print(node.data, node.next_node)
+
 if __name__ == '__main__':
     sll = SinglyLinkedList()
 
     for i in range(10):
         sll.insert_to_head(i)
     sll.insert_to_tail(100)
-    print(sll)
-    print(sll.head.data)
-    print(sll.tail.data)
+
+    sll.foeach(sll.head)
+
+    node_8 = sll.find_by_value(8)
+    # print(sll)
+    # print(sll.head.data)
+    # print(sll.tail.data)
+
+    print(node_8)

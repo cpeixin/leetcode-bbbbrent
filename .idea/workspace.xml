@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="装饰器">
-      <change afterPath="$PROJECT_DIR$/linklist/singlyLinkedListTest.py" afterDir="false" />
+    <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="singlyLinkedList test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linklist/singlyLinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/linklist/singlyLinkedList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linklist/singlyLinkedListTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/linklist/singlyLinkedListTest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$singlyLinkedListTest.coverage" NAME="singlyLinkedListTest Coverage Results" MODIFIED="1580142937159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$singlyLinkedListTest.coverage" NAME="singlyLinkedListTest Coverage Results" MODIFIED="1580229153178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$singlyLinkedList.coverage" NAME="singlyLinkedList Coverage Results" MODIFIED="1580137809128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$ArrayCase.coverage" NAME="ArrayCase Coverage Results" MODIFIED="1579714889342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queen" />
   </component>
@@ -23,8 +22,8 @@
       <file leaf-file-name="singlyLinkedList.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linklist/singlyLinkedList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <state relative-caret-position="386">
+              <caret line="65" column="11" lean-forward="true" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
               <folding>
                 <element signature="e#351#445#0" />
                 <element signature="e#498#592#0" />
@@ -32,7 +31,6 @@
                 <element signature="e#641#733#0" />
                 <element signature="e#801#910#0" />
                 <element signature="e#993#1037#0" />
-                <element signature="e#1083#1317#0" />
                 <element signature="e#1363#1624#0" />
                 <element signature="e#1671#1842#0" />
                 <element signature="e#1893#2194#0" />
@@ -54,8 +52,8 @@
       <file leaf-file-name="singlyLinkedListTest.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/linklist/singlyLinkedListTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+            <state relative-caret-position="490">
+              <caret line="110" column="22" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -263,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580053165726</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="singlyLinkedList test">
+      <created>1580143001432</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580143001432</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -274,12 +279,12 @@
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="Python Console" order="2" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.23734534" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.23734534" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="7" visible="true" weight="0.38807648" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.38807648" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Json Parser" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -316,7 +321,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Default Changelist" />
     <MESSAGE value="装饰器" />
-    <option name="LAST_COMMIT_MESSAGE" value="装饰器" />
+    <MESSAGE value="singlyLinkedList test" />
+    <option name="LAST_COMMIT_MESSAGE" value="singlyLinkedList test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -330,11 +336,6 @@
           <url>file://$PROJECT_DIR$/linklist/singlyLinkedList.py</url>
           <line>290</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/linklist/singlyLinkedListTest.py</url>
-          <line>69</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="4" />
@@ -524,8 +525,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/linklist/singlyLinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="386">
+          <caret line="65" column="11" lean-forward="true" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
           <folding>
             <element signature="e#351#445#0" />
             <element signature="e#498#592#0" />
@@ -533,7 +534,6 @@
             <element signature="e#641#733#0" />
             <element signature="e#801#910#0" />
             <element signature="e#993#1037#0" />
-            <element signature="e#1083#1317#0" />
             <element signature="e#1363#1624#0" />
             <element signature="e#1671#1842#0" />
             <element signature="e#1893#2194#0" />
@@ -553,8 +553,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/linklist/singlyLinkedListTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        <state relative-caret-position="490">
+          <caret line="110" column="22" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
         </state>
       </provider>
     </entry>
