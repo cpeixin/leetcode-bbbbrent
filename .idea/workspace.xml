@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="singlyLinkedList test">
+    <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="add: find_by_value">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linklist/singlyLinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/linklist/singlyLinkedList.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/linklist/singlyLinkedListTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/linklist/singlyLinkedListTest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,47 +14,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$singlyLinkedListTest.coverage" NAME="singlyLinkedListTest Coverage Results" MODIFIED="1580229153178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$singlyLinkedList.coverage" NAME="singlyLinkedList Coverage Results" MODIFIED="1580137809128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$singlyLinkedListTest.coverage" NAME="singlyLinkedListTest Coverage Results" MODIFIED="1580312249176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$singlyLinkedList.coverage" NAME="singlyLinkedList Coverage Results" MODIFIED="1580308980264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$ArrayCase.coverage" NAME="ArrayCase Coverage Results" MODIFIED="1579714889342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queen" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="singlyLinkedList.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="singlyLinkedList.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/linklist/singlyLinkedList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="65" column="11" lean-forward="true" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
+            <state relative-caret-position="325">
+              <caret line="254" column="50" lean-forward="true" selection-start-line="254" selection-start-column="50" selection-end-line="254" selection-end-column="50" />
               <folding>
-                <element signature="e#351#445#0" />
-                <element signature="e#498#592#0" />
-                <element signature="e#498#565#1" />
-                <element signature="e#641#733#0" />
-                <element signature="e#801#910#0" />
-                <element signature="e#993#1037#0" />
-                <element signature="e#1363#1624#0" />
-                <element signature="e#1671#1842#0" />
-                <element signature="e#1893#2194#0" />
-                <element signature="e#2246#3071#0" />
-                <element signature="e#3117#3761#0" />
-                <element signature="e#3809#4487#0" />
-                <element signature="e#4534#5049#0" />
-                <element signature="e#5088#5429#0" />
-                <element signature="e#5473#5616#0" />
-                <element signature="e#5651#5923#0" />
-                <element signature="e#5962#6290#0" />
-                <element signature="e#6351#6620#0" />
-                <element signature="e#6654#7105#0" />
+                <element signature="e#6749#7196#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="singlyLinkedListTest.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="singlyLinkedListTest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linklist/singlyLinkedListTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="110" column="22" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
+            <state relative-caret-position="481">
+              <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
+              <folding>
+                <element signature="e#557#598#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -268,23 +254,31 @@
       <option name="project" value="LOCAL" />
       <updated>1580143001432</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add: find_by_value">
+      <created>1580229197925</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580229197925</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="986" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2741148" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2771673" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.28458944" />
       <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="Python Console" order="2" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.23734534" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.38807648" />
+      <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Json Parser" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -297,22 +291,22 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.11311054" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Python Console" order="2" />
-      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="right" id="Json Parser" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="right" id="Json Parser" order="0" />
+      <window_info anchor="bottom" id="Python Console" order="2" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -322,7 +316,8 @@
     <MESSAGE value="Default Changelist" />
     <MESSAGE value="装饰器" />
     <MESSAGE value="singlyLinkedList test" />
-    <option name="LAST_COMMIT_MESSAGE" value="singlyLinkedList test" />
+    <MESSAGE value="add: find_by_value" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: find_by_value" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -334,14 +329,39 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/linklist/singlyLinkedList.py</url>
-          <line>290</line>
-          <option name="timeStamp" value="1" />
+          <line>293</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/linklist/singlyLinkedListTest.py</url>
+          <line>217</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/linklist/singlyLinkedList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2265">
+          <caret line="151" column="32" lean-forward="true" selection-start-line="151" selection-start-column="32" selection-end-line="151" selection-end-column="32" />
+          <folding>
+            <element signature="e#6749#7196#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linklist/singlyLinkedListTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="152" column="8" lean-forward="true" selection-start-line="152" selection-start-column="8" selection-end-line="152" selection-end-column="8" />
+          <folding>
+            <element signature="e#557#598#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/queen/queen.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -523,38 +543,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linklist/singlyLinkedList.py">
+    <entry file="file://$PROJECT_DIR$/linklist/singlyLinkedListTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="65" column="11" lean-forward="true" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
+        <state relative-caret-position="481">
+          <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
           <folding>
-            <element signature="e#351#445#0" />
-            <element signature="e#498#592#0" />
-            <element signature="e#498#565#1" />
-            <element signature="e#641#733#0" />
-            <element signature="e#801#910#0" />
-            <element signature="e#993#1037#0" />
-            <element signature="e#1363#1624#0" />
-            <element signature="e#1671#1842#0" />
-            <element signature="e#1893#2194#0" />
-            <element signature="e#2246#3071#0" />
-            <element signature="e#3117#3761#0" />
-            <element signature="e#3809#4487#0" />
-            <element signature="e#4534#5049#0" />
-            <element signature="e#5088#5429#0" />
-            <element signature="e#5473#5616#0" />
-            <element signature="e#5651#5923#0" />
-            <element signature="e#5962#6290#0" />
-            <element signature="e#6351#6620#0" />
-            <element signature="e#6654#7105#0" />
+            <element signature="e#557#598#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linklist/singlyLinkedListTest.py">
+    <entry file="file://$PROJECT_DIR$/linklist/singlyLinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="110" column="22" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
+        <state relative-caret-position="325">
+          <caret line="254" column="50" lean-forward="true" selection-start-line="254" selection-start-column="50" selection-end-line="254" selection-end-column="50" />
+          <folding>
+            <element signature="e#6749#7196#0" />
+          </folding>
         </state>
       </provider>
     </entry>
