@@ -206,15 +206,79 @@ class SinglyLinkedList(object):
 
 
 
+    def reversed_self(self):
+        """翻转链表自身."""
+        if self.head is None or self.head.next_node is None:
+            return
+
+        pre = self.head
+        node = self.head.next_node
+
+        while node is not None:
+
+            pre,node = self.__reversed_with_two_node(pre,node)
+            """循环到最后一位 node is None退出"""
+
+        """将原链表的头节点指向为下一节点 改为 指向为None"""
+        self.head.next_node = None
+        """将头节点设置为原链表的尾节点,链表反转则成功。链表元素位置不变，但是元素之间的指向改变"""
+        self.head = pre
+
+
+    def __reversed_with_two_node(self, pre, node):
+        """翻转相邻两个节点.
+        参数:
+            pre:前一个节点
+            node:当前节点
+        返回:
+            *******(pre,node):下一个相邻节点的元组
+        """
+
+        tmp = node.next_node
+        node.next_node = pre
+
+        pre = node
+
+        node = tmp
+        return pre, node
+
+
+    def has_ring(self):
+        """检查链表中是否有环.
+        主体思想：
+            设置快、慢两种指针，快指针每次跨两步，慢指针每次跨一步，如果快指针没有与慢指针相遇而是顺利到达链表尾部
+            说明没有环；否则，存在环
+        返回:
+            True:有环
+            False:没有环
+        """
+        fast = self.head
+        slow = self.head
+
+        while (fast.next_node is not None) and (fast is not None):
+            fast = fast.next_node
+            slow = slow.next_node
+            if fast == slow:
+                return True
+
+        return False
+
+
 
 if __name__ == '__main__':
     sll = SinglyLinkedList()
 
-    for i in range(10):
+    for i in [5,4,3,2,1]:
         sll.insert_to_head(i)
+
+
 
     sll.foeach(sll.head)
 
+    print("======================")
+    sll.reversed_self()
+
+    sll.foeach(sll.head)
     # node_5 = sll.find_by_value(5)
     # sll.insert_after(node_5,5.5)
 

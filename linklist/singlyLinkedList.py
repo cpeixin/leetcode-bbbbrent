@@ -289,10 +289,13 @@ class SinglyLinkedList(object):
 
 if __name__ == "__main__":
     l = SinglyLinkedList()
-    for i in range(15):
+    for i in [5]:
         l.insert_to_head(i)
-    node20 = l.find_by_value(20)
-    l.insert_before(node20, 20)
+
+    l.print_all()
+    l.reversed_self()
+    # node20 = l.find_by_value(20)
+    # l.insert_before(node20, 20)
     # l.insert_value_before(node9, 16)
     # l.insert_value_before(node9, 16)
     # l.delete_by_value(16)
@@ -300,6 +303,4 @@ if __name__ == "__main__":
     # l.delete_by_node(node11)
     # l.delete_by_node(l._head)
     # l.delete_by_value(13)
-    # print(l.head.data)
-    # for value in l:
-    #     print(value)
+    print(l.head.data)

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="add: find_by_value">
+      <change afterPath="$PROJECT_DIR$/linklist/LRUCache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linklist/leetcode206.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/linklist/singlyLinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/linklist/singlyLinkedList.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/linklist/singlyLinkedListTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/linklist/singlyLinkedListTest.py" afterDir="false" />
@@ -14,17 +16,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$singlyLinkedListTest.coverage" NAME="singlyLinkedListTest Coverage Results" MODIFIED="1580312249176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$singlyLinkedList.coverage" NAME="singlyLinkedList Coverage Results" MODIFIED="1580308980264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$leetcode206.coverage" NAME="leetcode206 Coverage Results" MODIFIED="1580561106456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$singlyLinkedListTest.coverage" NAME="singlyLinkedListTest Coverage Results" MODIFIED="1580565704705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$singlyLinkedList.coverage" NAME="singlyLinkedList Coverage Results" MODIFIED="1580564195268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$ArrayCase.coverage" NAME="ArrayCase Coverage Results" MODIFIED="1579714889342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queen" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="singlyLinkedList.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="singlyLinkedList.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linklist/singlyLinkedList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="254" column="50" lean-forward="true" selection-start-line="254" selection-start-column="50" selection-end-line="254" selection-end-column="50" />
+            <state relative-caret-position="3269">
+              <caret line="252" column="20" lean-forward="true" selection-start-line="252" selection-start-column="20" selection-end-line="252" selection-end-column="20" />
               <folding>
                 <element signature="e#6749#7196#0" />
               </folding>
@@ -35,11 +38,30 @@
       <file leaf-file-name="singlyLinkedListTest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linklist/singlyLinkedListTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
+            <state relative-caret-position="526">
+              <caret line="242" column="24" lean-forward="true" selection-start-line="208" selection-start-column="4" selection-end-line="242" selection-end-column="24" />
               <folding>
                 <element signature="e#557#598#0" />
+                <element signature="e#6202#6649#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LRUCache.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/linklist/LRUCache.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="leetcode206.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linklist/leetcode206.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="59" column="31" lean-forward="true" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -56,6 +78,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>.__head</find>
+      <find>next</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -70,8 +93,11 @@
         <option value="$PROJECT_DIR$/queen/SequenceQueen.py" />
         <option value="$PROJECT_DIR$/queen/ArrayCase.py" />
         <option value="$PROJECT_DIR$/linklist.py" />
+        <option value="$PROJECT_DIR$/linklist/test.py" />
+        <option value="$PROJECT_DIR$/linklist/leetcode206.py" />
         <option value="$PROJECT_DIR$/linklist/singlyLinkedList.py" />
         <option value="$PROJECT_DIR$/linklist/singlyLinkedListTest.py" />
+        <option value="$PROJECT_DIR$/linklist/LRUCache.py" />
       </list>
     </option>
   </component>
@@ -169,6 +195,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="leetcode206" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Leetcode-bbbbrent" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linklist" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linklist/leetcode206.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="singlyLinkedList" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -212,11 +257,13 @@
       <item itemvalue="Python.ArrayCase" />
       <item itemvalue="Python.singlyLinkedList" />
       <item itemvalue="Python.singlyLinkedListTest" />
+      <item itemvalue="Python.leetcode206" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.singlyLinkedListTest" />
         <item itemvalue="Python.singlyLinkedList" />
+        <item itemvalue="Python.leetcode206" />
         <item itemvalue="Python.ArrayCase" />
         <item itemvalue="Python.SequenceQueen" />
       </list>
@@ -261,23 +308,30 @@
       <option name="project" value="LOCAL" />
       <updated>1580229197925</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add: find_by_value">
+      <created>1580314532848</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1580314532848</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="986" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2771673" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2771673" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.28458944" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32620922" />
       <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="Python Console" order="2" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.38807648" />
+      <window_info anchor="bottom" id="Debug" order="7" visible="true" weight="0.32283464" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Json Parser" order="0" />
@@ -328,17 +382,17 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/linklist/singlyLinkedList.py</url>
-          <line>293</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/linklist/singlyLinkedListTest.py</url>
+          <line>278</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/linklist/singlyLinkedListTest.py</url>
-          <line>217</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/linklist/singlyLinkedList.py</url>
+          <line>295</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="9" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -358,6 +412,7 @@
           <caret line="152" column="8" lean-forward="true" selection-start-line="152" selection-start-column="8" selection-end-line="152" selection-end-column="8" />
           <folding>
             <element signature="e#557#598#0" />
+            <element signature="e#6202#6649#0" />
           </folding>
         </state>
       </provider>
@@ -543,23 +598,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/linklist/leetcode206.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="59" column="31" lean-forward="true" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/linklist/singlyLinkedListTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
+        <state relative-caret-position="526">
+          <caret line="242" column="24" lean-forward="true" selection-start-line="208" selection-start-column="4" selection-end-line="242" selection-end-column="24" />
           <folding>
             <element signature="e#557#598#0" />
+            <element signature="e#6202#6649#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/linklist/singlyLinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="254" column="50" lean-forward="true" selection-start-line="254" selection-start-column="50" selection-end-line="254" selection-end-column="50" />
+        <state relative-caret-position="3269">
+          <caret line="252" column="20" lean-forward="true" selection-start-line="252" selection-start-column="20" selection-end-line="252" selection-end-column="20" />
           <folding>
             <element signature="e#6749#7196#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linklist/LRUCache.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
         </state>
       </provider>
     </entry>
