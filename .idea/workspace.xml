@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="add: find_by_value">
-      <change afterPath="$PROJECT_DIR$/linklist/LRUCache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linklist/leetcode206.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linklist/singlyLinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/linklist/singlyLinkedList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linklist/singlyLinkedListTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/linklist/singlyLinkedListTest.py" afterDir="false" />
+    <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="add: LRU">
+      <change beforePath="$PROJECT_DIR$/linklist/LRUCache.py" beforeDir="false" afterPath="$PROJECT_DIR$/linklist/LRUCache.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,6 +15,7 @@
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$leetcode206.coverage" NAME="leetcode206 Coverage Results" MODIFIED="1580561106456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$singlyLinkedListTest.coverage" NAME="singlyLinkedListTest Coverage Results" MODIFIED="1580565704705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$singlyLinkedList.coverage" NAME="singlyLinkedList Coverage Results" MODIFIED="1580564195268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$LRUCache.coverage" NAME="LRUCache Coverage Results" MODIFIED="1580692446048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$ArrayCase.coverage" NAME="ArrayCase Coverage Results" MODIFIED="1579714889342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queen" />
   </component>
   <component name="FileEditorManager">
@@ -51,8 +48,8 @@
       <file leaf-file-name="LRUCache.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/linklist/LRUCache.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+            <state relative-caret-position="310">
+              <caret line="117" column="36" lean-forward="true" selection-start-line="117" selection-start-column="36" selection-end-line="117" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -79,6 +76,8 @@
     <findStrings>
       <find>.__head</find>
       <find>next</find>
+      <find>prev</find>
+      <find>pre</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -156,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.singlyLinkedListTest">
+  <component name="RunManager" selected="Python.LRUCache">
     <configuration name="ArrayCase" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,7 +175,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="SequenceQueen" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="LRUCache" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -184,12 +183,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/queen" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linklist" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/queen/SequenceQueen.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linklist/LRUCache.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -253,19 +252,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.SequenceQueen" />
       <item itemvalue="Python.ArrayCase" />
       <item itemvalue="Python.singlyLinkedList" />
       <item itemvalue="Python.singlyLinkedListTest" />
       <item itemvalue="Python.leetcode206" />
+      <item itemvalue="Python.LRUCache" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.LRUCache" />
         <item itemvalue="Python.singlyLinkedListTest" />
         <item itemvalue="Python.singlyLinkedList" />
         <item itemvalue="Python.leetcode206" />
         <item itemvalue="Python.ArrayCase" />
-        <item itemvalue="Python.SequenceQueen" />
       </list>
     </recent_temporary>
   </component>
@@ -315,23 +314,37 @@
       <option name="project" value="LOCAL" />
       <updated>1580314532848</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add: LRU">
+      <created>1580658702756</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1580658702756</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add: LRU">
+      <created>1580658750304</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580658750304</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="986" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2771673" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2771673" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32620922" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32620922" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.3295838" />
       <window_info anchor="bottom" id="Python Console" order="2" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Debug" order="7" visible="true" weight="0.32283464" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.32283464" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Json Parser" order="0" />
@@ -363,6 +376,32 @@
       <window_info anchor="bottom" id="Python Console" order="2" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -371,7 +410,8 @@
     <MESSAGE value="装饰器" />
     <MESSAGE value="singlyLinkedList test" />
     <MESSAGE value="add: find_by_value" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: find_by_value" />
+    <MESSAGE value="add: LRU" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: LRU" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -635,8 +675,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/linklist/LRUCache.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        <state relative-caret-position="310">
+          <caret line="117" column="36" lean-forward="true" selection-start-line="117" selection-start-column="36" selection-end-line="117" selection-end-column="36" />
         </state>
       </provider>
     </entry>
