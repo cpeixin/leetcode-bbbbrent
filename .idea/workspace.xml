@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="add: LRU">
-      <change beforePath="$PROJECT_DIR$/linklist/LRUCache.py" beforeDir="false" afterPath="$PROJECT_DIR$/linklist/LRUCache.py" afterDir="false" />
+    <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="LRU ok">
+      <change afterPath="$PROJECT_DIR$/linklist/connect_two_linked.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack/leetcode.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linklist/singlyLinkedListTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/linklist/singlyLinkedListTest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,7 +17,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$leetcode206.coverage" NAME="leetcode206 Coverage Results" MODIFIED="1580561106456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$singlyLinkedListTest.coverage" NAME="singlyLinkedListTest Coverage Results" MODIFIED="1580565704705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$singlyLinkedListTest.coverage" NAME="singlyLinkedListTest Coverage Results" MODIFIED="1580997493064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$connect_two_linked.coverage" NAME="connect_two_linked Coverage Results" MODIFIED="1580997557353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$singlyLinkedList.coverage" NAME="singlyLinkedList Coverage Results" MODIFIED="1580564195268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$LRUCache.coverage" NAME="LRUCache Coverage Results" MODIFIED="1580692446048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$ArrayCase.coverage" NAME="ArrayCase Coverage Results" MODIFIED="1579714889342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queen" />
@@ -35,21 +40,39 @@
       <file leaf-file-name="singlyLinkedListTest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linklist/singlyLinkedListTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="242" column="24" lean-forward="true" selection-start-line="208" selection-start-column="4" selection-end-line="242" selection-end-column="24" />
+            <state relative-caret-position="69">
+              <caret line="273" selection-start-line="273" selection-end-line="273" />
               <folding>
-                <element signature="e#557#598#0" />
                 <element signature="e#6202#6649#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LRUCache.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LRUCache.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linklist/LRUCache.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="117" column="36" lean-forward="true" selection-start-line="117" selection-start-column="36" selection-end-line="117" selection-end-column="36" />
+            <state relative-caret-position="205">
+              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connect_two_linked.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linklist/connect_two_linked.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="leetcode.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stack/leetcode.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -57,8 +80,8 @@
       <file leaf-file-name="leetcode206.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linklist/leetcode206.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="59" column="31" lean-forward="true" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+            <state relative-caret-position="294">
+              <caret line="60" column="41" lean-forward="true" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -95,8 +118,9 @@
         <option value="$PROJECT_DIR$/linklist/test.py" />
         <option value="$PROJECT_DIR$/linklist/leetcode206.py" />
         <option value="$PROJECT_DIR$/linklist/singlyLinkedList.py" />
-        <option value="$PROJECT_DIR$/linklist/singlyLinkedListTest.py" />
         <option value="$PROJECT_DIR$/linklist/LRUCache.py" />
+        <option value="$PROJECT_DIR$/linklist/connect_two_linked.py" />
+        <option value="$PROJECT_DIR$/linklist/singlyLinkedListTest.py" />
       </list>
     </option>
   </component>
@@ -127,6 +151,11 @@
               <item name="leetcode-bbbbrent" type="462c0819:PsiDirectoryNode" />
               <item name="queen" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leetcode-bbbbrent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode-bbbbrent" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -155,26 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.LRUCache">
-    <configuration name="ArrayCase" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Leetcode-bbbbrent" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/queen" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/queen/ArrayCase.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.connect_two_linked">
     <configuration name="LRUCache" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -189,6 +199,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linklist/LRUCache.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="connect_two_linked" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Leetcode-bbbbrent" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linklist" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linklist/connect_two_linked.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -252,19 +281,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.ArrayCase" />
       <item itemvalue="Python.singlyLinkedList" />
       <item itemvalue="Python.singlyLinkedListTest" />
       <item itemvalue="Python.leetcode206" />
       <item itemvalue="Python.LRUCache" />
+      <item itemvalue="Python.connect_two_linked" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.LRUCache" />
+        <item itemvalue="Python.connect_two_linked" />
         <item itemvalue="Python.singlyLinkedListTest" />
+        <item itemvalue="Python.LRUCache" />
         <item itemvalue="Python.singlyLinkedList" />
         <item itemvalue="Python.leetcode206" />
-        <item itemvalue="Python.ArrayCase" />
       </list>
     </recent_temporary>
   </component>
@@ -328,23 +357,30 @@
       <option name="project" value="LOCAL" />
       <updated>1580658750304</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="LRU ok">
+      <created>1580692516161</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1580692516161</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="986" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2771673" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2771673" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32620922" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32620922" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.3295838" />
       <window_info anchor="bottom" id="Python Console" order="2" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.32283464" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3295838" />
+      <window_info anchor="bottom" id="Debug" order="7" visible="true" weight="0.503937" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Json Parser" order="0" />
@@ -411,7 +447,8 @@
     <MESSAGE value="singlyLinkedList test" />
     <MESSAGE value="add: find_by_value" />
     <MESSAGE value="add: LRU" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: LRU" />
+    <MESSAGE value="LRU ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="LRU ok" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -431,8 +468,13 @@
           <line>295</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/linklist/connect_two_linked.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -451,7 +493,6 @@
         <state relative-caret-position="2250">
           <caret line="152" column="8" lean-forward="true" selection-start-line="152" selection-start-column="8" selection-end-line="152" selection-end-column="8" />
           <folding>
-            <element signature="e#557#598#0" />
             <element signature="e#6202#6649#0" />
           </folding>
         </state>
@@ -638,28 +679,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linklist/leetcode206.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="59" column="31" lean-forward="true" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="308" selection-start-line="308" selection-end-line="308" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linklist/singlyLinkedListTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="242" column="24" lean-forward="true" selection-start-line="208" selection-start-column="4" selection-end-line="242" selection-end-column="24" />
-          <folding>
-            <element signature="e#557#598#0" />
-            <element signature="e#6202#6649#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -673,10 +696,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/linklist/leetcode206.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="60" column="41" lean-forward="true" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/linklist/LRUCache.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="117" column="36" lean-forward="true" selection-start-line="117" selection-start-column="36" selection-end-line="117" selection-end-column="36" />
+        <state relative-caret-position="205">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linklist/singlyLinkedListTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="273" selection-start-line="273" selection-end-line="273" />
+          <folding>
+            <element signature="e#6202#6649#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linklist/connect_two_linked.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stack/leetcode.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -273,12 +273,12 @@ if __name__ == '__main__':
 
 
 
-    sll.foeach(sll.head)
-
-    print("======================")
-    sll.reversed_self()
-
-    sll.foeach(sll.head)
+    # sll.foeach(sll.head)
+    #
+    # print("======================")
+    # sll.reversed_self()
+    #
+    # sll.foeach(sll.head)
     # node_5 = sll.find_by_value(5)
     # sll.insert_after(node_5,5.5)
 
