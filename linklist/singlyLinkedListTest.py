@@ -70,7 +70,7 @@ class SinglyLinkedList(object):
         else:
             self.head = node
 
-    def insert_to_tail(self, data):
+    def insert_to_tail(self,data):
         """
         尾节点插入
         :param data:
@@ -109,7 +109,7 @@ class SinglyLinkedList(object):
             pro.next_node = new_node
             new_node.next_node = node
 
-    def insert_after(self, node, data):
+    def insert_after(self,node, data):
         # """在链表的某个指定Node节点之后插入一个存储value数据的Node节点.
         # 参数:
         #     node:指定的一个Node节点
@@ -125,6 +125,7 @@ class SinglyLinkedList(object):
         """这里没有判断指定的节点是否存在，是因为可以直接使用"""
         new_node.next_node = node.next
         node.next = new_node
+
 
         # if (node is None) or (self.head is None):  # 如果指定在一个空节点之前或者空链表之前插入数据节点，则什么都不做
         #     return
@@ -148,7 +149,7 @@ class SinglyLinkedList(object):
         #         new_node.next_node = pro.next_node
         #         pro.next_node = new_node
 
-    def delete_by_node(self, node):
+    def delete_by_node(self,node):
         """在链表中删除指定Node的节点.
            参数:
                node:指定的Node节点
@@ -203,6 +204,8 @@ class SinglyLinkedList(object):
             print(node.data, node.next_node)
             node = node.next_node
 
+
+
     def reversed_self(self):
         """翻转链表自身."""
         if self.head is None or self.head.next_node is None:
@@ -212,13 +215,15 @@ class SinglyLinkedList(object):
         node = self.head.next_node
 
         while node is not None:
-            pre, node = self.__reversed_with_two_node(pre, node)
+
+            pre,node = self.__reversed_with_two_node(pre,node)
             """循环到最后一位 node is None退出"""
 
         """将原链表的头节点指向为下一节点 改为 指向为None"""
         self.head.next_node = None
         """将头节点设置为原链表的尾节点,链表反转则成功。链表元素位置不变，但是元素之间的指向改变"""
         self.head = pre
+
 
     def __reversed_with_two_node(self, pre, node):
         """翻转相邻两个节点.
@@ -236,6 +241,7 @@ class SinglyLinkedList(object):
 
         node = tmp
         return pre, node
+
 
     def has_ring(self):
         """检查链表中是否有环.
@@ -258,30 +264,37 @@ class SinglyLinkedList(object):
         return False
 
 
+
 if __name__ == '__main__':
     sll = SinglyLinkedList()
 
-    for i in [5, 4, 3, 2, 1]:
+    for i in [5,4,3,2,1]:
         sll.insert_to_head(i)
 
-    sll.foeach(sll.head)
 
-    print("======================")
-    sll.reversed_self()
 
-    sll.foeach(sll.head)
+    # sll.foeach(sll.head)
+    #
+    # print("======================")
+    # sll.reversed_self()
+    #
+    # sll.foeach(sll.head)
     # node_5 = sll.find_by_value(5)
     # sll.insert_after(node_5,5.5)
 
+
     # sll.insert_to_tail(100)
     # print(sll.tail.data)
+
 
     # node_8 = sll.find_by_value(8)
     # print("================")
     # print(node_8)
 
+
     # node_index_3 = sll.find_by_index(3)
     # print("================")
     # print(node_index_3)
+
 
     # sll.delete_by_value(9)
