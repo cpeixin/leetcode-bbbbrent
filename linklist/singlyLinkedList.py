@@ -15,8 +15,10 @@ class Node(object):
         """
         self.__data = data
         self.__next = next_node
+
     """https://www.liaoxuefeng.com/wiki/1016959663602400/1017502538658208"""
     """装饰器 get"""
+
     @property
     def data(self):
         """Node节点存储数据的获取.
@@ -304,3 +306,27 @@ if __name__ == "__main__":
     # l.delete_by_node(l._head)
     # l.delete_by_value(13)
     print(l.head.data)
+
+
+# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+
+
+
+class Solution(object):
+    def hasCycle(self, head):
+        if head == None or head.next == None:
+            return False
+        node1 = head
+        node2 = head.next
+        while node1 != node2:
+            if node2 == None or node2.next == None:
+                return False
+            node1 = node1.next
+            node2 = node2.next.next
+
+        return True
