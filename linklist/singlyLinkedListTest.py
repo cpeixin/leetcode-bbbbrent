@@ -33,18 +33,27 @@ class SinglyLinkedList(object):
         self.head = None
         self.tail = None
 
-
     def find_by_value(self, value):
-        if value is None or self.head is None:
-            return
+        node = self.head
 
-        offset = self.head
+        while node.data != value and node is not None:
+            node = node.next_node
 
-        while offset.data != value:
-            offset = offset.next_node
+        return node
 
-        return offset
+    def find_by_index(self, index):
+        # if index is None or self.head is None:
+        #     return
 
+        flag = 1
+
+        node = self.head
+
+        while flag != index and node is not None:
+            node = node.next_node
+            flag += 1
+
+        return node
 
     def insert_to_head(self, data):
         """
@@ -61,7 +70,7 @@ class SinglyLinkedList(object):
         else:
             self.head = node
 
-    def insert_to_tail(self,data):
+    def insert_to_tail(self, data):
         """
         尾节点插入
         :param data:
@@ -75,44 +84,204 @@ class SinglyLinkedList(object):
             self.tail = node
 
     def insert_before(self, node, data):
-        if node is None or self.head is None:
+        """在链表的某个指定Node节点之前插入一个存储value数据的Node节点.
+        参数:
+            node:指定的一个Node节点
+            value:将要存储在新的Node节点中的数据
+        """
+        if (node is None) or (self.head is None):  # 如果指定在一个空节点之前或者空链表之前插入数据节点，则什么都不做
             return
 
-        if node==self.head:
+        if node == self.head:  # 如果是在链表头之前插入数据节点，则直接插入
             self.insert_to_head(data)
             return
 
-        """从头节点遍历"""
         new_node = Node(data)
-        offset = self.head
+        pro = self.head
+        not_found = False  # 如果在整个链表中都没有找到指定插入的Node节点，则该标记量设置为True
+        while pro.next_node != node:  # 寻找指定Node之前的一个Node
+            if pro.next_node is None:  # 如果已经到了链表的最后一个节点，则表明该链表中没有找到指定插入的Node节点
+                not_found = True
+                break
+            else:
+                pro = pro.next_node
+        if not not_found:
+            pro.next_node = new_node
+            new_node.next_node = node
+
+    def insert_after(self, node, data):
+        # """在链表的某个指定Node节点之后插入一个存储value数据的Node节点.
+        # 参数:
+        #     node:指定的一个Node节点
+        #     value:将要存储在新Node节点中的数据
+        # """
+
+        """first"""
+
+        if node is None:  # 如果指定在一个空节点之后插入数据节点，则什么都不做
+            return
+
+        new_node = Node(data)
+        """这里没有判断指定的节点是否存在，是因为可以直接使用"""
+        new_node.next_node = node.next
+        node.next = new_node
+
+        # if (node is None) or (self.head is None):  # 如果指定在一个空节点之前或者空链表之前插入数据节点，则什么都不做
+        #     return
+        #
+        # new_node = Node(data)
+        #
+        # if node == self.head:  # 如果是在链表头之前插入数据节点，则直接插入
+        #     new_node.next_node = node.next_node
+        #     self.head.next_node = new_node
+        #
+        # else:
+        #     pro = self.head
+        #     not_found = False  # 如果在整个链表中都没有找到指定插入的Node节点，则该标记量设置为True
+        #     while pro.next_node != node:  # 寻找指定Node之前的一个Node
+        #         if pro.next_node is None:  # 如果已经到了链表的最后一个节点，则表明该链表中没有找到指定插入的Node节点
+        #             not_found = True
+        #             break
+        #         else:
+        #             pro = pro.next_node
+        #     if not not_found:
+        #         new_node.next_node = pro.next_node
+        #         pro.next_node = new_node
+
+    def delete_by_node(self, node):
+        """在链表中删除指定Node的节点.
+           参数:
+               node:指定的Node节点
+        """
+        if self.head is None:  # 如果链表是空的，则什么都不做
+            return
+
+        if node == self.head:  # 如果指定删除的Node节点是链表的头节点
+            self.head = node.next_node
+            return
+
+        pro = self.head
+        not_found = False  # 如果在整个链表中都没有找到指定删除的Node节点，则该标记量设置为True
+        while pro.next_node != node:
+            """如果没有这个节点，则最后回死在这个if条件中，break出去"""
+            if pro.next_node is None:  # 如果已经到链表的最后一个节点，则表明该链表中没有找到指定删除的Node节点
+                not_found = True
+                break
+            else:
+                pro = pro.next_node
+        if not not_found:
+            pro.next_node = node.next_node
+
+    def delete_by_value(self, value):
+        """在链表中删除指定存储数据的Node节点.
+                参数:
+                    value:指定的存储数据
+                """
+        if self.head is None:  # 如果链表是空的，则什么都不做
+            return
+
+        if self.head.data == value:  # 如果链表的头Node节点就是指定删除的Node节点
+            self.head = self.head.next_node
+            return
+
+        pro = self.head
+        node = self.head.next_node
         not_found = False
-
-        while offset.next_node != node:
-            offset = offset.next_node
-
-
-        new_node.next_node = offset.next_node
-
-        offset.next_node = new_node
+        while node.data != value:
+            if node.next_node is None:  # 如果已经到链表的最后一个节点，则表明该链表中没有找到执行Value值的Node节点
+                not_found = True
+                break
+            else:
+                pro = node
+                node = node.next_node
+        if not_found is False:
+            pro.next_node = node.next_node
 
     def foeach(self, node):
         """遍历链表"""
-        while node.next_node != None and node != None:
-            node = node.next_node
+        while node != None:
             print(node.data, node.next_node)
+            node = node.next_node
+
+    def reversed_self(self):
+        """翻转链表自身."""
+        if self.head is None or self.head.next_node is None:
+            return
+
+        pre = self.head
+        node = self.head.next_node
+
+        while node is not None:
+            pre, node = self.__reversed_with_two_node(pre, node)
+            """循环到最后一位 node is None退出"""
+
+        """将原链表的头节点指向为下一节点 改为 指向为None"""
+        self.head.next_node = None
+        """将头节点设置为原链表的尾节点,链表反转则成功。链表元素位置不变，但是元素之间的指向改变"""
+        self.head = pre
+
+    def __reversed_with_two_node(self, pre, node):
+        """翻转相邻两个节点.
+        参数:
+            pre:前一个节点
+            node:当前节点
+        返回:
+            *******(pre,node):下一个相邻节点的元组
+        """
+
+        tmp = node.next_node
+        node.next_node = pre
+
+        pre = node
+
+        node = tmp
+        return pre, node
+
+    def has_ring(self):
+        """检查链表中是否有环.
+        主体思想：
+            设置快、慢两种指针，快指针每次跨两步，慢指针每次跨一步，如果快指针没有与慢指针相遇而是顺利到达链表尾部
+            说明没有环；否则，存在环
+        返回:
+            True:有环
+            False:没有环
+        """
+        fast = self.head
+        slow = self.head
+
+        while (fast.next_node is not None) and (fast is not None):
+            fast = fast.next_node
+            slow = slow.next_node
+            if fast == slow:
+                return True
+
+        return False
+
 
 if __name__ == '__main__':
     sll = SinglyLinkedList()
 
-    for i in range(10):
+    for i in [5, 4, 3, 2, 1]:
         sll.insert_to_head(i)
-    sll.insert_to_tail(100)
 
     sll.foeach(sll.head)
 
-    node_8 = sll.find_by_value(8)
-    # print(sll)
-    # print(sll.head.data)
+    print("======================")
+    sll.reversed_self()
+
+    sll.foeach(sll.head)
+    # node_5 = sll.find_by_value(5)
+    # sll.insert_after(node_5,5.5)
+
+    # sll.insert_to_tail(100)
     # print(sll.tail.data)
 
-    print(node_8)
+    # node_8 = sll.find_by_value(8)
+    # print("================")
+    # print(node_8)
+
+    # node_index_3 = sll.find_by_index(3)
+    # print("================")
+    # print(node_index_3)
+
+    # sll.delete_by_value(9)
