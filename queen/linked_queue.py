@@ -17,7 +17,6 @@ class LinkedQueue:
             self.head = new_node
         self.tail = new_node
 
-
     def dequeue(self):
         if self.head is None:
             return False
