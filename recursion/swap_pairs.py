@@ -21,8 +21,8 @@ class Solution(object):
         second_node = head.next
 
         # Swapping
-        first_node.next  = self.swapPairs(second_node.next)
-        second_node.next = first_node
+        first_node.next  = self.swapPairs(second_node.next) # 前一组交换后的第二个节点，连接后一组交换后的第一个节点
+        second_node.next = first_node # 相邻节点交换
 
         # Now the head is the second node
         return second_node
