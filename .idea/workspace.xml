@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/queen/circular_queue_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/queen/double_circular_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion/reverseString.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion/swap_pairs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queen/circular_queue_1.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,11 +51,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/queen/circular_queue_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="50" column="11" lean-forward="true" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+            <state relative-caret-position="242">
+              <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/queen/double_circular_queue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recursion/reverseString.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/recursion/swap_pairs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="60" lean-forward="true" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -128,6 +157,9 @@
         <option value="$PROJECT_DIR$/queen/linked_queue.py" />
         <option value="$PROJECT_DIR$/queen/circular_queue_1.py" />
         <option value="$PROJECT_DIR$/queen/circular_queue_2.py" />
+        <option value="$PROJECT_DIR$/queen/double_circular_queue.py" />
+        <option value="$PROJECT_DIR$/recursion/reverseString.py" />
+        <option value="$PROJECT_DIR$/recursion/swap_pairs.py" />
       </list>
     </option>
   </component>
@@ -154,17 +186,7 @@
             <path>
               <item name="Leetcode-bbbbrent" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode-bbbbrent" type="462c0819:PsiDirectoryNode" />
-              <item name="linklist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-bbbbrent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-bbbbrent" type="462c0819:PsiDirectoryNode" />
-              <item name="queen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-bbbbrent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-bbbbrent" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
+              <item name="recursion" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -199,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.circular_queue_1">
+  <component name="RunManager" selected="Python.reverseString">
     <configuration name="SequenceQueen" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -285,7 +307,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="singlyLinkedListTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="reverseString" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -293,12 +315,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linklist" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recursion" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linklist/singlyLinkedListTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recursion/reverseString.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -310,17 +331,17 @@
     <list>
       <item itemvalue="Python.SequenceQueen" />
       <item itemvalue="Python.connect_two_linked" />
-      <item itemvalue="Python.singlyLinkedListTest" />
       <item itemvalue="Python.recent_counter" />
       <item itemvalue="Python.circular_queue_1" />
+      <item itemvalue="Python.reverseString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.reverseString" />
         <item itemvalue="Python.circular_queue_1" />
         <item itemvalue="Python.recent_counter" />
         <item itemvalue="Python.SequenceQueen" />
         <item itemvalue="Python.connect_two_linked" />
-        <item itemvalue="Python.singlyLinkedListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -433,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582109903754</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="circular_queue">
+      <created>1582168475513</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1582168475513</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -448,8 +476,8 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.30802602" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.17462039" />
-      <window_info anchor="bottom" id="Debug" order="7" visible="true" weight="0.37527114" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.45336226" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.37527114" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -461,16 +489,16 @@
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17270789" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17430703" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3295838" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="5" visible="true" weight="0.30802602" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.17462039" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.503937" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.30802602" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.45336226" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.37527114" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -530,7 +558,8 @@
     <MESSAGE value="LRU ok" />
     <MESSAGE value="nothing" />
     <MESSAGE value="queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="queue" />
+    <MESSAGE value="circular_queue" />
+    <option name="LAST_COMMIT_MESSAGE" value="circular_queue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -660,13 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/queen/SequenceQueen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/queen/recent_counter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -697,8 +719,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/queen/circular_queue_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="50" column="11" lean-forward="true" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+        <state relative-caret-position="242">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queen/double_circular_queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queen/SequenceQueen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recursion/reverseString.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recursion/swap_pairs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="60" lean-forward="true" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
         </state>
       </provider>
     </entry>
