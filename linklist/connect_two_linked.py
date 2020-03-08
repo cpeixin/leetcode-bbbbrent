@@ -15,8 +15,9 @@ class Solution(object):
         :rtype: ListNode
         """
         # maintain an unchanging reference to node ahead of the return node.
+        # prehead 哨兵节点
         prehead = ListNode(-1)
-
+        # 维护一个前置节点
         prev = prehead
         while l1 and l2:
             if l1.val <= l2.val:

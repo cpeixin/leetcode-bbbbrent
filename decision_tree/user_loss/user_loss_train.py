@@ -20,8 +20,7 @@ NumOfProducts：使用产品数量，很重要，保留
 HasCrCard：是否有本行信用卡，很重要，保留
 IsActiveMember：是否活跃用户，很重要，保留
 EstimatedSalary：估计收入，很重要，保留
-Exited：是否已流失，这将作为我们的标签数据
-
+Exited：是否已流失，这将作为我们的标签
 """
 
 """
@@ -93,7 +92,7 @@ y_pred = clf.predict(X_test)
 
 """生成报告"""
 from sklearn.metrics import classification_report
-print(classification_report(y_test, y_pred))
+# print(classification_report(y_test, y_pred))
 
 
 """
@@ -107,3 +106,18 @@ print(classification_report(y_test, y_pred))
 weighted avg       0.81      0.81      0.81      2000
  samples avg       0.81      0.81      0.81      2000
 """
+
+"""模型的保存-加载-使用"""
+from sklearn.externals import joblib #jbolib模块
+
+#保存Model(注:model文件夹要预先建立，否则会报错)
+import os
+path = os.getcwd()
+joblib.dump(clf, path+'/model/clf.pkl')
+
+#读取Model
+clf3 = joblib.load(path+'/model/clf.pkl')
+
+#测试读取后的Model
+print(X)
+print(clf3.predict(X[0:1]))
