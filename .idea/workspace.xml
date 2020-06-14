@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="add some leetcode">
-      <change afterPath="$PROJECT_DIR$/array/merge-sorted-array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array/plus-one.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array/remove-duplicates-from-sorted-array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array/rotate-array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forLoop/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forLoop/for_case.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linklist/merge-two-sorted-lists_recursion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queen/design-circular-deque.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linklist/swap-nodes-in-pairs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linklist/connect_two_linked.py" beforeDir="false" afterPath="$PROJECT_DIR$/linklist/merge-two-sorted-lists_iterator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack/largest-rectangle-in-histogram.py" beforeDir="false" afterPath="$PROJECT_DIR$/stack/largest-rectangle-in-histogram.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,38 +60,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="remove-duplicates-from-sorted-array.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array/remove-duplicates-from-sorted-array.py">
+      <file leaf-file-name="swap-nodes-in-pairs.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/linklist/swap-nodes-in-pairs.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="merge-sorted-array.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array/merge-sorted-array.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="25" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="two-sum.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array/two-sum.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plus-one.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/array/plus-one.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -131,7 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/decision_tree/taitannike/feature.py" />
         <option value="$PROJECT_DIR$/decision_tree/user_loss/user_loss_train.py" />
         <option value="$PROJECT_DIR$/decision_tree/grade_risk/loans.csv" />
         <option value="$PROJECT_DIR$/naive_bayes/text_classifiction/test.py" />
@@ -182,6 +145,7 @@
         <option value="$PROJECT_DIR$/linklist/merge-two-sorted-lists_recurtion.py" />
         <option value="$PROJECT_DIR$/array/remove-duplicates-from-sorted-array.py" />
         <option value="$PROJECT_DIR$/array/plus-one.py" />
+        <option value="$PROJECT_DIR$/linklist/swap-nodes-in-pairs.py" />
       </list>
     </option>
   </component>
@@ -608,7 +572,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591891636976</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="add some leetcode">
+      <created>1592057872380</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1592057872380</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TodoView">
@@ -634,7 +605,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18253969" />
       <window_info anchor="right" id="SciView" order="4" sideWeight="0.49846154" weight="0.485348" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.4993895" visible="true" weight="0.3025641" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.4993895" weight="0.3025641" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32921174" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -814,7 +785,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Random_Forest/iris_case.py" />
     <entry file="file://$PROJECT_DIR$/Random_Forest/credit_card.py" />
     <entry file="file://$PROJECT_DIR$/Random_Forest/UCI_Credit_Card.csv" />
     <entry file="file://$PROJECT_DIR$/ARMR/bitcoin.py" />
@@ -1117,13 +1087,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/array/3sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/array/merge_array_sort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1179,13 +1142,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="310" selection-start-line="310" selection-end-line="310" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/queen/circular_queue_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1247,8 +1203,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/array/plus-one.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="255">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array/3sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queen/circular_queue_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linklist/swap-nodes-in-pairs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
         </state>
       </provider>
     </entry>
