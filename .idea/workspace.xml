@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="add some leetcode">
-      <change afterPath="$PROJECT_DIR$/linklist/swap-nodes-in-pairs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hash_table/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hash_table/group-anagrams.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hash_table/valid-anagram.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,6 +19,7 @@
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$text_classification.coverage" NAME="text_classification Coverage Results" MODIFIED="1583674545379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/naive_bayes/text_classifiction" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$quick_sort.coverage" NAME="quick_sort Coverage Results" MODIFIED="1590145154125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$binarySearchTree.coverage" NAME="binarySearchTree Coverage Results" MODIFIED="1590826403356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$valid_anagram.coverage" NAME="valid-anagram Coverage Results" MODIFIED="1592198623623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hash_table" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$sliding_window_maximum.coverage" NAME="sliding-window-maximum Coverage Results" MODIFIED="1591886801322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/heap" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$iterate_array.coverage" NAME="iterate_array Coverage Results" MODIFIED="1591772981137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$feature.coverage" NAME="feature Coverage Results" MODIFIED="1582813832490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision_tree/taitannike" />
@@ -33,6 +37,7 @@
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$ArrayCase.coverage" NAME="ArrayCase Coverage Results" MODIFIED="1579714889342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queen" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$breast_cancer.coverage" NAME="breast_cancer Coverage Results" MODIFIED="1584289153117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/svm" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$binaryTree.coverage" NAME="binaryTree Coverage Results" MODIFIED="1590818856879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$group_anagrams.coverage" NAME="group-anagrams Coverage Results" MODIFIED="1592204659201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hash_table" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$singlyLinkedListTest.coverage" NAME="singlyLinkedListTest Coverage Results" MODIFIED="1580997493064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$connect_two_linked.coverage" NAME="connect_two_linked Coverage Results" MODIFIED="1592029553053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$difits_num.coverage" NAME="difits_num Coverage Results" MODIFIED="1584978685430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knn" />
@@ -60,11 +65,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="swap-nodes-in-pairs.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="swap-nodes-in-pairs.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linklist/swap-nodes-in-pairs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <state relative-caret-position="135">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret selection-end-line="1" selection-end-column="337" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="valid-anagram.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hash_table/valid-anagram.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="group-anagrams.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hash_table/group-anagrams.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="25" selection-start-line="25" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -95,8 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/decision_tree/user_loss/user_loss_train.py" />
-        <option value="$PROJECT_DIR$/decision_tree/grade_risk/loans.csv" />
         <option value="$PROJECT_DIR$/naive_bayes/text_classifiction/test.py" />
         <option value="$PROJECT_DIR$/naive_bayes/text_classifiction/text_classification.py" />
         <option value="$PROJECT_DIR$/linklist/connect_two_linked.py" />
@@ -108,7 +141,6 @@
         <option value="$PROJECT_DIR$/Random_Forest/credit_car.py" />
         <option value="$PROJECT_DIR$/Random_Forest/credit_card.py" />
         <option value="$PROJECT_DIR$/ARMR/bitcoin.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/binary_search/bs_question_!.py" />
         <option value="$PROJECT_DIR$/binary_search/bs_question_1.py" />
         <option value="$PROJECT_DIR$/binary_search/binary_search_case.py" />
@@ -146,6 +178,9 @@
         <option value="$PROJECT_DIR$/array/remove-duplicates-from-sorted-array.py" />
         <option value="$PROJECT_DIR$/array/plus-one.py" />
         <option value="$PROJECT_DIR$/linklist/swap-nodes-in-pairs.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/hash_table/valid-anagram.py" />
+        <option value="$PROJECT_DIR$/hash_table/group-anagrams.py" />
       </list>
     </option>
   </component>
@@ -169,27 +204,7 @@
             <path>
               <item name="leetcode-bbbbrent" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-bbbbrent" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode-bbbbrent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode-bbbbrent" type="462c0819:PsiDirectoryNode" />
-              <item name="forLoop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode-bbbbrent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode-bbbbrent" type="462c0819:PsiDirectoryNode" />
-              <item name="heap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode-bbbbrent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode-bbbbrent" type="462c0819:PsiDirectoryNode" />
-              <item name="linklist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode-bbbbrent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode-bbbbrent" type="462c0819:PsiDirectoryNode" />
-              <item name="queen" type="462c0819:PsiDirectoryNode" />
+              <item name="hash_table" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -231,7 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.plus-one">
+  <component name="RunManager" selected="Python.group-anagrams">
     <configuration name="connect_two_linked" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -251,7 +266,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="design-circular-deque" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="group-anagrams" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -259,12 +274,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/queen" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hash_table" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/queen/design-circular-deque.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hash_table/group-anagrams.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -308,7 +323,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="rotate-array" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="valid-anagram" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -316,31 +331,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hash_table" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/rotate-array.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hash_table/valid-anagram.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.design-circular-deque" />
-      <item itemvalue="Python.rotate-array" />
       <item itemvalue="Python.merge-sorted-array" />
       <item itemvalue="Python.connect_two_linked" />
       <item itemvalue="Python.plus-one" />
+      <item itemvalue="Python.valid-anagram" />
+      <item itemvalue="Python.group-anagrams" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.group-anagrams" />
+        <item itemvalue="Python.valid-anagram" />
         <item itemvalue="Python.plus-one" />
         <item itemvalue="Python.connect_two_linked" />
         <item itemvalue="Python.merge-sorted-array" />
-        <item itemvalue="Python.rotate-array" />
-        <item itemvalue="Python.design-circular-deque" />
       </list>
     </recent_temporary>
   </component>
@@ -579,7 +594,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592057872380</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="add some leetcode">
+      <created>1592106684114</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1592106684114</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TodoView">
@@ -593,16 +615,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32923076" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50061053" side_tool="true" weight="0.46119234" />
-      <window_info anchor="right" x="0" y="0" width="370" height="786" id="Documentation" order="6" sideWeight="0.50153846" side_tool="true" visible="true" weight="0.0" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.6306471" weight="0.3322072" />
+      <window_info anchor="right" x="0" y="0" width="370" height="850" id="Documentation" order="6" sideWeight="0.50153846" side_tool="true" weight="0.32967034" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.6306471" visible="true" weight="0.33128205" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.37232846" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32923076" />
       <window_info anchor="right" id="leetcode" order="5" side_tool="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32923076" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18253969" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18437119" />
       <window_info anchor="right" id="SciView" order="4" sideWeight="0.49846154" weight="0.485348" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.4993895" weight="0.3025641" />
@@ -617,29 +640,6 @@
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="4" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.16971917" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32307693" />
-      <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32921174" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="10" weight="0.32923076" />
-      <window_info anchor="bottom" id="Version Control" order="5" weight="0.37333333" />
-      <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Python Console" order="2" weight="0.32923076" />
-      <window_info active="true" anchor="bottom" id="Debug" order="7" visible="true" weight="0.4328205" />
-      <window_info anchor="right" x="0" y="0" width="370" height="850" id="Documentation" order="5" sideWeight="0.50153846" side_tool="true" weight="0.17826618" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32923076" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="4" sideWeight="0.49846154" weight="0.485348" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="right" id="Json Parser" order="0" />
-      <window_info id="Favorites" order="0" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -775,8 +775,13 @@
           <line>22</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hash_table/valid-anagram.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="50" />
+      <option name="time" value="52" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -785,8 +790,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Random_Forest/credit_card.py" />
-    <entry file="file://$PROJECT_DIR$/Random_Forest/UCI_Credit_Card.csv" />
     <entry file="file://$PROJECT_DIR$/ARMR/bitcoin.py" />
     <entry file="file://$PROJECT_DIR$/binary_search/binary_search_case.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1049,16 +1052,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="15" selection-start-column="15" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/queen/array_queue.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1066,13 +1059,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///var/folders/fh/7xlwjnjj61j01gk3klqzmtzw0000gn/T/leetcode/editor/cn/[283]移动零.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///var/folders/fh/7xlwjnjj61j01gk3klqzmtzw0000gn/T/leetcode/editor/cn/[283]移动零.py" />
     <entry file="file://$PROJECT_DIR$/array/climbing-stairs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1088,13 +1075,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/array/merge_array_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/array/iterate_array.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1224,8 +1205,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/linklist/swap-nodes-in-pairs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="1" selection-end-column="337" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hash_table/valid-anagram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hash_table/group-anagrams.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="25" selection-start-line="25" selection-end-line="34" />
         </state>
       </provider>
     </entry>

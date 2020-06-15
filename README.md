@@ -1,1 +1,2 @@
-https://github.com/labuladong/fucking-algorithm
+题目链接：https://leetcode-cn.com/problems/valid-anagram/
+表单链接：https://jinshuju.net/f/LGIpOr/success?e_token=eyJfcmFpbHMiOnsibWVzc2FnZSI6IkxTMHRDaTBnZUVsTWVWVjVSMDBLTFNBaGNuVmllUzl2WW1wbFkzUTZRbE5QVGpvNlQySnFaV04wU1dRS0lDQnlZWGRmWkdGMFlUb2dJV0pwYm1GeWVTQjhMUW9nSUNBZ1dIVk5jbXAxYXpKcmExRlVOVTlEU1FvPSIsImV4cCI6IjIwMjAtMDYtMTZUMDU6NTE6MDAuNjU2WiIsInB1ciI6bnVsbH19--6c8727ac346d9849396030a8a06d1240
