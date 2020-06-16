@@ -142,7 +142,7 @@ class BinarySearchTree:
         return max(left, right)
 
     def min_deep_num(self, root):
-        """最大深度"""
+        """最小深度"""
         if not root:
             return 0
         left = self.min_deep_num(root.left_child_node) + 1
