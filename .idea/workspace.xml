@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="add hash table">
-      <change afterPath="$PROJECT_DIR$/tree/maximum-binary-tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/maximum-depth-of-binary-tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/minimum-depth-of-binary-tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/sum-of-left-leaves.py" afterDir="false" />
+    <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="add some max tree">
+      <change afterPath="$PROJECT_DIR$/heap/heapq_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heap/heapq_showtree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heap/kth-smallest-element-in-a-sorted-matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heap/zui-xiao-de-kge-shu-lcof.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/binarySearchTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/tree/binarySearchTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heap/sliding-window-maximum.py" beforeDir="false" afterPath="$PROJECT_DIR$/heap/sliding-window-maximum.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,144 +19,108 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$text_classification.coverage" NAME="text_classification Coverage Results" MODIFIED="1583674545379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/naive_bayes/text_classifiction" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$quick_sort.coverage" NAME="quick_sort Coverage Results" MODIFIED="1590145154125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$binarySearchTree.coverage" NAME="binarySearchTree Coverage Results" MODIFIED="1590826403356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$valid_anagram.coverage" NAME="valid-anagram Coverage Results" MODIFIED="1592198623623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hash_table" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$sliding_window_maximum.coverage" NAME="sliding-window-maximum Coverage Results" MODIFIED="1591886801322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/heap" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$sliding_window_maximum.coverage" NAME="sliding-window-maximum Coverage Results" MODIFIED="1592400430503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/heap" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$iterate_array.coverage" NAME="iterate_array Coverage Results" MODIFIED="1591772981137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$feature.coverage" NAME="feature Coverage Results" MODIFIED="1582813832490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision_tree/taitannike" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$titanic_predict.coverage" NAME="titanic_predict Coverage Results" MODIFIED="1582644556542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision_tree/taitannike" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$max_deep.coverage" NAME="max_deep Coverage Results" MODIFIED="1591251854900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$two_sum.coverage" NAME="two-sum Coverage Results" MODIFIED="1591686999483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$data_etl.coverage" NAME="data_etl Coverage Results" MODIFIED="1582637645806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision_tree/taitannike" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$climbing_stairs.coverage" NAME="climbing-stairs Coverage Results" MODIFIED="1591672580730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$user_loss_train.coverage" NAME="user_loss_train Coverage Results" MODIFIED="1583379173325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision_tree/user_loss" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$zui_xiao_de_kge_shu_lcof.coverage" NAME="zui-xiao-de-kge-shu-lcof Coverage Results" MODIFIED="1592399266847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/heap" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$binaryTree.coverage" NAME="binaryTree Coverage Results" MODIFIED="1592292171844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$maximum_binary_tree.coverage" NAME="maximum-binary-tree Coverage Results" MODIFIED="1592316841351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$singlyLinkedListTest.coverage" NAME="singlyLinkedListTest Coverage Results" MODIFIED="1580997493064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$difits_num.coverage" NAME="difits_num Coverage Results" MODIFIED="1584978685430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knn" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$bubble_sort.coverage" NAME="bubble_sort Coverage Results" MODIFIED="1589909205412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$featrue.coverage" NAME="featrue Coverage Results" MODIFIED="1582813457931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision_tree" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$merge_sorted_array.coverage" NAME="merge-sorted-array Coverage Results" MODIFIED="1592018555470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$recursion_case.coverage" NAME="recursion_case Coverage Results" MODIFIED="1591451589471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recursion" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$Pascal_triangle.coverage" NAME="Pascal_triangle Coverage Results" MODIFIED="1591452412166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recursion" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$design_circular_deque.coverage" NAME="design-circular-deque Coverage Results" MODIFIED="1591956703305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queen" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$rotate_array.coverage" NAME="rotate-array Coverage Results" MODIFIED="1591977729474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$binary_search_case.coverage" NAME="binary_search_case Coverage Results" MODIFIED="1589387432898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_search" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$quick_sort.coverage" NAME="quick_sort Coverage Results" MODIFIED="1590145154125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$valid_anagram.coverage" NAME="valid-anagram Coverage Results" MODIFIED="1592198623623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hash_table" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$titanic_predict.coverage" NAME="titanic_predict Coverage Results" MODIFIED="1582644556542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision_tree/taitannike" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$singlyLinkedList.coverage" NAME="singlyLinkedList Coverage Results" MODIFIED="1580564195268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$3sum.coverage" NAME="3sum Coverage Results" MODIFIED="1591693634312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$data_etl.coverage" NAME="data_etl Coverage Results" MODIFIED="1582637645806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision_tree/taitannike" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$selection_sort.coverage" NAME="selection_sort Coverage Results" MODIFIED="1590051712359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$insert_sort.coverage" NAME="insert_sort Coverage Results" MODIFIED="1590122623822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$leetcode_subsort.coverage" NAME="leetcode_subsort Coverage Results" MODIFIED="1590148415442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$climbing_stairs.coverage" NAME="climbing-stairs Coverage Results" MODIFIED="1591672580730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$user_loss_train.coverage" NAME="user_loss_train Coverage Results" MODIFIED="1583379173325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision_tree/user_loss" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$ArrayCase.coverage" NAME="ArrayCase Coverage Results" MODIFIED="1579714889342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queen" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$breast_cancer.coverage" NAME="breast_cancer Coverage Results" MODIFIED="1584289153117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/svm" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$binaryTree.coverage" NAME="binaryTree Coverage Results" MODIFIED="1592292171844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$group_anagrams.coverage" NAME="group-anagrams Coverage Results" MODIFIED="1592204659201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hash_table" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$maximum_binary_tree.coverage" NAME="maximum-binary-tree Coverage Results" MODIFIED="1592316841351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$singlyLinkedListTest.coverage" NAME="singlyLinkedListTest Coverage Results" MODIFIED="1580997493064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$connect_two_linked.coverage" NAME="connect_two_linked Coverage Results" MODIFIED="1592029553053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$difits_num.coverage" NAME="difits_num Coverage Results" MODIFIED="1584978685430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knn" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$bubble_sort.coverage" NAME="bubble_sort Coverage Results" MODIFIED="1589909205412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$plus_one.coverage" NAME="plus-one Coverage Results" MODIFIED="1592044942401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$data_info.coverage" NAME="data_info Coverage Results" MODIFIED="1582636226092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision_tree/taitannike" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$featrue.coverage" NAME="featrue Coverage Results" MODIFIED="1582813457931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision_tree" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$kth_smallest_element_in_a_sorted_matrix.coverage" NAME="kth-smallest-element-in-a-sorted-matrix Coverage Results" MODIFIED="1592441336219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/heap" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$for_case.coverage" NAME="for_case Coverage Results" MODIFIED="1591928239538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/forLoop" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$merge_sorted_array.coverage" NAME="merge-sorted-array Coverage Results" MODIFIED="1592018555470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$k_means_football.coverage" NAME="k-means_football Coverage Results" MODIFIED="1585321801405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/k-means" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$circular_queue.coverage" NAME="circular_queue Coverage Results" MODIFIED="1591956049200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queen" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$heapq_api.coverage" NAME="heapq_api Coverage Results" MODIFIED="1592440294800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/heap" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$bucket_sort.coverage" NAME="bucket_sort Coverage Results" MODIFIED="1590123430121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$recursion_case.coverage" NAME="recursion_case Coverage Results" MODIFIED="1591451589471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recursion" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$test.coverage" NAME="test Coverage Results" MODIFIED="1583672958432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/naive_bayes/text_classifiction" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$largest_rectangle_in_histogram.coverage" NAME="largest-rectangle-in-histogram Coverage Results" MODIFIED="1591938108255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stack" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$change_elem_sum.coverage" NAME="change_elem_sum Coverage Results" MODIFIED="1590139987301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$leetcode206.coverage" NAME="leetcode206 Coverage Results" MODIFIED="1580561106456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$Pascal_triangle.coverage" NAME="Pascal_triangle Coverage Results" MODIFIED="1591452412166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recursion" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$binarySearchTree_insert.coverage" NAME="binarySearchTree_insert Coverage Results" MODIFIED="1591279104976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$LRUCache.coverage" NAME="LRUCache Coverage Results" MODIFIED="1580692446048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$design_circular_deque.coverage" NAME="design-circular-deque Coverage Results" MODIFIED="1591956703305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queen" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$rotate_array.coverage" NAME="rotate-array Coverage Results" MODIFIED="1591977729474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$binary_search_duplicate.coverage" NAME="binary_search_duplicate Coverage Results" MODIFIED="1589553826888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_search" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$binary_search_case.coverage" NAME="binary_search_case Coverage Results" MODIFIED="1589387432898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_search" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="15">
-                <caret line="1" column="68" lean-forward="true" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
+                <caret line="1" column="77" lean-forward="true" selection-end-line="1" selection-end-column="337" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="group-anagrams.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hash_table/group-anagrams.py">
+      <file leaf-file-name="zui-xiao-de-kge-shu-lcof.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heap/zui-xiao-de-kge-shu-lcof.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+            <state relative-caret-position="375">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="maximum-depth-of-binary-tree.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tree/maximum-depth-of-binary-tree.py">
+      <file leaf-file-name="sliding-window-maximum.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heap/sliding-window-maximum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="277">
+              <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="binary_search_case.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/binary_search/binary_search_case.py">
+      <file leaf-file-name="heapq_api.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heap/heapq_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="326">
+              <caret line="100" column="22" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="22" />
+              <folding>
+                <element signature="e#87#99#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="binary_search_duplicate.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/binary_search/binary_search_duplicate.py">
+      <file leaf-file-name="kth-smallest-element-in-a-sorted-matrix.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heap/kth-smallest-element-in-a-sorted-matrix.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="70" column="25" lean-forward="true" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="binarySearchTree.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tree/binarySearchTree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="262" selection-start-line="262" selection-end-line="267" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="minimum-depth-of-binary-tree.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tree/minimum-depth-of-binary-tree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sum-of-left-leaves.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tree/sum-of-left-leaves.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="maximum-binary-tree.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tree/maximum-binary-tree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="binaryTree.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tree/binaryTree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            <state relative-caret-position="315">
+              <caret line="21" column="77" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="77" />
+              <folding>
+                <element signature="e#373#385#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,6 +143,7 @@
       <find>customer_churn</find>
       <find>sort</find>
       <find>max</find>
+      <find>heappush</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -187,10 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/svm/breast_cancer.py" />
-        <option value="$PROJECT_DIR$/knn/difits_num.py" />
-        <option value="$PROJECT_DIR$/k-means/k-means_football.py" />
-        <option value="$PROJECT_DIR$/Random_Forest/iris_case.py" />
         <option value="$PROJECT_DIR$/Random_Forest/credit_car.py" />
         <option value="$PROJECT_DIR$/Random_Forest/credit_card.py" />
         <option value="$PROJECT_DIR$/ARMR/bitcoin.py" />
@@ -220,7 +181,6 @@
         <option value="$PROJECT_DIR$/array/3sum.py" />
         <option value="$PROJECT_DIR$/linklist/linked-list-cycle.py" />
         <option value="$PROJECT_DIR$/array/iterate_array.py" />
-        <option value="$PROJECT_DIR$/heap/sliding-window-maximum.py" />
         <option value="$PROJECT_DIR$/forLoop/for_case.py" />
         <option value="$PROJECT_DIR$/stack/largest-rectangle-in-histogram.py" />
         <option value="$PROJECT_DIR$/queen/design-circular-deque.py" />
@@ -233,11 +193,16 @@
         <option value="$PROJECT_DIR$/hash_table/valid-anagram.py" />
         <option value="$PROJECT_DIR$/hash_table/group-anagrams.py" />
         <option value="$PROJECT_DIR$/binary_search/maximum-depth-of-binary-tree.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/tree/minimum-depth-of-binary-tree.py" />
         <option value="$PROJECT_DIR$/tree/sum-of-left-leaves.py" />
         <option value="$PROJECT_DIR$/tree/binarySearchTree.py" />
         <option value="$PROJECT_DIR$/tree/maximum-binary-tree.py" />
+        <option value="$PROJECT_DIR$/heap/heapq_showtree.py" />
+        <option value="$PROJECT_DIR$/heap/sliding-window-maximum.py" />
+        <option value="$PROJECT_DIR$/heap/heapq_api.py" />
+        <option value="$PROJECT_DIR$/heap/zui-xiao-de-kge-shu-lcof.py" />
+        <option value="$PROJECT_DIR$/heap/kth-smallest-element-in-a-sorted-matrix.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -261,17 +226,17 @@
             <path>
               <item name="leetcode-bbbbrent" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-bbbbrent" type="462c0819:PsiDirectoryNode" />
-              <item name="binary_search" type="462c0819:PsiDirectoryNode" />
+              <item name="heap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode-bbbbrent" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-bbbbrent" type="462c0819:PsiDirectoryNode" />
-              <item name="hash_table" type="462c0819:PsiDirectoryNode" />
+              <item name="linklist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode-bbbbrent" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-bbbbrent" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
+              <item name="queen" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -314,8 +279,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.maximum-binary-tree">
-    <configuration name="binaryTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.kth-smallest-element-in-a-sorted-matrix">
+    <configuration name="heapq_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -323,18 +288,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/heap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tree/binaryTree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/heap/heapq_api.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="group-anagrams" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="kth-smallest-element-in-a-sorted-matrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -342,12 +307,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hash_table" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/heap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hash_table/group-anagrams.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/heap/kth-smallest-element-in-a-sorted-matrix.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -372,7 +337,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="plus-one" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sliding-window-maximum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -380,18 +345,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/heap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/plus-one.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/heap/sliding-window-maximum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="valid-anagram" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="zui-xiao-de-kge-shu-lcof" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -399,31 +364,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hash_table" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/heap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hash_table/valid-anagram.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/heap/zui-xiao-de-kge-shu-lcof.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.plus-one" />
-      <item itemvalue="Python.valid-anagram" />
-      <item itemvalue="Python.group-anagrams" />
-      <item itemvalue="Python.binaryTree" />
       <item itemvalue="Python.maximum-binary-tree" />
+      <item itemvalue="Python.heapq_api" />
+      <item itemvalue="Python.zui-xiao-de-kge-shu-lcof" />
+      <item itemvalue="Python.sliding-window-maximum" />
+      <item itemvalue="Python.kth-smallest-element-in-a-sorted-matrix" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.kth-smallest-element-in-a-sorted-matrix" />
+        <item itemvalue="Python.heapq_api" />
+        <item itemvalue="Python.sliding-window-maximum" />
+        <item itemvalue="Python.zui-xiao-de-kge-shu-lcof" />
         <item itemvalue="Python.maximum-binary-tree" />
-        <item itemvalue="Python.binaryTree" />
-        <item itemvalue="Python.group-anagrams" />
-        <item itemvalue="Python.valid-anagram" />
-        <item itemvalue="Python.plus-one" />
       </list>
     </recent_temporary>
   </component>
@@ -676,7 +641,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592229277148</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="add some max tree">
+      <created>1592317221661</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1592317221662</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TodoView">
@@ -694,13 +666,13 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32923076" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50061053" side_tool="true" weight="0.46119234" />
-      <window_info anchor="right" x="0" y="0" width="370" height="850" id="Documentation" order="6" sideWeight="0.50153846" side_tool="true" visible="true" weight="0.32967034" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.6306471" visible="true" weight="0.33128205" />
+      <window_info anchor="right" x="0" y="0" width="370" height="850" id="Documentation" order="6" sideWeight="0.50153846" side_tool="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.6306471" weight="0.33128205" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.37232846" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32923076" />
       <window_info anchor="right" id="leetcode" order="5" side_tool="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32923076" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18620269" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18803419" />
       <window_info anchor="right" id="SciView" order="4" sideWeight="0.49846154" weight="0.485348" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.4993895" weight="0.4369231" />
@@ -715,6 +687,30 @@
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18803419" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.37232846" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32921174" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32923076" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.6306471" weight="0.33128205" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Python Console" order="2" weight="0.32923076" />
+      <window_info active="true" anchor="bottom" id="Debug" order="7" sideWeight="0.4993895" visible="true" weight="0.4369231" />
+      <window_info anchor="right" x="0" y="0" width="370" height="850" id="Documentation" order="6" sideWeight="0.50153846" side_tool="true" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32923076" />
+      <window_info anchor="right" id="leetcode" order="5" side_tool="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="4" sideWeight="0.49846154" weight="0.485348" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50061053" side_tool="true" weight="0.46119234" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="right" id="Json Parser" order="0" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -766,7 +762,8 @@
     <MESSAGE value="add leetcode sort code" />
     <MESSAGE value="add some leetcode" />
     <MESSAGE value="add hash table" />
-    <option name="LAST_COMMIT_MESSAGE" value="add hash table" />
+    <MESSAGE value="add some max tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some max tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -838,7 +835,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/heap/sliding-window-maximum.py</url>
-          <line>42</line>
+          <line>51</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -861,8 +858,18 @@
           <line>45</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/heap/zui-xiao-de-kge-shu-lcof.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/heap/kth-smallest-element-in-a-sorted-matrix.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="54" />
+      <option name="time" value="57" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -871,141 +878,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://Python/#/Users/cpeixin/Library/Caches/PyCharm2018.1/python_stubs/331616867/builtins.py">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>Python</ID>
-          <OriginalElement>#/Users/cpeixin/Library/Caches/PyCharm2018.1/python_stubs/331616867/builtins.py</OriginalElement>
-          <nodes>
-            <node x="" y="">builtins.property</node>
-            <node x="" y="">builtins.TimeoutError</node>
-            <node x="" y="">builtins.staticmethod</node>
-            <node x="" y="">builtins.__generator</node>
-            <node x="" y="">builtins.set</node>
-            <node x="" y="">builtins.ConnectionAbortedError</node>
-            <node x="" y="">builtins.UnicodeEncodeError</node>
-            <node x="" y="">builtins.SyntaxWarning</node>
-            <node x="" y="">builtins.KeyboardInterrupt</node>
-            <node x="" y="">builtins.BlockingIOError</node>
-            <node x="" y="">builtins.RuntimeError</node>
-            <node x="" y="">builtins.complex</node>
-            <node x="" y="">builtins.IndentationError</node>
-            <node x="" y="">builtins.tuple</node>
-            <node x="" y="">builtins.UserWarning</node>
-            <node x="" y="">builtins.UnicodeDecodeError</node>
-            <node x="" y="">builtins.type</node>
-            <node x="" y="">builtins.enumerate</node>
-            <node x="" y="">builtins.UnboundLocalError</node>
-            <node x="" y="">builtins.ConnectionResetError</node>
-            <node x="" y="">builtins.ConnectionError</node>
-            <node x="" y="">builtins.ResourceWarning</node>
-            <node x="" y="">builtins.PermissionError</node>
-            <node x="" y="">builtins.RuntimeWarning</node>
-            <node x="" y="">object</node>
-            <node x="" y="">builtins.FutureWarning</node>
-            <node x="" y="">builtins.bytearray</node>
-            <node x="" y="">builtins.BytesWarning</node>
-            <node x="" y="">builtins.__asyncgenerator</node>
-            <node x="" y="">builtins.UnicodeWarning</node>
-            <node x="" y="">builtins.memoryview</node>
-            <node x="" y="">builtins.classmethod</node>
-            <node x="" y="">builtins.bytes</node>
-            <node x="" y="">builtins.float</node>
-            <node x="" y="">builtins.list</node>
-            <node x="" y="">builtins.BrokenPipeError</node>
-            <node x="" y="">builtins.SystemExit</node>
-            <node x="" y="">builtins.StopAsyncIteration</node>
-            <node x="" y="">builtins.NotImplementedError</node>
-            <node x="" y="">builtins.InterruptedError</node>
-            <node x="" y="">builtins.__loader__</node>
-            <node x="" y="">builtins.GeneratorExit</node>
-            <node x="" y="">builtins.AssertionError</node>
-            <node x="" y="">builtins.ArithmeticError</node>
-            <node x="" y="">builtins.LookupError</node>
-            <node x="" y="">builtins.SyntaxError</node>
-            <node x="" y="">builtins.__method</node>
-            <node x="" y="">builtins.BaseException</node>
-            <node x="" y="">builtins.object</node>
-            <node x="" y="">builtins.OverflowError</node>
-            <node x="" y="">builtins.__coroutine</node>
-            <node x="" y="">builtins.FloatingPointError</node>
-            <node x="" y="">builtins.RecursionError</node>
-            <node x="" y="">builtins.int</node>
-            <node x="" y="">builtins.__namedtuple</node>
-            <node x="" y="">builtins.DeprecationWarning</node>
-            <node x="" y="">builtins.EOFError</node>
-            <node x="" y="">builtins.range</node>
-            <node x="" y="">builtins.map</node>
-            <node x="" y="">builtins.FileExistsError</node>
-            <node x="" y="">builtins.ProcessLookupError</node>
-            <node x="" y="">builtins.ReferenceError</node>
-            <node x="" y="">builtins.reversed</node>
-            <node x="" y="">builtins.PendingDeprecationWarning</node>
-            <node x="" y="">builtins.FileNotFoundError</node>
-            <node x="" y="">builtins.super</node>
-            <node x="" y="">builtins.str</node>
-            <node x="" y="">builtins.KeyError</node>
-            <node x="" y="">builtins.SystemError</node>
-            <node x="" y="">builtins.MemoryError</node>
-            <node x="" y="">builtins.NotADirectoryError</node>
-            <node x="" y="">builtins.ConnectionRefusedError</node>
-            <node x="" y="">builtins.AttributeError</node>
-            <node x="" y="">builtins.StopIteration</node>
-            <node x="" y="">builtins.Warning</node>
-            <node x="" y="">builtins.Exception</node>
-            <node x="" y="">builtins.ImportError</node>
-            <node x="" y="">builtins.TabError</node>
-            <node x="" y="">builtins.ValueError</node>
-            <node x="" y="">builtins.OSError</node>
-            <node x="" y="">builtins.IndexError</node>
-            <node x="" y="">builtins.IsADirectoryError</node>
-            <node x="" y="">builtins.dict</node>
-            <node x="" y="">builtins.UnicodeTranslateError</node>
-            <node x="" y="">builtins.NameError</node>
-            <node x="" y="">builtins.ModuleNotFoundError</node>
-            <node x="" y="">builtins.__function</node>
-            <node x="" y="">builtins.ChildProcessError</node>
-            <node x="" y="">builtins.ImportWarning</node>
-            <node x="" y="">builtins.filter</node>
-            <node x="" y="">builtins.UnicodeError</node>
-            <node x="" y="">builtins.TypeError</node>
-            <node x="" y="">builtins.BufferError</node>
-            <node x="" y="">builtins.zip</node>
-            <node x="" y="">builtins.slice</node>
-            <node x="" y="">builtins.ZeroDivisionError</node>
-            <node x="" y="">builtins.bool</node>
-            <node x="" y="">builtins.frozenset</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.1910301331464611" x="3548.0" y="377.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sort/insert_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sort/count_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sort/bubble_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sort/bucket_sort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1108,13 +980,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="44" column="3" selection-start-line="44" selection-end-line="44" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heap/sliding-window-maximum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1240,7 +1105,107 @@
     <entry file="file://$PROJECT_DIR$/hash_table/group-anagrams.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binary_search/binary_search_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binary_search/binary_search_duplicate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="70" column="25" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/maximum-depth-of-binary-tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/binaryTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/minimum-depth-of-binary-tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/sum-of-left-leaves.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/binarySearchTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3930">
+          <caret line="262" selection-start-line="262" selection-end-line="267" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/maximum-binary-tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heap/heapq_showtree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#107#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heap/zui-xiao-de-kge-shu-lcof.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heap/sliding-window-maximum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heap/heapq_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="100" column="22" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="22" />
+          <folding>
+            <element signature="e#87#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heap/kth-smallest-element-in-a-sorted-matrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="77" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="77" />
+          <folding>
+            <element signature="e#373#385#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1248,65 +1213,9 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="15">
-            <caret line="1" column="68" lean-forward="true" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
+            <caret line="1" column="77" lean-forward="true" selection-end-line="1" selection-end-column="337" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binary_search/binary_search_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binary_search/binary_search_duplicate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="70" column="25" lean-forward="true" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree/maximum-depth-of-binary-tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree/binaryTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree/minimum-depth-of-binary-tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree/sum-of-left-leaves.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree/binarySearchTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="262" selection-start-line="262" selection-end-line="267" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree/maximum-binary-tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
         </state>
       </provider>
     </entry>
