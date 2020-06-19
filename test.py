@@ -33,15 +33,21 @@ class ArrayQueue:
         return " ".join(item for item in self._items[self._head: self._tail])
 
 if __name__ == '__main__':
-    array_queue = ArrayQueue(5)
-    array_queue.enqueue(1)
-    array_queue.enqueue(2)
-    array_queue.enqueue(3)
-    array_queue.enqueue(4)
-    array_queue.enqueue(5)
-    # array_queue.enqueue(6)
+    # array_queue = ArrayQueue(5)
+    # array_queue.enqueue(1)
+    # array_queue.enqueue(2)
+    # array_queue.enqueue(3)
+    # array_queue.enqueue(4)
+    # array_queue.enqueue(5)
+    # # array_queue.enqueue(6)
+    #
+    #
+    # print(array_queue._head)
+    # print(array_queue._tail)
 
 
-    print(array_queue._head)
-    print(array_queue._tail)
-
+    s = "afe"
+    print(sorted(s))
+    import collections
+    dict = collections.defaultdict(list)
+    dict

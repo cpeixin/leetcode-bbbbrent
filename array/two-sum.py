@@ -1,4 +1,4 @@
-nums = [2, 7, 11, 15]
+nums = [2, 2, 11, 15]
 
 def twoSum(nums, target):
     # hashmap={}
