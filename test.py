@@ -47,7 +47,5 @@ if __name__ == '__main__':
 
 
     s = "afe"
-    print(sorted(s))
-    import collections
-    dict = collections.defaultdict(list)
-    dict
+    set_a = list(s)
+    print(s)
