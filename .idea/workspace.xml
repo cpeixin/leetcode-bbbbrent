@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="add some dfs bfs">
-      <change afterPath="$PROJECT_DIR$/dp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dp/best-time-to-buy-and-sell-stock-ii.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dp/best-time-to-buy-and-sell-stock-iii.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dp/best-time-to-buy-and-sell-stock-iv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dp/best-time-to-buy-and-sell-stock-with-cooldown.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dp/best-time-to-buy-and-sell-stock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dp/团灭 LeetCode 股票买卖问题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/greedy/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/greedy/assign-cookies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="add dp stock" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,8 +127,8 @@
         <entry file="file://$PROJECT_DIR$/dp/团灭 LeetCode 股票买卖问题.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="285">
-                <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+              <first_editor relative-caret-position="459">
+                <caret line="356" column="33" lean-forward="true" selection-start-line="356" selection-start-column="33" selection-end-line="356" selection-end-column="33" />
               </first_editor>
               <second_editor />
             </state>
@@ -281,7 +269,7 @@
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="986" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -753,7 +741,21 @@
       <option name="project" value="LOCAL" />
       <updated>1593614036505</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="add dp stock">
+      <created>1593881550209</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1593881550209</updated>
+    </task>
+    <task id="LOCAL-00043" summary="add dp stock">
+      <created>1593881771134</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1593881771134</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TodoView">
@@ -767,7 +769,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32923076" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50061053" side_tool="true" weight="0.46119234" />
@@ -848,7 +849,8 @@
     <MESSAGE value="add some heap" />
     <MESSAGE value="add some heap,tree" />
     <MESSAGE value="add some dfs bfs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add some dfs bfs" />
+    <MESSAGE value="add dp stock" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dp stock" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1382,8 +1384,8 @@
     <entry file="file://$PROJECT_DIR$/dp/团灭 LeetCode 股票买卖问题.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
-            <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <first_editor relative-caret-position="459">
+            <caret line="356" column="33" lean-forward="true" selection-start-line="356" selection-start-column="33" selection-end-line="356" selection-end-column="33" />
           </first_editor>
           <second_editor />
         </state>
