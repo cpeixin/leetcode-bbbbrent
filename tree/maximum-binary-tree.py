@@ -55,4 +55,4 @@ if __name__ == '__main__':
     # print(root.left)
     # print(root.right)
     # print(root.left.left)
-    print(max(nums))
+    print(nums[3:])
