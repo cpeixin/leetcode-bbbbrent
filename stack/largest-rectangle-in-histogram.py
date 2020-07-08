@@ -8,8 +8,6 @@ def largestRectangleArea(heights):
     heights = [0] + heights + [0]
     res = 0
     for i in range(len(heights)):
-        # print(stack)
-        # tmp = stack[-1]
         while stack and heights[stack[-1]] > heights[i]:
             stack_1 = stack[-1]
             tmp = stack.pop()
@@ -32,7 +30,6 @@ def largestRectangleArea_1(height):
             w = i - stack[-1] - 1
             ans = max(ans, h * w)
         stack.append(i)
-    # height.pop()
     return ans
 
 if __name__ == '__main__':

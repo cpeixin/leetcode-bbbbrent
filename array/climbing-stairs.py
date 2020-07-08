@@ -15,5 +15,5 @@ def climbStairs(n):
     return method_num
 
 if __name__ == '__main__':
-    num = climbStairs(100)
+    num = climbStairs(3)
     print(num)
