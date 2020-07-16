@@ -6,22 +6,15 @@
 
 class Solution(object):
     def permuteUnique(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: List[List[int]]
-        """
-        if not nums:
-            return[]
+        if not nums: return[]
         nums.sort()
-        n = len(nums)
         res = []
-
-        def helper2(nums, temp_list, length):
-                if length == n and temp_list not in res:
+        def backtrack(nums, temp_list):
+                if not nums and temp_list not in res:
                     res.append(temp_list)
                 for i in range(len(nums)):
-                    helper2(nums[:i] + nums[i + 1:], temp_list + [nums[i]], length + 1)
-        helper2(nums, [], 0)
+                    backtrack(nums[:i] + nums[i + 1:], temp_list + [nums[i]])
+                backtrack(nums, [])
         return res
 
 if __name__ == '__main__':

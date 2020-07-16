@@ -39,6 +39,15 @@ class Solution(object):
         backtrack(0, [])
         return res
 
+    def subsets_1(self, nums):
+        if not nums: return []
+        res = []
+        def backtrack(nums, temp_list):
+            res.append(temp_list)
+            for i in range(len(nums)):
+                backtrack(nums[i+1:], temp_list+[nums[i]])
+        backtrack(nums, [])
+        return res
 
 
 
