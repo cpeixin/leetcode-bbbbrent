@@ -18,7 +18,7 @@ class Solution(object):
         :rtype: int
         """
         # 定义dp二维数组
-        dp = [[1]*n,[[1]+[0]*(n-1) for _ in range(m-1)]]
+        dp = [[1] * n] + [[1] + [0] * (n - 1) for _ in range(m - 1)]
         # 起点为dp[0][0],所以没有m+1, n+1
         for i in range(1, m):
             for j in range(1, n):
@@ -44,5 +44,8 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    solution = Solution()
-    solution.uniquePaths_2(4,4)
+    # solution = Solution()
+    # solution.uniquePaths_2(4,4)
+    m, n = 4,4
+    dp = [[1] * n, [[1] + [0] * (n - 1) for _ in range(m - 1)]]
+    print(dp)
