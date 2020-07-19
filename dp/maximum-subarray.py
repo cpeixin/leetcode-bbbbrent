@@ -32,6 +32,15 @@ class Solution(object):
             dp[i] = max(nums[i], nums[i] + dp[i - 1])
         return max(dp)
 
+    def maxSubArray_2(self, nums):
+        """O（1）"""
+        pre = 0
+        max_sum = nums[0]
+        for num in nums:
+            pre = max(pre+num, num)
+            max_sum = max(max_sum, pre)
+        return max_sum
+
 
 
 
