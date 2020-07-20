@@ -22,4 +22,4 @@ class Solution(object):
 
 if __name__ == '__main__':
     solution = Solution()
-    solution.isUgly(12)
+    print(solution.isUgly(12))
