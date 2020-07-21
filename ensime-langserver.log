@@ -3073,3 +3073,61 @@ Content-Length: 159
 [2020-07-20 17:05:19,519] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didClose","params":{"textDocument":{"uri":"file:///Users/cpeixin/PycharmProjects/leetcode-bbbbrent/helloworld.scala"}}}
 [2020-07-20 17:05:19,520] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Removing file:///Users/cpeixin/PycharmProjects/leetcode-bbbbrent/helloworld.scala from Ensime.
 [2020-07-20 17:05:19,520] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Removing file:///Users/cpeixin/PycharmProjects/leetcode-bbbbrent/helloworld.scala from Ensime.
+[2020-07-20 17:11:34,894] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 303
+[2020-07-20 17:11:34,894] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 303
+[2020-07-20 17:11:34,894] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///Users/cpeixin/PycharmProjects/leetcode-bbbbrent/helloworld.scala","languageId":"scala","version":1,"text":"object HelloWorld {\n  def main(args: Array[String]): Unit = {\n    println(\"Hello, world!\")\n  }\n}"}}}
+[2020-07-20 17:11:34,894] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///Users/cpeixin/PycharmProjects/leetcode-bbbbrent/helloworld.scala","languageId":"scala","version":1,"text":"object HelloWorld {\n  def main(args: Array[String]): Unit = {\n    println(\"Hello, world!\")\n  }\n}"}}}
+[2020-07-20 17:11:34,896] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 173
+[2020-07-20 17:11:34,896] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 173
+[2020-07-20 17:11:34,896] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":39,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///Users/cpeixin/PycharmProjects/leetcode-bbbbrent/helloworld.scala"}}}
+[2020-07-20 17:11:34,896] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":39,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///Users/cpeixin/PycharmProjects/leetcode-bbbbrent/helloworld.scala"}}}
+[2020-07-20 17:11:34,897] DEBUG langserver.core.MessageWriter - Content-Length: 37
+
+
+
+{"jsonrpc":"2.0","result":[],"id":39}
+[2020-07-20 17:11:34,897] DEBUG langserver.core.MessageWriter - Content-Length: 37
+
+
+
+{"jsonrpc":"2.0","result":[],"id":39}
+[2020-07-20 17:11:34,897] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":[],"id":39}
+[2020-07-20 17:11:34,897] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":[],"id":39}
+[2020-07-20 17:11:57,793] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 159
+[2020-07-20 17:11:57,793] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 159
+[2020-07-20 17:11:57,793] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didClose","params":{"textDocument":{"uri":"file:///Users/cpeixin/PycharmProjects/leetcode-bbbbrent/helloworld.scala"}}}
+[2020-07-20 17:11:57,793] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didClose","params":{"textDocument":{"uri":"file:///Users/cpeixin/PycharmProjects/leetcode-bbbbrent/helloworld.scala"}}}
+[2020-07-20 17:11:57,794] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Removing file:///Users/cpeixin/PycharmProjects/leetcode-bbbbrent/helloworld.scala from Ensime.
+[2020-07-20 17:11:57,794] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Removing file:///Users/cpeixin/PycharmProjects/leetcode-bbbbrent/helloworld.scala from Ensime.
+[2020-07-20 17:22:31,827] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 59
+[2020-07-20 17:22:31,827] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 59
+[2020-07-20 17:22:31,828] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":40,"method":"shutdown","params":null}
+[2020-07-20 17:22:31,828] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":40,"method":"shutdown","params":null}
+[2020-07-20 17:22:31,867] DEBUG langserver.core.MessageWriter - Content-Length: 199
+
+
+
+{"jsonrpc":"2.0","error":{"code":-32602,"message":"Invalid params","data":{"meaning":"Invalid method parameter(s).","error":{"obj":[{"msg":["command parameters must be given"],"args":[]}]}}},"id":40}
+[2020-07-20 17:22:31,867] DEBUG langserver.core.MessageWriter - Content-Length: 199
+
+
+
+{"jsonrpc":"2.0","error":{"code":-32602,"message":"Invalid params","data":{"meaning":"Invalid method parameter(s).","error":{"obj":[{"msg":["command parameters must be given"],"args":[]}]}}},"id":40}
+[2020-07-20 17:22:31,867] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","error":{"code":-32602,"message":"Invalid params","data":{"meaning":"Invalid method parameter(s).","error":{"obj":[{"msg":["command parameters must be given"],"args":[]}]}}},"id":40}
+[2020-07-20 17:22:31,867] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","error":{"code":-32602,"message":"Invalid params","data":{"meaning":"Invalid method parameter(s).","error":{"obj":[{"msg":["command parameters must be given"],"args":[]}]}}},"id":40}
+[2020-07-20 17:22:32,843] INFO langserver.core.MessageReader - End of stream, terminating thread
+[2020-07-20 17:22:32,843] INFO langserver.core.MessageReader - End of stream, terminating thread
+[2020-07-20 17:22:32,843] INFO org.github.dragos.vscode.EnsimeLanguageServer - Shutdown request
+[2020-07-20 17:22:32,843] INFO org.github.dragos.vscode.EnsimeLanguageServer - Shutdown request
+[2020-07-20 17:22:32,843] INFO org.github.dragos.vscode.EnsimeLanguageServer - Shutting down actor system.
+[2020-07-20 17:22:32,843] INFO org.github.dragos.vscode.EnsimeLanguageServer - Shutting down actor system.
+[2020-07-20 17:22:32,874] INFO org.github.dragos.vscode.EnsimeLanguageServer - Actor system down.
+[2020-07-20 17:22:32,874] INFO org.github.dragos.vscode.EnsimeLanguageServer - Actor system down.

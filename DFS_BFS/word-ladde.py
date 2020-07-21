@@ -33,118 +33,34 @@ from collections import deque
 
 
 class Solution:
-    def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
-        word_set = set(wordList)
-        if len(word_set) == 0 or endWord not in word_set:
-            return 0
 
-        if beginWord in word_set:
-            word_set.remove(beginWord)
-
-        queue = [beginWord]
-        # queue.append(beginWord)
-
-        visited = set(beginWord)
-
-        word_len = len(beginWord)
-        step = 1
-        tmp = list('abcdefghijklmnopqrstuvwxyz')
+    def ladderLength(self, beginWord, endWord, wordList):
+        import collections
+        if endWord not in wordList or len(wordList) == 0: return 0
+        wordList = set(wordList)
+        # 这道题是让求解 ”转换序列的长度，而不是求转换的次数，所以length初始长度设置为1“
+        queue = collections.deque([(beginWord, 1)])
         while queue:
-            # current_size = len(queue)
-            for i in range(len(queue)):
-                word = queue.pop(0)
-
-                word_list = list(word)
-                for j in range(word_len):
-                    origin_char = word_list[j]
-
-                    for k in tmp:
-                        word_list[j] = k
-                        next_word = ''.join(word_list)
-                        if next_word in word_set:
-                            if next_word == endWord:
-                                return step + 1
-                            if next_word not in visited:
-                                queue.append(next_word)
-                                visited.add(next_word)
-                    word_list[j] = origin_char
-            step += 1
-        return 0
-
-    def ladderLength_1(self, beginWord, endWord, wordList):
-        """
-        :type beginWord: str
-        :type endWord: str
-        :type wordList: List[str]
-        :rtype: int
-        """
-        if endWord not in wordList:
-            return 0
-
-        length = len(beginWord)
-        wordSet = set(wordList)
-
-        head = {beginWord}
-        tail = {endWord}
-        tmp = list('abcdefghijklmnopqrstuvwxyz')
-        res = 1
-        while head:
-            if len(head) > len(tail):
-                head, tail = tail, head
-
-            q = set()
-            for cur in head:
-                for i in range(length):
-                    for j in tmp:
-                        word = cur[:i] + j + cur[i + 1:]
-
-                        if word in tail:
-                            return res + 1
-                        if word in wordSet:
-                            q.add(word)
-                            wordSet.remove(word)
-            head = q
-            res += 1
-
-        return 0
-
-    def ladderLength_2(self, beginWord, endWord, wordList):
-        word_set = set(wordList)
-        if endWord not in word_set or len(word_set) == 0: return 0
-        if beginWord in word_set: word_set.remove(beginWord)
-        queue = [beginWord]
-        word_len = len(beginWord)
-        visited_word = set(beginWord)
-        step = 1
-        tmp_char = list('abcdefghijklmnopqrstuvwxyz')
-        while queue:
-            for _ in range(len(queue)):
-                word = queue.pop(0)
-                wordIter = list(word)
-                for index in range(word_len):
-                    original_char = wordIter[index]
-                    for char in tmp_char:
-                        wordIter[index] = char
-                        next_word = ''.join(wordIter)
-                        if next_word in word_set:
-                            if next_word == endWord: return step + 1
-                            if next_word not in visited_word:
-                                queue.append(next_word)
-                                visited_word.add(next_word)
-                    wordIter[index] = original_char
-            step += 1
-
+            cur_word, length = queue.popleft()
+            if cur_word == endWord: return length
+            # 不存在
+            for index in range(len(cur_word)):
+                for char in 'abcdefghijklmnopqrstuvwxyz':
+                    new_word = cur_word[:index] + char + cur_word[index + 1:]
+                    if new_word in wordList:
+                        queue.append((new_word, length + 1))
+                        wordList.remove(new_word)
         return 0
 
 
 if __name__ == '__main__':
-    # beginWord = "hit"
-    # endWord = "cog"
-    # wordList = ["hot", "dot", "dog", "lot", "log", "cog"]
-    beginWord = "ymain"
-    endWord = "oecij"
-    wordList = ["ymann", "yycrj", "oecij", "ymcnj", "yzcrj", "yycij", "xecij", "yecij", "ymanj", "yzcnj", "ymain"]
+    beginWord = "hit"
+    endWord = "cog"
+    wordList = ["hot", "dot", "dog", "lot", "log", "cog"]
+    # beginWord = "ymain"
+    # endWord = "oecij"
+    # wordList = ["ymann", "yycrj", "oecij", "ymcnj", "yzcrj", "yycij", "xecij", "yecij", "ymanj", "yzcnj", "ymain"]
 
     solution = Solution()
-    res = solution.ladderLength_2(beginWord, endWord, wordList)
+    res = solution.ladderLength_3(beginWord, endWord, wordList)
     print(res)
