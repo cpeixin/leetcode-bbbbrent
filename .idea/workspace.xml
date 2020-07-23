@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="dp recur">
-      <change afterPath="$PROJECT_DIR$/dp/edit-distance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dp/ugly-number-ii.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trie/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trie/implement-trie-prefix-tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trie/map-sum-pairs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trie/word-search-ii.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DFS_BFS/word-ladde.py" beforeDir="false" afterPath="$PROJECT_DIR$/DFS_BFS/word-ladde.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFS_BFS/number-of-islands.py" beforeDir="false" afterPath="$PROJECT_DIR$/DFS_BFS/number-of-islands.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ensime-langserver.log" beforeDir="false" afterPath="$PROJECT_DIR$/ensime-langserver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld.scala" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/pascals-triangle-ii.py" beforeDir="false" afterPath="$PROJECT_DIR$/array/pascals-triangle-ii.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back_track/letter-combinations-of-a-phone-number.py" beforeDir="false" afterPath="$PROJECT_DIR$/back_track/letter-combinations-of-a-phone-number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dp/ugly-number-ii.py" beforeDir="false" afterPath="$PROJECT_DIR$/dp/ugly-number-ii.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,98 +23,101 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$kth_smallest_element_in_a_sorted_matrix__1_.coverage" NAME="kth-smallest-element-in-a-sorted-matrix (1) Coverage Results" MODIFIED="1595225067983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_search" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$text_classification.coverage" NAME="text_classification Coverage Results" MODIFIED="1583674545379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/naive_bayes/text_classifiction" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$sqrtx.coverage" NAME="sqrtx Coverage Results" MODIFIED="1593963905396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_search" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$binarySearchTree.coverage" NAME="binarySearchTree Coverage Results" MODIFIED="1590826403356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$sliding_window_maximum.coverage" NAME="sliding-window-maximum Coverage Results" MODIFIED="1592400430503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/heap" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$iterate_array.coverage" NAME="iterate_array Coverage Results" MODIFIED="1591772981137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$pairs_with_sum_lcci.coverage" NAME="pairs-with-sum-lcci Coverage Results" MODIFIED="1594107314042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hash_table" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$max_deep.coverage" NAME="max_deep Coverage Results" MODIFIED="1591251854900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$permutations_ii.coverage" NAME="permutations-ii Coverage Results" MODIFIED="1594559678847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/back_track" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$path_sum.coverage" NAME="path-sum Coverage Results" MODIFIED="1593093584291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$word_search_ii.coverage" NAME="word-search-ii Coverage Results" MODIFIED="1595375354944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trie" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$permutations.coverage" NAME="permutations Coverage Results" MODIFIED="1593163340946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/back_track" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$climbing_stairs.coverage" NAME="climbing-stairs Coverage Results" MODIFIED="1594220763275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$binaryTree.coverage" NAME="binaryTree Coverage Results" MODIFIED="1592292171844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$featrue.coverage" NAME="featrue Coverage Results" MODIFIED="1582813457931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision_tree" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$recursion_case.coverage" NAME="recursion_case Coverage Results" MODIFIED="1591451589471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recursion" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$subsets_ii.coverage" NAME="subsets-ii Coverage Results" MODIFIED="1594553555503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/back_track" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$combinations.coverage" NAME="combinations Coverage Results" MODIFIED="1593151687304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/back_track" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$lowest_common_ancestor_of_a_binary_tree.coverage" NAME="lowest-common-ancestor-of-a-binary-tree Coverage Results" MODIFIED="1592989948105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$longest_common_subsequence.coverage" NAME="longest-common-subsequence Coverage Results" MODIFIED="1594974149522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$sub_sort_lcci.coverage" NAME="sub-sort-lcci Coverage Results" MODIFIED="1595419440811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$triangle.coverage" NAME="triangle Coverage Results" MODIFIED="1594997333405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$design_circular_deque.coverage" NAME="design-circular-deque Coverage Results" MODIFIED="1591956703305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queen" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$four_sum__1_.coverage" NAME="four-sum (1) Coverage Results" MODIFIED="1594541609449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$quick_sort.coverage" NAME="quick_sort Coverage Results" MODIFIED="1590145154125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$generate_parentheses.coverage" NAME="generate-parentheses Coverage Results" MODIFIED="1592920223178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recursion" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$titanic_predict.coverage" NAME="titanic_predict Coverage Results" MODIFIED="1582644556542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision_tree/taitannike" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$singlyLinkedList.coverage" NAME="singlyLinkedList Coverage Results" MODIFIED="1580564195268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$3sum.coverage" NAME="3sum Coverage Results" MODIFIED="1591693634312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$number_of_islands.coverage" NAME="number-of-islands Coverage Results" MODIFIED="1593612056599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DFS_BFS" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$letter_combinations_of_a_phone_number.coverage" NAME="letter-combinations-of-a-phone-number Coverage Results" MODIFIED="1593229867345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/back_track" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$insert_sort.coverage" NAME="insert_sort Coverage Results" MODIFIED="1590122623822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$coin_change.coverage" NAME="coin-change Coverage Results" MODIFIED="1594795501157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$leetcode_subsort.coverage" NAME="leetcode_subsort Coverage Results" MODIFIED="1590148415442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$count_substrings_with_only_one_distinct_letter.coverage" NAME="count-substrings-with-only-one-distinct-letter Coverage Results" MODIFIED="1594522732407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$implement_trie_prefix_tree.coverage" NAME="implement-trie-prefix-tree Coverage Results" MODIFIED="1595344119100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trie" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$number_of_good_pairs.coverage" NAME="number-of-good-pairs Coverage Results" MODIFIED="1594522120027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$path_sum_ii.coverage" NAME="path-sum-ii Coverage Results" MODIFIED="1593522833261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DFS_BFS" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$ArrayCase.coverage" NAME="ArrayCase Coverage Results" MODIFIED="1579714889342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queen" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$combination_sum.coverage" NAME="combination-sum Coverage Results" MODIFIED="1594564022334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/back_track" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$breast_cancer.coverage" NAME="breast_cancer Coverage Results" MODIFIED="1584289153117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/svm" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$subsets.coverage" NAME="subsets Coverage Results" MODIFIED="1594565407630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/back_track" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$ugly_number.coverage" NAME="ugly-number Coverage Results" MODIFIED="1595232629126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recursion" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$connect_two_linked.coverage" NAME="connect_two_linked Coverage Results" MODIFIED="1592029553053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$plus_one.coverage" NAME="plus-one Coverage Results" MODIFIED="1592044942401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$data_info.coverage" NAME="data_info Coverage Results" MODIFIED="1582636226092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision_tree/taitannike" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$kth_smallest_element_in_a_sorted_matrix.coverage" NAME="kth-smallest-element-in-a-sorted-matrix Coverage Results" MODIFIED="1595006283004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/heap" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$for_case.coverage" NAME="for_case Coverage Results" MODIFIED="1591928239538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/forLoop" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$diving_board_lcci.coverage" NAME="diving-board-lcci Coverage Results" MODIFIED="1594222205212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$circular_queue.coverage" NAME="circular_queue Coverage Results" MODIFIED="1591956049200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queen" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$bucket_sort.coverage" NAME="bucket_sort Coverage Results" MODIFIED="1590123430121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$pascals_triangle.coverage" NAME="pascals-triangle Coverage Results" MODIFIED="1594043422845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$change_elem_sum.coverage" NAME="change_elem_sum Coverage Results" MODIFIED="1590139987301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$maximum_subarray.coverage" NAME="maximum-subarray Coverage Results" MODIFIED="1595044857228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$LRUCache.coverage" NAME="LRUCache Coverage Results" MODIFIED="1580692446048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$sqrtx.coverage" NAME="sqrtx Coverage Results" MODIFIED="1593963905396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_search" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$sliding_window_maximum.coverage" NAME="sliding-window-maximum Coverage Results" MODIFIED="1592400430503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/heap" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1593593115179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DFS_BFS" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$word_ladde.coverage" NAME="word-ladde Coverage Results" MODIFIED="1595248240773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DFS_BFS" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$feature.coverage" NAME="feature Coverage Results" MODIFIED="1582813832490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision_tree/taitannike" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$pairs_with_sum_lcci.coverage" NAME="pairs-with-sum-lcci Coverage Results" MODIFIED="1594107314042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hash_table" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$max_deep.coverage" NAME="max_deep Coverage Results" MODIFIED="1591251854900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$two_sum.coverage" NAME="two-sum Coverage Results" MODIFIED="1592458183712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$permutations_ii.coverage" NAME="permutations-ii Coverage Results" MODIFIED="1594559678847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/back_track" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$path_sum.coverage" NAME="path-sum Coverage Results" MODIFIED="1593093584291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$unique_paths.coverage" NAME="unique-paths Coverage Results" MODIFIED="1594980736570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$house_robber.coverage" NAME="house-robber Coverage Results" MODIFIED="1595089454669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$data_etl.coverage" NAME="data_etl Coverage Results" MODIFIED="1582637645806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision_tree/taitannike" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$best_time_to_buy_and_sell_stock_ii.coverage" NAME="best-time-to-buy-and-sell-stock-ii Coverage Results" MODIFIED="1593859294641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$permutations.coverage" NAME="permutations Coverage Results" MODIFIED="1593163340946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/back_track" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$climbing_stairs.coverage" NAME="climbing-stairs Coverage Results" MODIFIED="1594220763275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$user_loss_train.coverage" NAME="user_loss_train Coverage Results" MODIFIED="1583379173325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision_tree/user_loss" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$zui_xiao_de_kge_shu_lcof.coverage" NAME="zui-xiao-de-kge-shu-lcof Coverage Results" MODIFIED="1592399266847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/heap" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$binaryTree.coverage" NAME="binaryTree Coverage Results" MODIFIED="1592292171844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$maximum_depth_of_n_ary_tree.coverage" NAME="maximum-depth-of-n-ary-tree Coverage Results" MODIFIED="1593213329028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$edit_distance.coverage" NAME="edit-distance Coverage Results" MODIFIED="1595264255964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$maximum_binary_tree.coverage" NAME="maximum-binary-tree Coverage Results" MODIFIED="1594111675471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$singlyLinkedListTest.coverage" NAME="singlyLinkedListTest Coverage Results" MODIFIED="1580997493064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$difits_num.coverage" NAME="difits_num Coverage Results" MODIFIED="1584978685430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knn" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$bubble_sort.coverage" NAME="bubble_sort Coverage Results" MODIFIED="1589909205412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$featrue.coverage" NAME="featrue Coverage Results" MODIFIED="1582813457931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision_tree" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$merge_sorted_array.coverage" NAME="merge-sorted-array Coverage Results" MODIFIED="1592018555470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$recursion_case.coverage" NAME="recursion_case Coverage Results" MODIFIED="1591451589471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recursion" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$best_time_to_buy_and_sell_stock.coverage" NAME="best-time-to-buy-and-sell-stock Coverage Results" MODIFIED="1593848272809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$subsets_ii.coverage" NAME="subsets-ii Coverage Results" MODIFIED="1594553555503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/back_track" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$combinations.coverage" NAME="combinations Coverage Results" MODIFIED="1593151687304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/back_track" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$path_crossing.coverage" NAME="path-crossing Coverage Results" MODIFIED="1594919973909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/195" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$lowest_common_ancestor_of_a_binary_tree.coverage" NAME="lowest-common-ancestor-of-a-binary-tree Coverage Results" MODIFIED="1592989948105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$longest_common_subsequence.coverage" NAME="longest-common-subsequence Coverage Results" MODIFIED="1594974149522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$sub_sort_lcci.coverage" NAME="sub-sort-lcci Coverage Results" MODIFIED="1594038464503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$triangle.coverage" NAME="triangle Coverage Results" MODIFIED="1594997333405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$Pascal_triangle.coverage" NAME="Pascal_triangle Coverage Results" MODIFIED="1591452412166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recursion" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$min_stack.coverage" NAME="min-stack Coverage Results" MODIFIED="1592837011083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stack" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$design_circular_deque.coverage" NAME="design-circular-deque Coverage Results" MODIFIED="1591956703305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queen" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$reverse_linked_list_ii.coverage" NAME="reverse-linked-list-ii Coverage Results" MODIFIED="1593418419119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$rotate_array.coverage" NAME="rotate-array Coverage Results" MODIFIED="1591977729474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$binary_search_case.coverage" NAME="binary_search_case Coverage Results" MODIFIED="1589387432898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_search" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$four_sum.coverage" NAME="four-sum Coverage Results" MODIFIED="1594540330403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$four_sum__1_.coverage" NAME="four-sum (1) Coverage Results" MODIFIED="1594541609449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$quick_sort.coverage" NAME="quick_sort Coverage Results" MODIFIED="1590145154125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$valid_anagram.coverage" NAME="valid-anagram Coverage Results" MODIFIED="1592198623623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hash_table" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$best_time_to_buy_and_sell_stock_iii.coverage" NAME="best-time-to-buy-and-sell-stock-iii Coverage Results" MODIFIED="1593870178008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$generate_parentheses.coverage" NAME="generate-parentheses Coverage Results" MODIFIED="1592920223178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recursion" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$titanic_predict.coverage" NAME="titanic_predict Coverage Results" MODIFIED="1582644556542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision_tree/taitannike" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$singlyLinkedList.coverage" NAME="singlyLinkedList Coverage Results" MODIFIED="1580564195268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$3sum.coverage" NAME="3sum Coverage Results" MODIFIED="1591693634312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$number_of_islands.coverage" NAME="number-of-islands Coverage Results" MODIFIED="1593612056599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DFS_BFS" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$pascals_triangle_ii.coverage" NAME="pascals-triangle-ii Coverage Results" MODIFIED="1594046531365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$map_sum_pairs.coverage" NAME="map-sum-pairs Coverage Results" MODIFIED="1595400382758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trie" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$pascals_triangle_ii.coverage" NAME="pascals-triangle-ii Coverage Results" MODIFIED="1595423082518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$selection_sort.coverage" NAME="selection_sort Coverage Results" MODIFIED="1590051712359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$letter_combinations_of_a_phone_number.coverage" NAME="letter-combinations-of-a-phone-number Coverage Results" MODIFIED="1593229867345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/back_track" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$insert_sort.coverage" NAME="insert_sort Coverage Results" MODIFIED="1590122623822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$coin_change.coverage" NAME="coin-change Coverage Results" MODIFIED="1594795501157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$unique_paths_ii.coverage" NAME="unique-paths-ii Coverage Results" MODIFIED="1594916594630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$leetcode_subsort.coverage" NAME="leetcode_subsort Coverage Results" MODIFIED="1590148415442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$count_substrings_with_only_one_distinct_letter.coverage" NAME="count-substrings-with-only-one-distinct-letter Coverage Results" MODIFIED="1594522732407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$number_of_good_pairs.coverage" NAME="number-of-good-pairs Coverage Results" MODIFIED="1594522120027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$path_sum_ii.coverage" NAME="path-sum-ii Coverage Results" MODIFIED="1593522833261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DFS_BFS" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$ArrayCase.coverage" NAME="ArrayCase Coverage Results" MODIFIED="1579714889342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queen" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$combination_sum.coverage" NAME="combination-sum Coverage Results" MODIFIED="1594564022334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/back_track" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$breast_cancer.coverage" NAME="breast_cancer Coverage Results" MODIFIED="1584289153117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/svm" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$balanced_binary_tree.coverage" NAME="balanced-binary-tree Coverage Results" MODIFIED="1593303469351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$subsets.coverage" NAME="subsets Coverage Results" MODIFIED="1594565407630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/back_track" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$group_anagrams.coverage" NAME="group-anagrams Coverage Results" MODIFIED="1592204659201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hash_table" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$ugly_number_ii.coverage" NAME="ugly-number-ii Coverage Results" MODIFIED="1595243774949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$ugly_number.coverage" NAME="ugly-number Coverage Results" MODIFIED="1595232629126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recursion" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$connect_two_linked.coverage" NAME="connect_two_linked Coverage Results" MODIFIED="1592029553053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$plus_one.coverage" NAME="plus-one Coverage Results" MODIFIED="1592044942401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$data_info.coverage" NAME="data_info Coverage Results" MODIFIED="1582636226092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision_tree/taitannike" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$kth_smallest_element_in_a_sorted_matrix.coverage" NAME="kth-smallest-element-in-a-sorted-matrix Coverage Results" MODIFIED="1595006283004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/heap" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$fibonacci_number.coverage" NAME="fibonacci-number Coverage Results" MODIFIED="1595127264601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$for_case.coverage" NAME="for_case Coverage Results" MODIFIED="1591928239538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/forLoop" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$isPerfectSquare.coverage" NAME="isPerfectSquare Coverage Results" MODIFIED="1593964416166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_search" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$diving_board_lcci.coverage" NAME="diving-board-lcci Coverage Results" MODIFIED="1594222205212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$k_means_football.coverage" NAME="k-means_football Coverage Results" MODIFIED="1585321801405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/k-means" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$circular_queue.coverage" NAME="circular_queue Coverage Results" MODIFIED="1591956049200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queen" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$heapq_api.coverage" NAME="heapq_api Coverage Results" MODIFIED="1592440294800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/heap" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$bucket_sort.coverage" NAME="bucket_sort Coverage Results" MODIFIED="1590123430121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$pascals_triangle.coverage" NAME="pascals-triangle Coverage Results" MODIFIED="1594043422845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$largest_rectangle_in_histogram.coverage" NAME="largest-rectangle-in-histogram Coverage Results" MODIFIED="1594194197251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stack" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$test.coverage" NAME="test Coverage Results" MODIFIED="1594479319326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$change_elem_sum.coverage" NAME="change_elem_sum Coverage Results" MODIFIED="1590139987301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$maximum_subarray.coverage" NAME="maximum-subarray Coverage Results" MODIFIED="1595044857228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$leetcode206.coverage" NAME="leetcode206 Coverage Results" MODIFIED="1580561106456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$binarySearchTree_insert.coverage" NAME="binarySearchTree_insert Coverage Results" MODIFIED="1591279104976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$LRUCache.coverage" NAME="LRUCache Coverage Results" MODIFIED="1580692446048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$binary_search_duplicate.coverage" NAME="binary_search_duplicate Coverage Results" MODIFIED="1589553826888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_search" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$matchsticks_to_square.coverage" NAME="matchsticks-to-square Coverage Results" MODIFIED="1593536269178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DFS_BFS" />
   </component>
@@ -121,19 +127,19 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="150">
-                <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <first_editor>
+                <caret selection-end-line="2" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit-distance.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dp/edit-distance.py">
+      <file leaf-file-name="number-of-islands.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DFS_BFS/number-of-islands.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="24" selection-start-line="24" selection-end-line="47" selection-end-column="25" />
+            <state relative-caret-position="-327">
+              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -177,20 +183,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dp/best-time-to-buy-and-sell-stock.py" />
-        <option value="$PROJECT_DIR$/dp/best-time-to-buy-and-sell-stock-ii.py" />
-        <option value="$PROJECT_DIR$/dp/best-time-to-buy-and-sell-stock-with-cooldown.py" />
-        <option value="$PROJECT_DIR$/dp/best-time-to-buy-and-sell-stock-iii.py" />
-        <option value="$PROJECT_DIR$/dp/best-time-to-buy-and-sell-stock-iv.py" />
         <option value="$PROJECT_DIR$/dp/团灭 LeetCode 股票买卖问题.md" />
         <option value="$PROJECT_DIR$/binary_search/sqrtx.py" />
         <option value="$PROJECT_DIR$/binary_search/团灭二分查找.md" />
         <option value="$PROJECT_DIR$/binary_search/isPerfectSquare.py" />
         <option value="$PROJECT_DIR$/binary_search/search-in-rotated-sorted-array.py" />
-        <option value="$PROJECT_DIR$/array/sub-sort-lcci.py" />
         <option value="$PROJECT_DIR$/array/reverse-string.py" />
         <option value="$PROJECT_DIR$/array/pascals-triangle.py" />
-        <option value="$PROJECT_DIR$/array/pascals-triangle-ii.py" />
         <option value="$PROJECT_DIR$/tree/maximum-binary-tree.py" />
         <option value="$PROJECT_DIR$/stack/largest-rectangle-in-histogram.py" />
         <option value="$PROJECT_DIR$/array/climbing-stairs.py" />
@@ -224,10 +223,17 @@
         <option value="$PROJECT_DIR$/dp/maximal-square.py" />
         <option value="$PROJECT_DIR$/binary_search/kth-smallest-element-in-a-sorted-matrix.py" />
         <option value="$PROJECT_DIR$/recursion/ugly-number.py" />
-        <option value="$PROJECT_DIR$/dp/ugly-number-ii.py" />
         <option value="$PROJECT_DIR$/DFS_BFS/word-ladde.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/dp/edit-distance.py" />
+        <option value="$PROJECT_DIR$/trie/implement-trie-prefix-tree.py" />
+        <option value="$PROJECT_DIR$/trie/word-search-ii.py" />
+        <option value="$PROJECT_DIR$/trie/map-sum-pairs.py" />
+        <option value="$PROJECT_DIR$/back_track/letter-combinations-of-a-phone-number.py" />
+        <option value="$PROJECT_DIR$/array/sub-sort-lcci.py" />
+        <option value="$PROJECT_DIR$/array/pascals-triangle-ii.py" />
+        <option value="$PROJECT_DIR$/dp/ugly-number-ii.py" />
+        <option value="$PROJECT_DIR$/DFS_BFS/number-of-islands.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -243,7 +249,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,12 +259,13 @@
             <path>
               <item name="leetcode-bbbbrent" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-bbbbrent" type="462c0819:PsiDirectoryNode" />
-              <item name="dp" type="462c0819:PsiDirectoryNode" />
+              <item name="DFS_BFS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,8 +302,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.edit-distance">
-    <configuration name="edit-distance" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.pascals-triangle-ii">
+    <configuration name="implement-trie-prefix-tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -305,18 +311,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/trie" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dp/edit-distance.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trie/implement-trie-prefix-tree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="kth-smallest-element-in-a-sorted-matrix (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="map-sum-pairs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -324,18 +330,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/binary_search" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/trie" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binary_search/kth-smallest-element-in-a-sorted-matrix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trie/map-sum-pairs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="ugly-number-ii" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pascals-triangle-ii" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -343,18 +349,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dp/ugly-number-ii.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/pascals-triangle-ii.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="ugly-number" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sub-sort-lcci" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -362,18 +368,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recursion" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recursion/ugly-number.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/sub-sort-lcci.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="word-ladde" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="word-search-ii" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -381,31 +387,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DFS_BFS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/trie" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DFS_BFS/word-ladde.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trie/word-search-ii.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.kth-smallest-element-in-a-sorted-matrix (1)" />
-      <item itemvalue="Python.ugly-number" />
-      <item itemvalue="Python.ugly-number-ii" />
-      <item itemvalue="Python.word-ladde" />
-      <item itemvalue="Python.edit-distance" />
+      <item itemvalue="Python.implement-trie-prefix-tree" />
+      <item itemvalue="Python.word-search-ii" />
+      <item itemvalue="Python.map-sum-pairs" />
+      <item itemvalue="Python.sub-sort-lcci" />
+      <item itemvalue="Python.pascals-triangle-ii" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.edit-distance" />
-        <item itemvalue="Python.word-ladde" />
-        <item itemvalue="Python.ugly-number-ii" />
-        <item itemvalue="Python.ugly-number" />
-        <item itemvalue="Python.kth-smallest-element-in-a-sorted-matrix (1)" />
+        <item itemvalue="Python.pascals-triangle-ii" />
+        <item itemvalue="Python.sub-sort-lcci" />
+        <item itemvalue="Python.map-sum-pairs" />
+        <item itemvalue="Python.word-search-ii" />
+        <item itemvalue="Python.implement-trie-prefix-tree" />
       </list>
     </recent_temporary>
   </component>
@@ -419,13 +425,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579577772620</updated>
-    </task>
-    <task id="LOCAL-00006" summary="add: LRU">
-      <created>1580658702756</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1580658702756</updated>
     </task>
     <task id="LOCAL-00007" summary="add: LRU">
       <created>1580658750304</created>
@@ -763,7 +762,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595232840586</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="dp recur">
+      <created>1595299388436</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1595299388437</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TodoView">
@@ -777,20 +783,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32923076" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50061053" side_tool="true" weight="0.46119234" />
       <window_info anchor="right" x="0" y="0" width="370" height="850" id="Documentation" order="7" sideWeight="0.50153846" side_tool="true" weight="0.32661784" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.6306471" weight="0.33948717" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.3723077" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32923076" />
       <window_info anchor="right" id="leetcode" order="5" side_tool="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.6306471" weight="1.0" />
+      <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32923076" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2875458" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2912088" />
       <window_info anchor="right" id="SciView" order="4" sideWeight="0.49846154" weight="0.485348" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.4993895" weight="0.48102564" />
       <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.4993895" weight="0.48102564" />
       <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32921174" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Json Parser" order="0" />
@@ -800,8 +808,32 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.32967034" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32921174" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2912088" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.3723077" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="4" sideWeight="0.49846154" weight="0.485348" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32923076" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.6306471" weight="1.0" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.4993895" visible="true" weight="0.48102564" />
+      <window_info anchor="right" x="0" y="0" width="370" height="850" id="Documentation" order="7" sideWeight="0.50153846" side_tool="true" weight="0.32661784" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32923076" />
+      <window_info anchor="bottom" id="Python Console" order="2" weight="0.32923076" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50061053" side_tool="true" weight="0.46119234" />
+      <window_info anchor="right" id="leetcode" order="5" side_tool="true" weight="0.32967034" />
+      <window_info anchor="right" id="Json Parser" order="0" />
+      <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.32967034" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -1025,7 +1057,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/DFS_BFS/number-of-islands.py</url>
-          <line>82</line>
+          <line>122</line>
           <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1095,7 +1127,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/dp/ugly-number-ii.py</url>
-          <line>26</line>
+          <line>29</line>
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1103,66 +1135,31 @@
           <line>64</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/trie/implement-trie-prefix-tree.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/trie/map-sum-pairs.py</url>
+          <line>92</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/array/sub-sort-lcci.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/array/pascals-triangle-ii.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="104" />
+      <option name="time" value="117" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/array/plus-one.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/array/pascals-triangle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="21" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/array/pascals-triangle-ii.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/array/valid-palindrome.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/array/two-sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linklist/swap-nodes-in-pairs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hash_table/pairs-with-sum-lcci.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree/maximum-binary-tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stack/largest-rectangle-in-histogram.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/recursion/generate-parentheses.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1258,13 +1255,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/back_track/permutations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/back_track/subsets-ii.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -1272,31 +1262,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/back_track/permutations-ii.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/back_track/combination-sum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" selection-start-line="24" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back_track/combination-sum-ii.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back_track/combination-sum-iii.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="57" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -1384,13 +1353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dp/unique-paths.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dp/maximal-square.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1419,13 +1381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dp/ugly-number-ii.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DFS_BFS/word-ladde.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -1433,20 +1388,121 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dp/edit-distance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-137">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/331616867/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="2837" column="8" selection-start-line="2837" selection-start-column="8" selection-end-line="2837" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trie/implement-trie-prefix-tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trie/word-search-ii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="35" selection-start-line="35" selection-end-line="61" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trie/map-sum-pairs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="54" column="43" lean-forward="true" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back_track/combination-sum-iii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="57" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back_track/combination-sum-ii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back_track/permutations-ii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back_track/permutations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array/sub-sort-lcci.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="16" selection-start-line="16" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array/pascals-triangle-ii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dp/unique-paths.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dp/ugly-number-ii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array/pascals-triangle.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back_track/letter-combinations-of-a-phone-number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <first_editor>
+            <caret selection-end-line="2" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dp/edit-distance.py">
+    <entry file="file://$PROJECT_DIR$/DFS_BFS/number-of-islands.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="24" selection-start-line="24" selection-end-line="47" selection-end-column="25" />
+        <state relative-caret-position="-327">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>

@@ -22,16 +22,16 @@ def letterCombinations(digits):
         '9': 'wxyz'
     }
     result = []
-    def make_combinations(i, cur):
+    def backtrack(i, cur):
         if i == len(digits):
             if len(cur) > 0:
                 result.append(''.join(cur))
             return
         for ch in map_[digits[i]]:
             cur.append(ch)
-            make_combinations(i + 1, cur)
+            backtrack(i + 1, cur)
             cur.pop()
-    make_combinations(0, [])
+    backtrack(0, [])
     return result
 
 if __name__ == '__main__':
