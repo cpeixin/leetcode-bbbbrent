@@ -27,7 +27,6 @@
 # 输出: 0
 # 解释: 在这个情况下, 没有交易完成, 所以最大利润为 0。
 #
-# 来源：力扣（LeetCode）
 from typing import List
 
 
@@ -51,3 +50,8 @@ class Solution:
                 dp[i][k][0] = max(dp[i-1][k][0], dp[i-1][k][1] + prices[i])
                 dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i])
         return dp[-1][-1][0]
+
+
+if __name__ == '__main__':
+    dp = [[[None, None] for _ in range(3)] for _ in range(5)]
+    print(dp)

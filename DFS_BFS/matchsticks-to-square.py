@@ -45,7 +45,7 @@ class Solution(object):
         def backtrack(index):
             # 长度全部遍历完，如果四条边相等，则可以构成正方形
             if index == nums_size:
-                return sides[0] == sides[1] == sides[2] == possible_side
+                return sides[0] == sides[1] == sides[2] == sides[3] == possible_side
             for i in range(4):
                 # 如果当前i边满足了possible_side可能边大小长度，则遍历下一个边
                 if sides[i]+nums[index] <= possible_side:

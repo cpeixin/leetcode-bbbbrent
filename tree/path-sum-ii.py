@@ -47,7 +47,8 @@ class Solution:
             if sum == 0 and not root.left and not root.right:
                 # 这里要注意，如果res.append(path), 每次path变化的时候，res中已添加的path也会改变
                 # 浅拷贝的原因。所以加上list，创建一个新对象。
-                res.append(list(path))
+                res.append(path[:])
+                # res.append(list(path))
             dfs(root.left, sum)
             dfs(root.right, sum)
             path.pop()
