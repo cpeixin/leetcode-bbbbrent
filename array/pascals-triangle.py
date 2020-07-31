@@ -1,6 +1,6 @@
 # coding: utf-8
 # Author：Brent
-# Date ：2020/7/6 9:36 PM
+# Date ：2020/7/29 10:36 PM
 # Tool ：PyCharm
 # Describe ：给定一个非负整数 numRows，生成杨辉三角的前 numRows 行。
 

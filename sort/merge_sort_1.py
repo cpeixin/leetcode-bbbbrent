@@ -1,33 +1,33 @@
-def merge(a, b):
-    c = []
-    h = j = 0
-    while j < len(a) and h < len(b):
-        if a[j] < b[h]:
-            c.append(a[j])
-            j += 1
+def merge(a_list, b_list):
+    # 所要利用的额外空间
+    result = []
+    a_index, b_index = 0, 0
+    # index从0开始，所以 < 号
+    while a_index < len(a_list) and b_index < len(b_list):
+        if a_list[a_index] < b_list[b_index]:
+            result.append(a_list[a_index])
+            a_index += 1
         else:
-            c.append(b[h])
-            h += 1
-
-    if j == len(a):
-        for i in b[h:]:
-            c.append(i)
+            result.append(b_list[b_index])
+            b_index += 1
+    if a_index == len(a_list):
+        for i in b_list[b_index:]:
+            result.append(i)
     else:
-        for i in a[j:]:
-            c.append(i)
+        for i in a_list[a_index:]:
+            result.append(i)
+    return result
 
-    return c
 
-
-def merge_sort(lists):
-    if len(lists) <= 1:
-        return lists
-    middle = len(lists)//2
-    left = merge_sort(lists[:middle])
-    right = merge_sort(lists[middle:])
+def mergeSort(total_list):
+    if len(total_list) <= 1:
+        return total_list
+    mid = len(total_list) >> 1
+    left = mergeSort(total_list[:mid])
+    right = mergeSort(total_list[mid:])
     return merge(left, right)
 
 
 if __name__ == '__main__':
     a = [14, 2, 34, 43, 21, 19]
-    print(merge_sort(a))
+    print(mergeSort(a))

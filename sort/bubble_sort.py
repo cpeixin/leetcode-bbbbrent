@@ -6,13 +6,10 @@ import time
 
 """
 def bubble_sort(arr):
-    for i in range(1, len(arr)):
-        for j in range(0, len(arr)-i):
+    for i in range(0, len(arr)-1):
+        for j in range(0, len(arr)-i-1):
             if arr[j] > arr[j+1]:
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
-            # print(i,j)
-            # time.sleep(2)
-
     return arr
 
 
