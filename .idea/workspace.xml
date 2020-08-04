@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="sort">
-      <change afterPath="$PROJECT_DIR$/dp/test.py" afterDir="false" />
+    <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="dp">
+      <change afterPath="$PROJECT_DIR$/dp/minimum-path-sum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dp/unique-paths.py" beforeDir="false" afterPath="$PROJECT_DIR$/dp/unique-paths.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -138,26 +137,35 @@
         <entry file="file://$PROJECT_DIR$/dp/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="unique-paths.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="unique-paths.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dp/unique-paths.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="44" column="29" lean-forward="true" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+            <state relative-caret-position="405">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="minimum-path-sum.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dp/minimum-path-sum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="15">
-                <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+                <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -203,7 +211,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/heap/heapq_showtree.py" />
         <option value="$PROJECT_DIR$/back_track/permutations-ii.py" />
         <option value="$PROJECT_DIR$/back_track/permutations.py" />
         <option value="$PROJECT_DIR$/back_track/subsets-ii.py" />
@@ -252,8 +259,9 @@
         <option value="$PROJECT_DIR$/sort/quick_sort.py" />
         <option value="$PROJECT_DIR$/sort/smallest_k.py" />
         <option value="$PROJECT_DIR$/dp/test.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/dp/unique-paths.py" />
+        <option value="$PROJECT_DIR$/dp/minimum-path-sum.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -449,13 +457,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579577772620</updated>
-    </task>
-    <task id="LOCAL-00014" summary="queue">
-      <created>1582109903754</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1582109903754</updated>
     </task>
     <task id="LOCAL-00015" summary="circular_queue">
       <created>1582168475513</created>
@@ -793,7 +794,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596370444893</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="dp">
+      <created>1596470749996</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1596470749997</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TodoView">
@@ -817,10 +825,10 @@
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32923076" />
       <window_info anchor="right" id="leetcode" order="5" side_tool="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32923076" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.31684983" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32417583" />
       <window_info anchor="right" id="SciView" order="4" sideWeight="0.49846154" weight="0.485348" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Debug" order="7" sideWeight="0.4993895" visible="true" weight="0.22974358" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.4993895" weight="0.22974358" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32921174" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -834,9 +842,9 @@
       <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.32967034" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="right" id="leetcode" order="5" side_tool="true" weight="0.32967034" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.31318682" />
-      <window_info anchor="right" id="Json Parser" order="0" />
       <window_info anchor="bottom" id="Run" order="6" sideWeight="0.6306471" weight="0.25435898" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32921174" />
@@ -849,12 +857,12 @@
       <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.4993895" visible="true" weight="0.2871795" />
       <window_info anchor="right" x="0" y="0" width="370" height="786" id="Documentation" order="7" sideWeight="0.50153846" side_tool="true" weight="0.08058608" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32923076" />
-      <window_info anchor="right" id="leetcode" order="5" side_tool="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50061053" side_tool="true" weight="0.46119234" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="right" id="SciView" order="4" sideWeight="0.49846154" weight="0.485348" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50061053" side_tool="true" weight="0.46119234" />
+      <window_info anchor="right" id="Json Parser" order="0" />
       <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32923076" />
     </layout-to-restore>
@@ -910,11 +918,11 @@
     <MESSAGE value="add binary search" />
     <MESSAGE value="dp recur" />
     <MESSAGE value="recall" />
-    <MESSAGE value="dp" />
     <MESSAGE value="array" />
     <MESSAGE value="data structure" />
     <MESSAGE value="sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="sort" />
+    <MESSAGE value="dp" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1239,13 +1247,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DFS_BFS/word-ladde.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dp/edit-distance.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-137">
@@ -1559,27 +1560,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dp/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dp/unique-paths.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="44" column="29" lean-forward="true" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dp/minimum-path-sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
