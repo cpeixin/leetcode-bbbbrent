@@ -41,6 +41,7 @@ class Solution(object):
         # 自底向上开始遍历
         for i in range(1, m+1):
             for j in range(1, n+1):
+                #最开始引入了 “” 字符 ，也就是说索引是从1开始的，所以需要 i-1 j-1, 刚好对应正确的字符
                 if word1[i - 1] == word2[j - 1]:
                     dp[i][j] = dp[i-1][j - 1]
                 else:
@@ -52,5 +53,5 @@ class Solution(object):
 
 if __name__ == '__main__':
     solution = Solution()
-    solution.minDistance("scdfadsfa", "asc")
+    solution.minDistance("horse", "ros")
 
