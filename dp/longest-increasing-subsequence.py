@@ -28,13 +28,27 @@ class Solution:
         dp = [1] * len(nums)
         for i in range(len(nums)):
             for j in range(i):
-                if nums[j] < nums[i]: # 如果要求非严格递增，将此行 '<' 改为 '<=' 即可。
+                if nums[j] < nums[i]:  # 如果要求非严格递增，将此行 '<' 改为 '<=' 即可。
                     dp[i] = max(dp[i], dp[j] + 1)
         return max(dp)
+
+    def lengthOfLIS_1(self, nums: [int]) -> int:
+        tails, res = [0] * len(nums), 0
+        for num in nums:
+            i, j = 0, res
+            while i < j:
+                mid = (i + j) // 2
+                if tails[mid] < num:
+                    i = mid + 1  # 如果要求非严格递增，将此行 '<' 改为 '<=' 即可。
+                else:
+                    j = mid
+            tails[i] = num
+            if j == res: res += 1
+        return res
 
 
 if __name__ == '__main__':
     nums = [10, 9, 2, 5, 3, 7, 101, 18]
     solution = Solution()
-    res = solution.lengthOfLIS(nums)
+    res = solution.lengthOfLIS_1(nums)
     print(res)

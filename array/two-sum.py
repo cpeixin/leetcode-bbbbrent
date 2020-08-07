@@ -18,3 +18,4 @@ def twoSum(nums, target):
 
 if __name__ == '__main__':
     twoSum(nums, 9)
+    a = dict()
