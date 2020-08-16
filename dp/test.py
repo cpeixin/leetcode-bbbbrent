@@ -4,13 +4,5 @@
 # Tool ：PyCharm
 # Describe ：
 
-
-
-n=3
-m=7
-dp = [[1] * m for _ in range(n)]
-dp1 = [[1]*n] + [[1]+[0] * (n-1) for _ in range(m-1)]
-dp2 = [[0 for col in range(m)] for row in range(n)]
-print(dp)
-print(dp1)
-print(dp2)
+a = [1,2,3,4,5,6,7,8]
+print(a[1:4])
