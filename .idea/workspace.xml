@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="str">
-      <change afterPath="$PROJECT_DIR$/bytedance/3sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bytedance/findLengthOfLCIS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bytedance/islandMaxArea.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bytedance/lowestCommonAncestor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bytedance/search_sort_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bytedance/topKth_heap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bytedance/topKth_quicksort.py" afterDir="false" />
+    <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="bytedance">
+      <change afterPath="$PROJECT_DIR$/bytedance/zigzagLevelOrder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bytedance/lowestCommonAncestor.py" beforeDir="false" afterPath="$PROJECT_DIR$/bytedance/lowestCommonAncestor.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -156,11 +151,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search_sort_array.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="search_sort_array.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bytedance/search_sort_array.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+            <state relative-caret-position="266">
+              <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -188,7 +183,20 @@
       </file>
       <file leaf-file-name="lowestCommonAncestor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bytedance/lowestCommonAncestor.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="36" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zigzagLevelOrder.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bytedance/zigzagLevelOrder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="17" selection-start-line="17" selection-end-line="33" selection-end-column="55" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="topKth_quicksort.py" pinned="false" current-in-tab="false">
@@ -242,7 +250,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DFS_BFS/matchsticks-to-square.py" />
         <option value="$PROJECT_DIR$/array/pascals-triangle.py" />
         <option value="$PROJECT_DIR$/array/sub-sort-lcci.py" />
         <option value="$PROJECT_DIR$/sort/bubble_sort.py" />
@@ -290,9 +297,10 @@
         <option value="$PROJECT_DIR$/bytedance/findLengthOfLCIS.py" />
         <option value="$PROJECT_DIR$/bytedance/topKth.py" />
         <option value="$PROJECT_DIR$/bytedance/topKth_quicksort.py" />
-        <option value="$PROJECT_DIR$/bytedance/lowestCommonAncestor.py" />
         <option value="$PROJECT_DIR$/bytedance/topKth_heap.py" />
         <option value="$PROJECT_DIR$/bytedance/search_sort_array.py" />
+        <option value="$PROJECT_DIR$/bytedance/lowestCommonAncestor.py" />
+        <option value="$PROJECT_DIR$/bytedance/zigzagLevelOrder.py" />
       </list>
     </option>
   </component>
@@ -487,13 +495,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579577772620</updated>
-    </task>
-    <task id="LOCAL-00021" summary="decision-titanic">
-      <created>1582809008672</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1582809008673</updated>
     </task>
     <task id="LOCAL-00022" summary="decision-titanic">
       <created>1582942300563</created>
@@ -831,7 +832,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597584100654</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="bytedance">
+      <created>1597807291934</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1597807291935</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TodoView">
@@ -927,7 +935,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="queue" />
     <MESSAGE value="circular_queue" />
     <MESSAGE value="recursion" />
     <MESSAGE value="selection_sort" />
@@ -952,7 +959,8 @@
     <MESSAGE value="dp" />
     <MESSAGE value="array" />
     <MESSAGE value="str" />
-    <option name="LAST_COMMIT_MESSAGE" value="str" />
+    <MESSAGE value="bytedance" />
+    <option name="LAST_COMMIT_MESSAGE" value="bytedance" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1352,13 +1360,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dp/unique-paths-ii.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dp/ugly-number-ii.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1676,9 +1677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bytedance/lowestCommonAncestor.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/bytedance/topKth_heap.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1691,8 +1689,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bytedance/search_sort_array.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        <state relative-caret-position="266">
+          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bytedance/lowestCommonAncestor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="36" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bytedance/zigzagLevelOrder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="17" selection-start-line="17" selection-end-line="33" selection-end-column="55" />
         </state>
       </provider>
     </entry>
