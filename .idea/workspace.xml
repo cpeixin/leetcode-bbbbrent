@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="bytedance">
-      <change afterPath="$PROJECT_DIR$/bytedance/trapping-rain-water.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tencent/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tencent/maxDepth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,6 +99,7 @@
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$best_time_to_buy_and_sell_stock_ii.coverage" NAME="best-time-to-buy-and-sell-stock-ii Coverage Results" MODIFIED="1593859294641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$user_loss_train.coverage" NAME="user_loss_train Coverage Results" MODIFIED="1583379173325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision_tree/user_loss" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$trapping_rain_water.coverage" NAME="trapping-rain-water Coverage Results" MODIFIED="1598888731371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bytedance" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$pow.coverage" NAME="pow Coverage Results" MODIFIED="1598951023117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$zui_xiao_de_kge_shu_lcof.coverage" NAME="zui-xiao-de-kge-shu-lcof Coverage Results" MODIFIED="1592399266847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/heap" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$maximum_depth_of_n_ary_tree.coverage" NAME="maximum-depth-of-n-ary-tree Coverage Results" MODIFIED="1593213329028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$edit_distance.coverage" NAME="edit-distance Coverage Results" MODIFIED="1596677319990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
@@ -146,11 +149,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="trapping-rain-water.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="trapping-rain-water.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bytedance/trapping-rain-water.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="407">
+              <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maxDepth.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tencent/maxDepth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pow.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pow.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -194,8 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dp/minimum-path-sum.py" />
-        <option value="$PROJECT_DIR$/array/zhengfujiaoti.py" />
         <option value="$PROJECT_DIR$/array/rerange.py" />
         <option value="$PROJECT_DIR$/dp/min-cost-climbing-stairs.py" />
         <option value="$PROJECT_DIR$/dp/edit-distance.py" />
@@ -245,10 +264,12 @@
         <option value="$PROJECT_DIR$/bytedance/connectLinkList.py" />
         <option value="$PROJECT_DIR$/bytedance/merge-intervals.py" />
         <option value="$PROJECT_DIR$/bytedance/trapping-rain-water.py" />
+        <option value="$PROJECT_DIR$/Tencent/maxDepth.py" />
+        <option value="$PROJECT_DIR$/pow.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
@@ -268,7 +289,12 @@
             <path>
               <item name="leetcode-bbbbrent" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-bbbbrent" type="462c0819:PsiDirectoryNode" />
-              <item name="bytedance" type="462c0819:PsiDirectoryNode" />
+              <item name="back_track" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode-bbbbrent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode-bbbbrent" type="462c0819:PsiDirectoryNode" />
+              <item name="Tencent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -311,26 +337,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.trapping-rain-water">
-    <configuration name="lengthOfLongestSubstring" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Leetcode-bbbbrent" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bytedance" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bytedance/lengthOfLongestSubstring.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.pow">
     <configuration name="merge-intervals" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -388,6 +395,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="pow" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Leetcode-bbbbrent" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="trapping-rain-water" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -408,19 +434,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.lengthOfLongestSubstring" />
       <item itemvalue="Python.miniStack" />
       <item itemvalue="Python.multiply-strings" />
       <item itemvalue="Python.merge-intervals" />
       <item itemvalue="Python.trapping-rain-water" />
+      <item itemvalue="Python.pow" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pow" />
         <item itemvalue="Python.trapping-rain-water" />
         <item itemvalue="Python.merge-intervals" />
         <item itemvalue="Python.multiply-strings" />
         <item itemvalue="Python.miniStack" />
-        <item itemvalue="Python.lengthOfLongestSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -434,13 +460,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579577772620</updated>
-    </task>
-    <task id="LOCAL-00028" summary="add leetcode sort code">
-      <created>1590156017837</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1590156017837</updated>
     </task>
     <task id="LOCAL-00029" summary="add leetcode sort code">
       <created>1590929923441</created>
@@ -778,7 +797,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598707368169</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="bytedance">
+      <created>1598890112137</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1598890112137</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1323,25 +1349,16 @@
           <line>49</line>
           <option name="timeStamp" value="152" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pow.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="153" />
+      <option name="time" value="154" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/5468/canConvertString.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/-2010535109/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3635" column="8" selection-start-line="3635" selection-start-column="8" selection-end-line="3635" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/str/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1678,8 +1695,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bytedance/trapping-rain-water.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="407">
+          <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tencent/maxDepth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
