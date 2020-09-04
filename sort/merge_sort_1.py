@@ -31,3 +31,4 @@ def mergeSort(total_list):
 if __name__ == '__main__':
     a = [14, 2, 34, 43, 21, 19]
     print(mergeSort(a))
+

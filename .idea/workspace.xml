@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="bytedance">
-      <change afterPath="$PROJECT_DIR$/Tencent/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tencent/maxDepth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pow.py" afterDir="false" />
+    <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="Tencent">
+      <change afterPath="$PROJECT_DIR$/XiaoHongShu/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XiaoHongShu/longestSubString.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/count-of-smaller-numbers-after-self.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/mergeSort_python.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/quickSort_python.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/merge_sort_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/sort/merge_sort_1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,7 +35,7 @@
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$permutations.coverage" NAME="permutations Coverage Results" MODIFIED="1593163340946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/back_track" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$climbing_stairs.coverage" NAME="climbing-stairs Coverage Results" MODIFIED="1594220763275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$longest_increasing_subsequence.coverage" NAME="longest-increasing-subsequence Coverage Results" MODIFIED="1596769537148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$merge_sort_1.coverage" NAME="merge_sort_1 Coverage Results" MODIFIED="1596096939124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$merge_sort_1.coverage" NAME="merge_sort_1 Coverage Results" MODIFIED="1599210551060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$binaryTree.coverage" NAME="binaryTree Coverage Results" MODIFIED="1592292171844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$featrue.coverage" NAME="featrue Coverage Results" MODIFIED="1582813457931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision_tree" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$islandMaxArea.coverage" NAME="islandMaxArea Coverage Results" MODIFIED="1597681554823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bytedance" />
@@ -42,6 +45,7 @@
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$lowest_common_ancestor_of_a_binary_tree.coverage" NAME="lowest-common-ancestor-of-a-binary-tree Coverage Results" MODIFIED="1592989948105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$longest_common_subsequence.coverage" NAME="longest-common-subsequence Coverage Results" MODIFIED="1594974149522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$sub_sort_lcci.coverage" NAME="sub-sort-lcci Coverage Results" MODIFIED="1595419440811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$mergeSort_python.coverage" NAME="mergeSort_python Coverage Results" MODIFIED="1599210584634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$triangle.coverage" NAME="triangle Coverage Results" MODIFIED="1594997333405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$topKth.coverage" NAME="topKth Coverage Results" MODIFIED="1597746110896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bytedance" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$relative_sort_array.coverage" NAME="relative-sort-array Coverage Results" MODIFIED="1596132400470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
@@ -83,6 +87,7 @@
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$maximum_subarray.coverage" NAME="maximum-subarray Coverage Results" MODIFIED="1595044857228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$LRUCache.coverage" NAME="LRUCache Coverage Results" MODIFIED="1580692446048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$move_zeros.coverage" NAME="move-zeros Coverage Results" MODIFIED="1596341832863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$count_of_smaller_numbers_after_self.coverage" NAME="count-of-smaller-numbers-after-self Coverage Results" MODIFIED="1599062028288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$sqrtx.coverage" NAME="sqrtx Coverage Results" MODIFIED="1593963905396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_search" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$min_cost_climbing_stairs.coverage" NAME="min-cost-climbing-stairs Coverage Results" MODIFIED="1596639837382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$sliding_window_maximum.coverage" NAME="sliding-window-maximum Coverage Results" MODIFIED="1592400430503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/heap" />
@@ -90,6 +95,7 @@
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$longestConsecutive.coverage" NAME="longestConsecutive Coverage Results" MODIFIED="1597927582450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bytedance" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$word_ladde.coverage" NAME="word-ladde Coverage Results" MODIFIED="1595248240773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DFS_BFS" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1597050624306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$longestSubString.coverage" NAME="longestSubString Coverage Results" MODIFIED="1599056499172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/XiaoHongShu" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$feature.coverage" NAME="feature Coverage Results" MODIFIED="1582813832490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision_tree/taitannike" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$two_sum.coverage" NAME="two-sum Coverage Results" MODIFIED="1592458183712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$unique_paths.coverage" NAME="unique-paths Coverage Results" MODIFIED="1596468873002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
@@ -143,35 +149,27 @@
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$test.coverage" NAME="test Coverage Results" MODIFIED="1596943095601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/str" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$reverse_string_ii.coverage" NAME="reverse-string-ii Coverage Results" MODIFIED="1596852859871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/str" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$leetcode206.coverage" NAME="leetcode206 Coverage Results" MODIFIED="1580561106456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$quickSort_python.coverage" NAME="quickSort_python Coverage Results" MODIFIED="1599209151821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$binarySearchTree_insert.coverage" NAME="binarySearchTree_insert Coverage Results" MODIFIED="1591279104976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tree" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$binary_search_duplicate.coverage" NAME="binary_search_duplicate Coverage Results" MODIFIED="1589553826888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_search" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$matchsticks_to_square.coverage" NAME="matchsticks-to-square Coverage Results" MODIFIED="1595858937974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DFS_BFS" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="trapping-rain-water.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bytedance/trapping-rain-water.py">
+      <file leaf-file-name="quickSort_python.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sort/quickSort_python.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+            <state relative-caret-position="735">
+              <caret line="49" selection-start-line="49" selection-end-line="57" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="maxDepth.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tencent/maxDepth.py">
+      <file leaf-file-name="mergeSort_python.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sort/mergeSort_python.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pow.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pow.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="485">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -215,11 +213,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/array/rerange.py" />
-        <option value="$PROJECT_DIR$/dp/min-cost-climbing-stairs.py" />
-        <option value="$PROJECT_DIR$/dp/edit-distance.py" />
-        <option value="$PROJECT_DIR$/array/two-sum.py" />
-        <option value="$PROJECT_DIR$/dp/longest-increasing-subsequence.py" />
         <option value="$PROJECT_DIR$/tree/same-tree.py" />
         <option value="$PROJECT_DIR$/str/to-lower-case.py" />
         <option value="$PROJECT_DIR$/str/length-of-last-word.py" />
@@ -266,10 +259,15 @@
         <option value="$PROJECT_DIR$/bytedance/trapping-rain-water.py" />
         <option value="$PROJECT_DIR$/Tencent/maxDepth.py" />
         <option value="$PROJECT_DIR$/pow.py" />
+        <option value="$PROJECT_DIR$/XiaoHongShu/longestSubString.py" />
+        <option value="$PROJECT_DIR$/sort/count-of-smaller-numbers-after-self.py" />
+        <option value="$PROJECT_DIR$/sort/merge_sort_1.py" />
+        <option value="$PROJECT_DIR$/sort/quickSort_python.py" />
+        <option value="$PROJECT_DIR$/sort/mergeSort_python.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
@@ -289,12 +287,7 @@
             <path>
               <item name="leetcode-bbbbrent" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-bbbbrent" type="462c0819:PsiDirectoryNode" />
-              <item name="back_track" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode-bbbbrent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode-bbbbrent" type="462c0819:PsiDirectoryNode" />
-              <item name="Tencent" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -307,7 +300,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/recursion" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -337,8 +330,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pow">
-    <configuration name="merge-intervals" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.mergeSort_python">
+    <configuration name="count-of-smaller-numbers-after-self" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -346,18 +339,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bytedance" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sort" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bytedance/merge-intervals.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sort/count-of-smaller-numbers-after-self.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="miniStack" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="longestSubString" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -365,18 +358,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bytedance" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/XiaoHongShu" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bytedance/miniStack.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/XiaoHongShu/longestSubString.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="multiply-strings" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mergeSort_python" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -384,18 +377,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bytedance" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sort" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bytedance/multiply-strings.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sort/mergeSort_python.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="pow" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="merge_sort_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -403,18 +396,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sort" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pow.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sort/merge_sort_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="trapping-rain-water" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="quickSort_python" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -422,31 +415,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bytedance" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sort" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bytedance/trapping-rain-water.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sort/quickSort_python.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.miniStack" />
-      <item itemvalue="Python.multiply-strings" />
-      <item itemvalue="Python.merge-intervals" />
-      <item itemvalue="Python.trapping-rain-water" />
-      <item itemvalue="Python.pow" />
+      <item itemvalue="Python.longestSubString" />
+      <item itemvalue="Python.count-of-smaller-numbers-after-self" />
+      <item itemvalue="Python.quickSort_python" />
+      <item itemvalue="Python.mergeSort_python" />
+      <item itemvalue="Python.merge_sort_1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.pow" />
-        <item itemvalue="Python.trapping-rain-water" />
-        <item itemvalue="Python.merge-intervals" />
-        <item itemvalue="Python.multiply-strings" />
-        <item itemvalue="Python.miniStack" />
+        <item itemvalue="Python.mergeSort_python" />
+        <item itemvalue="Python.merge_sort_1" />
+        <item itemvalue="Python.quickSort_python" />
+        <item itemvalue="Python.count-of-smaller-numbers-after-self" />
+        <item itemvalue="Python.longestSubString" />
       </list>
     </recent_temporary>
   </component>
@@ -460,13 +453,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579577772620</updated>
-    </task>
-    <task id="LOCAL-00029" summary="add leetcode sort code">
-      <created>1590929923441</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1590929923441</updated>
     </task>
     <task id="LOCAL-00030" summary="add some leetcode">
       <created>1591633593146</created>
@@ -804,7 +790,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598890112137</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Tencent">
+      <created>1599055067255</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1599055067255</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TodoView">
@@ -822,12 +815,12 @@
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32923076" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50061053" side_tool="true" weight="0.46119234" />
       <window_info anchor="right" x="0" y="0" width="370" height="850" id="Documentation" order="7" sideWeight="0.50153846" side_tool="true" visible="true" weight="0.08058608" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.6306471" weight="0.30358973" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.6306471" weight="0.3323077" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.3723077" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32923076" />
       <window_info anchor="right" id="leetcode" order="5" side_tool="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32923076" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.36080587" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.21489622" />
       <window_info anchor="right" id="SciView" order="4" sideWeight="0.49846154" weight="0.485348" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info active="true" anchor="bottom" id="Debug" order="7" sideWeight="0.4993895" visible="true" weight="0.41128206" />
@@ -847,26 +840,26 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.32783884" />
       <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.6306471" visible="true" weight="0.4482051" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32921174" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32923076" />
-      <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Python Console" order="2" weight="0.32923076" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.3723077" />
+      <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.4993895" weight="0.40923077" />
       <window_info anchor="right" x="0" y="0" width="370" height="850" id="Documentation" order="7" sideWeight="0.50153846" side_tool="true" weight="0.08058608" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32923076" />
       <window_info anchor="right" id="leetcode" order="5" side_tool="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="5" weight="0.3723077" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50061053" side_tool="true" weight="0.46119234" />
       <window_info anchor="right" id="SciView" order="4" sideWeight="0.49846154" weight="0.485348" />
-      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="right" id="Json Parser" order="0" />
       <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.32967034" />
-      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="2" weight="0.32923076" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -899,7 +892,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="recursion" />
     <MESSAGE value="selection_sort" />
     <MESSAGE value="decision-titanic" />
     <MESSAGE value="user-loss" />
@@ -924,7 +916,8 @@
     <MESSAGE value="str" />
     <MESSAGE value="bytedance str" />
     <MESSAGE value="bytedance" />
-    <option name="LAST_COMMIT_MESSAGE" value="bytedance" />
+    <MESSAGE value="Tencent" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tencent" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1354,60 +1347,31 @@
           <line>36</line>
           <option name="timeStamp" value="153" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/XiaoHongShu/longestSubString.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sort/count-of-smaller-numbers-after-self.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sort/count-of-smaller-numbers-after-self.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sort/mergeSort_python.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="154" />
+      <option name="time" value="159" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/str/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/str/reverse-words-in-a-string.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="24" column="63" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/str/makeGood.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dp/longest-increasing-subsequence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dp/min-cost-climbing-stairs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dp/maximum-subarray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bytedance/bitSum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dp/longest-increasing-subsequence.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1695,22 +1659,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bytedance/trapping-rain-water.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+        <state relative-caret-position="735">
+          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XiaoHongShu/longestSubString.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/count-of-smaller-numbers-after-self.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/relative-sort-array.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/merge_sort_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tencent/maxDepth.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pow.py">
+    <entry file="file://$PROJECT_DIR$/sort/quick_sort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="4">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/quickSort_python.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" selection-start-line="49" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/mergeSort_python.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
