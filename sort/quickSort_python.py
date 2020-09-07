@@ -21,7 +21,7 @@ class Solution:
         self.quickSort(nums, left_index, pivot-1)
         self.quickSort(nums, pivot+1, right_index)
         return nums
-
+ 
 
     def partition(self, nums, left_index, right_index):
         pivot = nums[left_index]
