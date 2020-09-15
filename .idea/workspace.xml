@@ -1,42 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="中序遍历-迭代">
-      <change afterPath="$PROJECT_DIR$/company/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/pdd/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/pdd/kth-smallest-number-in-multiplication-table.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/pdd/lowest-common-ancestor-of-a-binary-search-tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/pdd/matchsticks-to-square.py" afterDir="false" />
+    <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="change dir">
+      <change afterPath="$PROJECT_DIR$/str/strip_func.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tencent/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/Tencent/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tencent/maxDepth.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/Tencent/maxDepth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XiaoHongShu/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/XiaoHongShu/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XiaoHongShu/longestSubString.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/XiaoHongShu/longestSubString.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XiaoHongShu/maximum-width-of-binary-tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/XiaoHongShu/maximum-width-of-binary-tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XiaoHongShu/russian-doll-envelopes.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/XiaoHongShu/russian-doll-envelopes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytedance/3sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/bytedance/3sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytedance/LRUCache.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/bytedance/LRUCache.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytedance/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/bytedance/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytedance/bitSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/bytedance/bitSum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytedance/connectLinkList.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/bytedance/connectLinkList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytedance/cycleLinkList.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/bytedance/cycleLinkList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytedance/findLengthOfLCIS.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/bytedance/findLengthOfLCIS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytedance/islandMaxArea.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/bytedance/islandMaxArea.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytedance/lengthOfLongestSubstring.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/bytedance/lengthOfLongestSubstring.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytedance/longestCommonPrefix.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/bytedance/longestCommonPrefix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytedance/longestConsecutive.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/bytedance/longestConsecutive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytedance/lowestCommonAncestor.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/bytedance/lowestCommonAncestor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytedance/maxProfit.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/bytedance/maxProfit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytedance/maxSquare.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/bytedance/maxSquare.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytedance/merge-intervals.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/bytedance/merge-intervals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytedance/miniStack.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/bytedance/miniStack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytedance/multiply-strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/bytedance/multiply-strings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytedance/reverseWord.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/bytedance/reverseWord.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytedance/search_sort_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/bytedance/search_sort_array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytedance/topKth_heap.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/bytedance/topKth_heap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytedance/topKth_quicksort.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/bytedance/topKth_quicksort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytedance/trapping-rain-water.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/bytedance/trapping-rain-water.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytedance/zigzagLevelOrder.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/bytedance/zigzagLevelOrder.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -80,6 +47,7 @@
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$design_circular_deque.coverage" NAME="design-circular-deque Coverage Results" MODIFIED="1591956703305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queen" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$four_sum__1_.coverage" NAME="four-sum (1) Coverage Results" MODIFIED="1594541609449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$quick_sort.coverage" NAME="quick_sort Coverage Results" MODIFIED="1596361610849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$strip_func.coverage" NAME="strip_func Coverage Results" MODIFIED="1600159702970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/str" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$generate_parentheses.coverage" NAME="generate-parentheses Coverage Results" MODIFIED="1592920223178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recursion" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$length_of_last_word.coverage" NAME="length-of-last-word Coverage Results" MODIFIED="1596813206476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/str" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$titanic_predict.coverage" NAME="titanic_predict Coverage Results" MODIFIED="1582644556542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision_tree/taitannike" />
@@ -188,38 +156,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="inorder.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tree/inorder.py">
+      <file leaf-file-name="merge_sort_1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sort/merge_sort_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+            <state relative-caret-position="165">
+              <caret line="11" column="24" selection-end-line="32" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kth-smallest-number-in-multiplication-table.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/company/pdd/kth-smallest-number-in-multiplication-table.py">
+      <file leaf-file-name="length-of-last-word.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/str/length-of-last-word.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="longest-common-prefix.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/str/longest-common-prefix.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="makeGood.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/str/makeGood.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="reverse-string-ii.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/str/reverse-string-ii.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="reverse-words-in-a-string.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/str/reverse-words-in-a-string.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strip_func.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/str/strip_func.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="matchsticks-to-square.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/company/pdd/matchsticks-to-square.py">
+      <file leaf-file-name="__builtin__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/__builtin__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="261">
+              <caret line="1613" selection-start-line="1613" selection-end-line="1620" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lowest-common-ancestor-of-a-binary-search-tree.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/company/pdd/lowest-common-ancestor-of-a-binary-search-tree.py">
+      <file leaf-file-name="quick_sort.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sort/quick_sort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+            <state relative-caret-position="123">
+              <caret line="26" selection-start-line="26" selection-end-line="31" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quickSort_python.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sort/quickSort_python.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -263,7 +269,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/data_structure/circular-queue.py" />
         <option value="$PROJECT_DIR$/sort/smallest_k_1.py" />
         <option value="$PROJECT_DIR$/tree/sum-of-left-leaves_1.py" />
         <option value="$PROJECT_DIR$/DFS_BFS/ladderLengh.py" />
@@ -314,6 +319,7 @@
         <option value="$PROJECT_DIR$/company/pdd/kth-smallest-number-in-multiplication-table.py" />
         <option value="$PROJECT_DIR$/company/pdd/matchsticks-to-square.py" />
         <option value="$PROJECT_DIR$/company/pdd/lowest-common-ancestor-of-a-binary-search-tree.py" />
+        <option value="$PROJECT_DIR$/str/strip_func.py" />
       </list>
     </option>
   </component>
@@ -337,13 +343,7 @@
             <path>
               <item name="leetcode-bbbbrent" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-bbbbrent" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode-bbbbrent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode-bbbbrent" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="pdd" type="462c0819:PsiDirectoryNode" />
+              <item name="str" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -386,7 +386,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.matchsticks-to-square">
+  <component name="RunManager" selected="Python.strip_func">
     <configuration name="kth-smallest-number-in-multiplication-table" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -463,7 +463,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="top-k-frequent-elements" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="strip_func" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -471,31 +471,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sort" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/str" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sort/top-k-frequent-elements.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/str/strip_func.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.top-k-frequent-elements" />
       <item itemvalue="Python.sort-color" />
       <item itemvalue="Python.russian-doll-envelopes" />
       <item itemvalue="Python.kth-smallest-number-in-multiplication-table" />
       <item itemvalue="Python.matchsticks-to-square" />
+      <item itemvalue="Python.strip_func" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.strip_func" />
         <item itemvalue="Python.matchsticks-to-square" />
         <item itemvalue="Python.kth-smallest-number-in-multiplication-table" />
         <item itemvalue="Python.russian-doll-envelopes" />
         <item itemvalue="Python.sort-color" />
-        <item itemvalue="Python.top-k-frequent-elements" />
       </list>
     </recent_temporary>
   </component>
@@ -509,13 +509,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579577772620</updated>
-    </task>
-    <task id="LOCAL-00039" summary="add some heap,tree">
-      <created>1593093741551</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1593093741551</updated>
     </task>
     <task id="LOCAL-00040" summary="add some dfs bfs">
       <created>1593536668317</created>
@@ -853,7 +846,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600059214221</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="change dir">
+      <created>1600081646410</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1600081646411</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TodoView">
@@ -872,15 +872,15 @@
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32923076" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50061053" side_tool="true" weight="0.46119234" />
       <window_info anchor="right" x="0" y="0" width="370" height="850" id="Documentation" order="7" sideWeight="0.50153846" side_tool="true" visible="true" weight="0.08058608" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.6306471" weight="0.1702564" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.6306471" visible="true" weight="0.1702564" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.3723077" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32923076" />
       <window_info anchor="right" id="leetcode" order="5" side_tool="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32923076" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23199023" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.23199023" />
       <window_info anchor="right" id="SciView" order="4" sideWeight="0.49846154" weight="0.485348" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.4993895" visible="true" weight="0.29846153" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.4993895" weight="0.29846153" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32921174" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -949,7 +949,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add hash table" />
     <MESSAGE value="add some max tree" />
     <MESSAGE value="add some heap" />
     <MESSAGE value="add some heap,tree" />
@@ -974,7 +973,8 @@
     <MESSAGE value="tree" />
     <MESSAGE value="back track" />
     <MESSAGE value="中序遍历-迭代" />
-    <option name="LAST_COMMIT_MESSAGE" value="中序遍历-迭代" />
+    <MESSAGE value="change dir" />
+    <option name="LAST_COMMIT_MESSAGE" value="change dir" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1454,65 +1454,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/company/bytedance/islandMaxArea.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company/bytedance/topKth_quicksort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-          <folding>
-            <element signature="e#86#99#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company/bytedance/topKth_heap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company/bytedance/search_sort_array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company/bytedance/zigzagLevelOrder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stack/min-stack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company/bytedance/miniStack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="63" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure/MiniStack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/company/bytedance/maxProfit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1664,13 +1605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sort/merge_sort_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/random.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3165">
@@ -1702,24 +1636,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sort/quick_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tree/binary-tree-preorder-traversal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
           <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sort/quickSort_python.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -1811,6 +1731,67 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/merge_sort_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/quick_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="26" selection-start-line="26" selection-end-line="31" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/quickSort_python.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/merge_sort_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="24" selection-end-line="32" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/str/length-of-last-word.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/str/longest-common-prefix.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/str/makeGood.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/str/reverse-string-ii.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/str/reverse-words-in-a-string.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="1613" selection-start-line="1613" selection-end-line="1620" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/str/strip_func.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
