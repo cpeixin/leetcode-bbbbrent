@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="pdd    linklist">
-      <change afterPath="$PROJECT_DIR$/company/pdd/find-peak-element.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/pdd/remove-duplicate-letters.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/pdd/find-peak-element.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/pdd/find-peak-element.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -172,8 +171,8 @@
       <file leaf-file-name="find-peak-element.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/company/pdd/find-peak-element.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="370">
+              <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -468,13 +467,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579577772620</updated>
-    </task>
-    <task id="LOCAL-00042" summary="add dp stock">
-      <created>1593881550209</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1593881550209</updated>
     </task>
     <task id="LOCAL-00043" summary="add dp stock">
       <created>1593881771134</created>
@@ -812,7 +804,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600227618235</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="pdd    linklist">
+      <created>1600361899341</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1600361899345</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TodoView">
@@ -826,6 +825,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32923076" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50061053" side_tool="true" weight="0.46119234" />
@@ -1419,7 +1419,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/company/pdd/find-peak-element.py</url>
-          <line>24</line>
+          <line>37</line>
           <option name="timeStamp" value="169" />
         </line-breakpoint>
       </breakpoints>
@@ -1763,8 +1763,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/company/pdd/find-peak-element.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="370">
+          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
         </state>
       </provider>
     </entry>
