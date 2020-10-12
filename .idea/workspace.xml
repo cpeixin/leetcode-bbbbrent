@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="tree">
-      <change afterPath="$PROJECT_DIR$/array/sortColors.py" afterDir="false" />
+    <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="sort color">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -451,13 +450,6 @@
       <option name="presentableId" value="Default" />
       <updated>1579577772620</updated>
     </task>
-    <task id="LOCAL-00047" summary="recall">
-      <created>1594222380785</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1594222380785</updated>
-    </task>
     <task id="LOCAL-00048" summary="recall">
       <created>1594393278625</created>
       <option name="number" value="00048" />
@@ -794,7 +786,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601989922936</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="sort color">
+      <created>1602041198383</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1602041198383</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TodoView">
@@ -808,7 +807,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32923076" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50061053" side_tool="true" weight="0.46119234" />
@@ -890,7 +888,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add some heap,tree" />
     <MESSAGE value="add some dfs bfs" />
     <MESSAGE value="add dp stock" />
     <MESSAGE value="add binary search" />
@@ -915,7 +912,8 @@
     <MESSAGE value="pdd    linklist" />
     <MESSAGE value="pdd" />
     <MESSAGE value="tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="tree" />
+    <MESSAGE value="sort color" />
+    <option name="LAST_COMMIT_MESSAGE" value="sort color" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
