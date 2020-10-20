@@ -1,0 +1,56 @@
+# coding: utf-8
+# Author：Brent
+# Date ：2020/10/20 11:34 PM
+# Tool ：PyCharm
+# Describe ：给定一个单链表 L：L0→L1→…→Ln-1→Ln ，
+# 将其重新排列后变为： L0→Ln→L1→Ln-1→L2→Ln-2→…
+#
+# 你不能只是单纯的改变节点内部的值，而是需要实际的进行节点交换。
+#
+# 来源：力扣（LeetCode）
+# 链接：https://leetcode-cn.com/problems/reorder-list
+
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+class Solution:
+    def reorderList(self, head: ListNode) -> None:
+        if not head:
+            return
+
+        mid = self.middleNode(head)
+        l1 = head
+        l2 = mid.next
+        mid.next = None
+        l2 = self.reverseList(l2)
+        self.mergeList(l1, l2)
+
+    def middleNode(self, head: ListNode) -> ListNode:
+        slow = fast = head
+        while fast.next and fast.next.next:
+            slow = slow.next
+            fast = fast.next.next
+        return slow
+
+    def reverseList(self, head: ListNode) -> ListNode:
+        prev = None
+        curr = head
+        while curr:
+            nextTemp = curr.next
+            curr.next = prev
+            prev = curr
+            curr = nextTemp
+        return prev
+
+    def mergeList(self, l1: ListNode, l2: ListNode):
+        while l1 and l2:
+            l1_tmp = l1.next
+            l2_tmp = l2.next
+
+            l1.next = l2
+            l1 = l1_tmp
+
+            l2.next = l1
+            l2 = l2_tmp
