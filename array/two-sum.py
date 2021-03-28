@@ -1,5 +1,6 @@
 nums = [2, 2, 11, 15]
 
+
 def twoSum(nums, target):
     # hashmap={}
     # for ind,num in enumerate(nums):
@@ -15,6 +16,7 @@ def twoSum(nums, target):
             return [dic[num], i]
         else:
             dic[target - num] = i
+
 
 if __name__ == '__main__':
     twoSum(nums, 9)
