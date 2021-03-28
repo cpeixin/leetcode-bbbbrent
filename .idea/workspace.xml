@@ -1,29 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="山峰数组">
-      <change afterPath="$PROJECT_DIR$/geekAlgorithm010/Week01/NOTE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekAlgorithm010/Week01/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekAlgorithm010/Week01/merge-sorted-array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekAlgorithm010/Week01/move-zeroes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekAlgorithm010/Week01/plus-one.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekAlgorithm010/Week01/remove-duplicates-from-sorted-array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekAlgorithm010/Week01/rotate-array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekAlgorithm010/Week01/swap-nodes-in-pairs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekAlgorithm010/Week01/two-sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekAlgorithm010/Week02/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekAlgorithm010/Week03/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekAlgorithm010/Week04/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekAlgorithm010/Week06/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekAlgorithm010/Week07/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekAlgorithm010/Week08/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekAlgorithm010/Week09/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekAlgorithm010/__init__.py" afterDir="false" />
+    <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="geek homework">
       <change beforePath="$PROJECT_DIR$/.idea/Leetcode-bbbbrent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Leetcode-bbbbrent.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array/findDiagonalOrder.py" beforeDir="false" afterPath="$PROJECT_DIR$/array/findDiagonalOrder.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -505,13 +486,6 @@
       <option name="presentableId" value="Default" />
       <updated>1579577772620</updated>
     </task>
-    <task id="LOCAL-00056" summary="recall">
-      <created>1595522359437</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1595522359438</updated>
-    </task>
     <task id="LOCAL-00057" summary="recall">
       <created>1595643840693</created>
       <option name="number" value="00057" />
@@ -848,7 +822,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604416090708</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="geek homework">
+      <created>1616225975163</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1616225975165</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TodoView">
@@ -927,7 +908,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="data structure" />
     <MESSAGE value="sort" />
     <MESSAGE value="dp" />
     <MESSAGE value="array" />
@@ -952,7 +932,8 @@
     <MESSAGE value="最长山脉" />
     <MESSAGE value="数字出现的次数" />
     <MESSAGE value="山峰数组" />
-    <option name="LAST_COMMIT_MESSAGE" value="山峰数组" />
+    <MESSAGE value="geek homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="geek homework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1376,11 +1357,6 @@
           <url>file://$PROJECT_DIR$/company/bytedance/trapping-rain-water.py</url>
           <line>49</line>
           <option name="timeStamp" value="152" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/pow.py</url>
-          <line>36</line>
-          <option name="timeStamp" value="153" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/company/XiaoHongShu/longestSubString.py</url>
