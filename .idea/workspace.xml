@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="山峰数组">
-      <change afterPath="$PROJECT_DIR$/array/reverseWords.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array/SetZeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/array/SetZeros.java" afterDir="false" />
-    </list>
+    <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="山峰数组" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +121,7 @@
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$canConvertString.coverage" NAME="canConvertString Coverage Results" MODIFIED="1596900926092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5468" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$best_time_to_buy_and_sell_stock.coverage" NAME="best-time-to-buy-and-sell-stock Coverage Results" MODIFIED="1593848272809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$path_crossing.coverage" NAME="path-crossing Coverage Results" MODIFIED="1594919973909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/195" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$reverse_words_in_a_string.coverage" NAME="reverse-words-in-a-string Coverage Results" MODIFIED="1616904718321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/str" />
+    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$reverse_words_in_a_string.coverage" NAME="reverse-words-in-a-string Coverage Results" MODIFIED="1596859463625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/str" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$Pascal_triangle.coverage" NAME="Pascal_triangle Coverage Results" MODIFIED="1591452412166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recursion" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$min_stack.coverage" NAME="min-stack Coverage Results" MODIFIED="1592837011083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stack" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$miniStack.coverage" NAME="miniStack Coverage Results" MODIFIED="1598021206666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bytedance" />
@@ -139,7 +135,6 @@
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$best_time_to_buy_and_sell_stock_iii.coverage" NAME="best-time-to-buy-and-sell-stock-iii Coverage Results" MODIFIED="1595771065422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$map_sum_pairs.coverage" NAME="map-sum-pairs Coverage Results" MODIFIED="1595400382758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trie" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$merge_intervals.coverage" NAME="merge-intervals Coverage Results" MODIFIED="1598707094033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bytedance" />
-    <SUITE FILE_PATH="coverage/leetcode_bbbbrent$setZeroes.coverage" NAME="setZeroes Coverage Results" MODIFIED="1612941761069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$pascals_triangle_ii.coverage" NAME="pascals-triangle-ii Coverage Results" MODIFIED="1595423082518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$findKthPositive.coverage" NAME="findKthPositive Coverage Results" MODIFIED="1596899070035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5468" />
     <SUITE FILE_PATH="coverage/leetcode_bbbbrent$isLongPressedName.coverage" NAME="isLongPressedName Coverage Results" MODIFIED="1603295072862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
@@ -182,7 +177,7 @@
       <file leaf-file-name="uniqueOccurrences.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/array/uniqueOccurrences.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="330">
               <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
               <folding>
                 <element signature="e#164#182#0" expanded="true" />
@@ -191,47 +186,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="validMountainArray.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="validMountainArray.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/array/validMountainArray.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setZeroes.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array/setZeroes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reverse-words-in-a-string.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/str/reverse-words-in-a-string.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reverseWords.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array/reverseWords.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reverse-string.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/array/reverse-string.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state relative-caret-position="75">
+              <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -275,6 +234,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/bytedance/maxProfit.py" />
+        <option value="$PROJECT_DIR$/bytedance/maxSquare.py" />
         <option value="$PROJECT_DIR$/bytedance/multiply-strings.py" />
         <option value="$PROJECT_DIR$/bytedance/reverseWord.py" />
         <option value="$PROJECT_DIR$/bytedance/longestCommonPrefix.py" />
@@ -324,14 +285,12 @@
         <option value="$PROJECT_DIR$/sort/smallerNumbersThanCurrent.py" />
         <option value="$PROJECT_DIR$/array/uniqueOccurrences.py" />
         <option value="$PROJECT_DIR$/array/validMountainArray.py" />
-        <option value="$PROJECT_DIR$/array/setZeroes.py" />
-        <option value="$PROJECT_DIR$/array/reverseWords.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="986" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -346,6 +305,11 @@
             <path>
               <item name="leetcode-bbbbrent" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-bbbbrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode-bbbbrent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode-bbbbrent" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -387,7 +351,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.reverse-words-in-a-string">
+  <component name="RunManager" selected="Python.uniqueOccurrences">
+    <configuration name="isLongPressedName" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Leetcode-bbbbrent" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/isLongPressedName.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="longestMountain" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -407,7 +390,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="reverse-words-in-a-string" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="partitionLabels" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -420,26 +403,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/str/reverse-words-in-a-string.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="setZeroes" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Leetcode-bbbbrent" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/setZeroes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/str/partitionLabels.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -484,19 +448,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
+      <item itemvalue="Python.isLongPressedName" />
+      <item itemvalue="Python.partitionLabels" />
       <item itemvalue="Python.longestMountain" />
       <item itemvalue="Python.smallerNumbersThanCurrent" />
       <item itemvalue="Python.uniqueOccurrences" />
-      <item itemvalue="Python.setZeroes" />
-      <item itemvalue="Python.reverse-words-in-a-string" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.reverse-words-in-a-string" />
-        <item itemvalue="Python.setZeroes" />
         <item itemvalue="Python.uniqueOccurrences" />
         <item itemvalue="Python.smallerNumbersThanCurrent" />
         <item itemvalue="Python.longestMountain" />
+        <item itemvalue="Python.partitionLabels" />
+        <item itemvalue="Python.isLongPressedName" />
       </list>
     </recent_temporary>
   </component>
@@ -868,16 +832,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32923076" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50061053" side_tool="true" weight="0.46119234" />
-      <window_info anchor="right" x="0" y="0" width="370" height="786" id="Documentation" order="7" sideWeight="0.50153846" side_tool="true" visible="true" weight="0.24542125" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.6306471" visible="true" weight="0.17435898" />
+      <window_info anchor="right" x="0" y="0" width="370" height="850" id="Documentation" order="7" sideWeight="0.50153846" side_tool="true" visible="true" weight="0.24542125" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.6306471" weight="0.16923077" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.3723077" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32923076" />
       <window_info anchor="right" id="leetcode" order="5" side_tool="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32923076" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2991453" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2881563" />
       <window_info anchor="right" id="SciView" order="4" sideWeight="0.49846154" weight="0.485348" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.4993895" weight="0.42358974" />
@@ -896,27 +861,27 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2851038" />
+      <window_info anchor="right" id="Json Parser" order="0" />
       <window_info anchor="bottom" id="Run" order="6" sideWeight="0.6306471" weight="0.16923077" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32921174" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32923076" />
-      <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Python Console" order="2" weight="0.32923076" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.3723077" />
+      <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.4993895" visible="true" weight="0.42358974" />
       <window_info anchor="right" x="0" y="0" width="370" height="786" id="Documentation" order="7" sideWeight="0.50153846" side_tool="true" visible="true" weight="0.24542125" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32923076" />
       <window_info anchor="right" id="leetcode" order="5" side_tool="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="5" weight="0.3723077" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50061053" side_tool="true" weight="0.46119234" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="right" id="SciView" order="4" sideWeight="0.49846154" weight="0.485348" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="right" id="Json Parser" order="0" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50061053" side_tool="true" weight="0.46119234" />
       <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.32967034" />
-      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="2" weight="0.32923076" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1504,6 +1469,30 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/company/Tencent/maxDepth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3165">
+          <caret line="219" selection-start-line="219" selection-end-line="219" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/top-k-frequent-elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#222#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sort/sort-color.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1627,6 +1616,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/str/reverse-string-ii.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/str/reverse-words-in-a-string.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1804,7 +1800,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/array/uniqueOccurrences.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="330">
           <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
           <folding>
             <element signature="e#164#182#0" expanded="true" />
@@ -1814,36 +1810,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/array/validMountainArray.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/array/setZeroes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/str/reverse-words-in-a-string.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/array/reverseWords.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/array/reverse-string.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        <state relative-caret-position="75">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
