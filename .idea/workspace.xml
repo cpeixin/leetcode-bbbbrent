@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="geek homework">
-      <change beforePath="$PROJECT_DIR$/.idea/Leetcode-bbbbrent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Leetcode-bbbbrent.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8da7e549-c152-4dbc-a131-ea3990c09ae7" name="Default Changelist" comment="山峰数组" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -294,7 +292,6 @@
     <option name="width" value="1680" />
     <option name="height" value="986" />
   </component>
-  <component name="ProjectId" id="1oNygYQpSYZh3ZZxmPqMsGvhvcq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -320,19 +317,20 @@
       </pane>
     </panes>
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="leetcode.id" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/recursion" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tree" />
+      <recent name="$PROJECT_DIR$/company" />
+      <recent name="$PROJECT_DIR$/array" />
+      <recent name="$PROJECT_DIR$/decision_tree/user_loss" />
+      <recent name="$PROJECT_DIR$/decision_tree/taitannike" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data_structure" />
       <recent name="$PROJECT_DIR$/binary_search" />
@@ -340,16 +338,21 @@
       <recent name="$PROJECT_DIR$/Random_Forest" />
       <recent name="$PROJECT_DIR$/k-means" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/geekAlgorithm010" />
-      <recent name="$PROJECT_DIR$/tree" />
-      <recent name="$PROJECT_DIR$/company" />
-      <recent name="$PROJECT_DIR$/array" />
-      <recent name="$PROJECT_DIR$/decision_tree/user_loss" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.longest-common-prefix">
-    <configuration name="findDiagonalOrder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.uniqueOccurrences">
+    <configuration name="isLongPressedName" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -361,35 +364,12 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/findDiagonalOrder.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/isLongPressedName.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="longest-common-prefix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode-bbbbrent" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/str" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/str/longest-common-prefix.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="longestMountain" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
@@ -409,9 +389,25 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
+    </configuration>
+    <configuration name="partitionLabels" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Leetcode-bbbbrent" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/str" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/str/partitionLabels.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="smallerNumbersThanCurrent" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
@@ -431,9 +427,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="uniqueOccurrences" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode-bbbbrent" />
@@ -453,28 +446,24 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.isLongPressedName" />
+      <item itemvalue="Python.partitionLabels" />
       <item itemvalue="Python.longestMountain" />
       <item itemvalue="Python.smallerNumbersThanCurrent" />
       <item itemvalue="Python.uniqueOccurrences" />
-      <item itemvalue="Python.findDiagonalOrder" />
-      <item itemvalue="Python.longest-common-prefix" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.longest-common-prefix" />
-        <item itemvalue="Python.findDiagonalOrder" />
         <item itemvalue="Python.uniqueOccurrences" />
         <item itemvalue="Python.smallerNumbersThanCurrent" />
         <item itemvalue="Python.longestMountain" />
+        <item itemvalue="Python.partitionLabels" />
+        <item itemvalue="Python.isLongPressedName" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -485,6 +474,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579577772620</updated>
+    </task>
+    <task id="LOCAL-00056" summary="recall">
+      <created>1595522359437</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1595522359438</updated>
     </task>
     <task id="LOCAL-00057" summary="recall">
       <created>1595643840693</created>
@@ -822,14 +818,7 @@
       <option name="project" value="LOCAL" />
       <updated>1604416090708</updated>
     </task>
-    <task id="LOCAL-00105" summary="geek homework">
-      <created>1616225975163</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1616225975165</updated>
-    </task>
-    <option name="localTasksCounter" value="106" />
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TodoView">
@@ -900,14 +889,32 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="data structure" />
     <MESSAGE value="sort" />
     <MESSAGE value="dp" />
     <MESSAGE value="array" />
@@ -932,8 +939,7 @@
     <MESSAGE value="最长山脉" />
     <MESSAGE value="数字出现的次数" />
     <MESSAGE value="山峰数组" />
-    <MESSAGE value="geek homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="geek homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="山峰数组" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1359,6 +1365,11 @@
           <option name="timeStamp" value="152" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pow.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/company/XiaoHongShu/longestSubString.py</url>
           <line>28</line>
           <option name="timeStamp" value="154" />
@@ -1453,17 +1464,8 @@
           <line>30</line>
           <option name="timeStamp" value="178" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/array/findDiagonalOrder.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="181" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/str/longest-common-prefix.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="182" />
-        </line-breakpoint>
       </breakpoints>
+      <option name="time" value="181" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
