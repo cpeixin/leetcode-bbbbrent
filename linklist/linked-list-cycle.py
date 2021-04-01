@@ -8,10 +8,13 @@
 链接：https://leetcode-cn.com/problems/linked-list-cycle
 
 """
+
+
 class ListNode(object):
     def __init__(self, x):
         self.val = x
         self.next = None
+
 
 class Solution(object):
     def hasCycle(self, head):
@@ -26,4 +29,4 @@ class Solution(object):
             fast_node = fast_node.next.next
             slow_node = slow_node.next
 
-        return False
+        return True

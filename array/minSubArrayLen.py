@@ -33,7 +33,6 @@ class Solution:
         return 0 if ans == n + 1 else ans
 
 
-
 if __name__ == '__main__':
     solution = Solution()
     nums = [2, 3, 1, 2, 4, 3]
