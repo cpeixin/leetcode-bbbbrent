@@ -27,13 +27,14 @@ class TreeNode(object):
         self.left = None
         self.right = None
 
+
 class Soulution:
     """递归方法"""
+
     def preorder(self, root):
         res = []
         self.helper(root, res)
         return res
-
 
     def helper(self, root, res):
         if not root: return None
@@ -41,12 +42,12 @@ class Soulution:
         self.helper(root.left, res)
         self.helper(root.right, res)
 
-
     """BFS
     如果使用广度优先遍历，需要注意的是"先入后出"的关键
     对于前序遍历，中->左->右的这个顺序
     需要在栈中先添加右孩子，再添加左孩子，这样在pop()的顺序就是先弹出左孩子，再弹出右孩子
     """
+
     def preorderTraversal(self, root):
         """
         :type root: TreeNode
