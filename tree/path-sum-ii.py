@@ -40,6 +40,7 @@ class TreeNode(object):
 class Solution:
     def pathSum(self, root: TreeNode, sum: int) -> List[List[int]]:
         res, path = [], []
+
         def dfs(root, sum):
             if not root: return []
             path.append(root.val)
@@ -52,11 +53,13 @@ class Solution:
             dfs(root.left, sum)
             dfs(root.right, sum)
             path.pop()
+
         dfs(root, sum)
         return res
 
 
 if __name__ == '__main__':
     case = Solution()
-    root = TreeNode(5, TreeNode(4, TreeNode(11, TreeNode(7), TreeNode(2)), right=None),TreeNode(8, TreeNode(13),TreeNode(4,right=TreeNode(1))))
+    root = TreeNode(5, TreeNode(4, TreeNode(11, TreeNode(7), TreeNode(2)), right=None),
+                    TreeNode(8, TreeNode(13), TreeNode(4, right=TreeNode(1))))
     result = case.pathSum(root, 22)

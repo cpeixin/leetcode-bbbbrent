@@ -30,7 +30,7 @@ class TreeNode(object):
 class Solution(object):
     def buildTree(self, inorder, postorder):
         if not inorder or not postorder: return
-        root  = TreeNode(postorder[-1])
+        root = TreeNode(postorder[-1])
         in_root_index = inorder.index(postorder[-1])
         root.left = self.buildTree(inorder[:in_root_index], postorder[:in_root_index])
         root.right = self.buildTree(inorder[in_root_index+1:], postorder[in_root_index:-1])
