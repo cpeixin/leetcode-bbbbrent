@@ -2,6 +2,7 @@
     "git.ignoreLimitWarning": true,
     "java.project.sourcePaths": [
         "hash_table",
-        "BitManipulation"
+        "BitManipulation",
+        "array"
     ]
 }
