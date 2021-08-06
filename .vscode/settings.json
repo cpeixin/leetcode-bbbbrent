@@ -1,8 +1,11 @@
 {
     "git.ignoreLimitWarning": true,
     "java.project.sourcePaths": [
+        "sort",
         "hash_table",
+        "array",
         "BitManipulation",
-        "array"
-    ]
+        "heap"
+    ],
+    "python.pythonPath": "/usr/local/bin/python3"
 }

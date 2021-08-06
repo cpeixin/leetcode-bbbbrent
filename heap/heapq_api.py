@@ -23,7 +23,7 @@ data = [19, 9, 4, 10, 11, 20, 4]
 
 
 
-# 如果数据已经在内存中，则使用 heapify() 来更有效地重新排列列表中的元素。
+#如果数据已经在内存中，则使用 heapify() 来更有效地重新排列列表中的元素。
 # print('random    :', data)
 # heapq.heapify(data)
 # print('heapified :')
@@ -90,7 +90,7 @@ data = [19, 9, 4, 10, 11, 20, 4]
 # print()
 
 matrix = [
-   [ 1,  5,  9],
+   [1,  5,  9],
    [10, 11, 13],
    [12, 13, 15]
 ]
@@ -100,5 +100,3 @@ for arr in matrix:
     for index in range(len(arr)):
         heapq.heappush(heap, arr[index])
         show_tree(heap)
-
-

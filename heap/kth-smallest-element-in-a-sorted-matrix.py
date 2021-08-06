@@ -21,7 +21,7 @@
 # 来源：力扣（LeetCode）
 # 链接：https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix
 import heapq
-from heap.heapq_showtree import show_tree
+# from heap.heapq_showtree import show_tree
 
 
 def kthSmallest(matrix, k):

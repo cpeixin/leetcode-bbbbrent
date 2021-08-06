@@ -3,7 +3,6 @@ import time
 """
 第一个(外层)for循环作用：控制排序的轮数
 第二个(内层)for循环作用：控制每一轮里的每一个比较步骤
-
 """
 def bubble_sort(arr):
     for i in range(0, len(arr)-1):

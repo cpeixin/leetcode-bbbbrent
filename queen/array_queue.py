@@ -44,4 +44,3 @@ if __name__ == '__main__':
 
     print(array_queue._head)
     print(array_queue._tail)
-
