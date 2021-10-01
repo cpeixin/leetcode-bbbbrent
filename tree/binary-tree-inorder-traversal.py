@@ -18,17 +18,17 @@
 #
 
 class TreeNode:
-    def __init__(self,value):
+    def __init__(self, value):
         self.value = value
         self.left = None
         self.right = None
+
 
 class Solution:
     def inorder(self, root):
         res = []
         self.helper(root, res)
         return res
-
 
     def helper(self, root, res):
         if not root: return None
