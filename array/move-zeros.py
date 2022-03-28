@@ -12,12 +12,24 @@ class Solution:
         Do not return anything, modify nums in-place instead.
         """
         zero_index = 0
-        for i in range(len(nums)):
-            if nums[i] != 0:
-                nums[zero_index], nums[i] = nums[i], nums[zero_index]
-                zero_index+=1
+        for fast_index in range(len(nums)):
+            if nums[fast_index] != 0:
+                nums[zero_index], nums[fast_index] = nums[fast_index], nums[zero_index]
+                zero_index += 1
+        return nums
+
+    def moveZeroesII(self, nums: List[int]) -> None:
+        i = 0
+        for j in range(len(nums)):
+            if nums[j] != 0:
+                nums[i] = nums[j]
+                i += 1
+        for j in range(i, len(nums)):
+            nums[j] = 0
+        return nums
+
 
 if __name__ == '__main__':
-    nums = [0,1,0,3,12]
+    nums = [0, 0, 1, 0, 3, 12]
     solution = Solution()
-    solution.moveZeroes(nums)
+    print(solution.moveZeroes(nums))

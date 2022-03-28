@@ -23,7 +23,6 @@
 #     arr[i], arr[j] = arr[j], arr[i]
 
 
-
 def quickSort(begin, end, nums):
     if begin >= end:
         return
@@ -46,9 +45,10 @@ def partition(begin, end, nums):
     nums[begin], nums[mark] = nums[mark], nums[begin]
     return mark
 
+
 def main():
     array = [4, 3, 1, 6, 7, 2, 9]
-    result = quickSort(0, len(array)-1, array)
+    result = quickSort(0, len(array) - 1, array)
     print(result)
 
 

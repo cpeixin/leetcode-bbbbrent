@@ -20,6 +20,7 @@ def merge(a_list, b_list):
 
 
 def mergeSort(total_list):
+    # 这里即是特例判断 又是 将每次归并的拆分，拆分成包含一个元素的list
     if len(total_list) <= 1:
         return total_list
     mid = len(total_list) >> 1
