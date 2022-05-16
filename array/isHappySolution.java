@@ -3,7 +3,7 @@
     Author  
     Date
  */
-public class isHappy {
+public class isHappySolution {
 
     public static int getNext(int n){
         int d = n / 10;
