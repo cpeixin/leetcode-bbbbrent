@@ -1,10 +1,11 @@
 import java.util.Deque;
+import java.util.LinkedList;
 
 /*
  * @Author: your name
  * @Date: 2021-09-30 11:24:46
- * @LastEditTime: 2021-09-30 11:24:46
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2022-11-05 21:48:04
+ * @LastEditors: congpeixin congpeixin@dongqiudi.com
  * @Description: In User Settings Edit
  * @FilePath: /leetcode-bbbbrent/stack/CQueue.java
  */

@@ -2,15 +2,15 @@
  * @version: 
  * @Author: Brent
  * @Date: 2020-11-21 11:04:58
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2020-11-21 12:28:16
+ * @LastEditors: congpeixin congpeixin@dongqiudi.com
+ * @LastEditTime: 2022-11-05 21:48:38
  * @Descripttion: 
  * 输入一个整型数组，数组中的一个或连续多个整数组成一个子数组。求所有子数组的和的最大值。要求时间复杂度为O(n)。
  */
 
 class Solution {
 
-    public int max3(int num1, int num2, int num3) {
+    public static int max3(int num1, int num2, int num3) {
         return Math.max(num1, Math.max(num2, num3));
     }
     public int maxSubArray(int[] nums) {

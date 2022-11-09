@@ -1,0 +1,140 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch largestRectangleAreaForce",
+            "request": "launch",
+            "mainClass": "largestRectangleAreaForce",
+            "projectName": "leetcode-bbbbrent_e49b5623"
+        },
+        {
+            "type": "java",
+            "name": "Launch calculate",
+            "request": "launch",
+            "mainClass": "calculate",
+            "projectName": "leetcode-bbbbrent_e49b5623"
+        },
+        {
+            "type": "java",
+            "name": "Launch External Terminal",
+            "request": "launch",
+            "console": "externalTerminal",
+            "mainClass": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch HashMapUse",
+            "request": "launch",
+            "mainClass": "HashMapUse",
+            "projectName": "leetcode-bbbbrent_e49b5623"
+        },
+        {
+            "type": "java",
+            "name": "Launch RPN",
+            "request": "launch",
+            "mainClass": "RPN",
+            "projectName": "leetcode-bbbbrent_e49b5623"
+        },
+        {
+            "type": "java",
+            "name": "Launch SetZerosCase",
+            "request": "launch",
+            "mainClass": "SetZerosCase",
+            "projectName": "leetcode-bbbbrent_e49b5623"
+        },
+        {
+            "type": "java",
+            "name": "Launch arrayExpansion",
+            "request": "launch",
+            "mainClass": "arrayExpansion",
+            "projectName": "leetcode-bbbbrent_e49b5623"
+        },
+        {
+            "type": "java",
+            "name": "Launch bubbleSortClass",
+            "request": "launch",
+            "mainClass": "bubbleSortClass",
+            "projectName": "leetcode-bbbbrent_e49b5623"
+        },
+        {
+            "type": "java",
+            "name": "Launch findKthLargest",
+            "request": "launch",
+            "mainClass": "findKthLargest",
+            "projectName": "leetcode-bbbbrent_e49b5623"
+        },
+        {
+            "type": "java",
+            "name": "Launch findKthLargestClass",
+            "request": "launch",
+            "mainClass": "findKthLargestClass",
+            "projectName": "leetcode-bbbbrent_e49b5623"
+        },
+        {
+            "type": "java",
+            "name": "Launch findKthLargestSolution",
+            "request": "launch",
+            "mainClass": "findKthLargestSolution",
+            "projectName": "leetcode-bbbbrent_e49b5623"
+        },
+        {
+            "type": "java",
+            "name": "Launch intersectionSolution",
+            "request": "launch",
+            "mainClass": "intersectionSolution",
+            "projectName": "leetcode-bbbbrent_e49b5623"
+        },
+        {
+            "type": "java",
+            "name": "Launch isHappySolution",
+            "request": "launch",
+            "mainClass": "isHappySolution",
+            "projectName": "leetcode-bbbbrent_e49b5623"
+        },
+        {
+            "type": "java",
+            "name": "Launch mid_index",
+            "request": "launch",
+            "mainClass": "mid_index",
+            "projectName": "leetcode-bbbbrent_e49b5623"
+        },
+        {
+            "type": "java",
+            "name": "Launch moveZeroesClass",
+            "request": "launch",
+            "mainClass": "moveZeroesClass",
+            "projectName": "leetcode-bbbbrent_e49b5623"
+        },
+        {
+            "type": "java",
+            "name": "Launch singleNumberSolution",
+            "request": "launch",
+            "mainClass": "singleNumberSolution",
+            "projectName": "leetcode-bbbbrent_e49b5623"
+        },
+        {
+            "type": "java",
+            "name": "Launch sortArrayClass",
+            "request": "launch",
+            "mainClass": "sortArrayClass",
+            "projectName": "leetcode-bbbbrent_e49b5623"
+        },
+        {
+            "type": "java",
+            "name": "Launch test_bit",
+            "request": "launch",
+            "mainClass": "test_bit",
+            "projectName": "leetcode-bbbbrent_e49b5623"
+        }
+    ]
+}

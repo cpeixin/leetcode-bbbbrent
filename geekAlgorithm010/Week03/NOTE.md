@@ -12,12 +12,12 @@
 ```python
 class Solution:
 	def generateParenthesis(n):
-    	def generate(str, left, right, array=[]):
-        	if left: generate(str+'(', left-1, right)
-        	if right>left: generate(str+')', left, right-1)
-        	if not right: array+=str,
-        	return array
-    	return generate('', n, n)
+    	    def generate(str, left, right, array=[]):
+        	  if left: generate(str+'(', left-1, right)
+        	  if right>left: generate(str+')', left, right-1)
+        	  if not right: array+=str,
+        	  return array
+    	    return generate('', n, n)
 ```
 
 
