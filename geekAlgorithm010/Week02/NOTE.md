@@ -1,5 +1,5 @@
 
-哈希表-映射-集合-二叉树-堆<br />![v2-820fa01be2dfcc080ec67d00ed9efd55_1440w.jpg](https://cdn.nlark.com/yuque/0/2020/jpeg/1072113/1592554431322-a01740ce-a5e4-4496-b2a0-a7130a6f607c.jpeg#align=left&display=inline&height=829&margin=%5Bobject%20Object%5D&name=v2-820fa01be2dfcc080ec67d00ed9efd55_1440w.jpg&originHeight=829&originWidth=1440&size=239867&status=done&style=none&width=1440)<br />堆：可以迅速找到最大值或者最小值的数据结构<br />
+哈希表-映射-集合-二叉树-堆<br />![v2-820fa01be2dfcc080ec67d00ed9efd55_1440w.jpg](/Users/dongqiudi/PycharmProjects/leetcode-bbbbrent/geekAlgorithm010/Week02/1592554431322-a01740ce-a5e4-4496-b2a0-a7130a6f607c.jpeg)<br />堆：可以迅速找到最大值或者最小值的数据结构<br />
 
 <a name="whc7H"></a>
 ### 解题思路
@@ -125,7 +125,7 @@ class Solution(object):
         right = self.maxDepth(root.right)
         return max(left, right)+1
 ```
-![WechatIMG107.jpeg](https://cdn.nlark.com/yuque/0/2020/jpeg/1072113/1592296223996-864bb6a7-8a61-4247-a9d9-91b91e827973.jpeg#align=left&display=inline&height=1080&margin=%5Bobject%20Object%5D&name=WechatIMG107.jpeg&originHeight=1080&originWidth=1440&size=157815&status=done&style=none&width=1440)<br />
+![WechatIMG107.jpeg](/Users/dongqiudi/PycharmProjects/leetcode-bbbbrent/geekAlgorithm010/Week02/1592296223996-864bb6a7-8a61-4247-a9d9-91b91e827973.jpeg)<br />
 <br />**复杂度分析**<br />**时间复杂度**：我们每个结点只访问一次，因此时间复杂度为 O(N)，其中 N是结点的数量。<br />**空间复杂度**：在最糟糕的情况下，树是完全不平衡的，例如每个结点只剩下左子结点，递归将会被调用 N 次（树的高度），因此保持调用栈的存储将是 O(N)。但在最好的情况下（树是完全平衡的），树的高度将是 log(N)。因此，在这种情况下的空间复杂度将是 O(log(N))。<br />
 
 <a name="pCp78"></a>
@@ -230,7 +230,7 @@ class Solution:
 
 <a name="yuSus"></a>
 #### [翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)
-这道题知道用递归做，但是递归函数无从从从从下手～～<br />![image.gif](https://cdn.nlark.com/yuque/0/2020/gif/1072113/1592553146422-2d2b4c01-a50a-4842-a761-4aaf449d20c6.gif#align=left&display=inline&height=543&margin=%5Bobject%20Object%5D&name=image.gif&originHeight=543&originWidth=773&size=456834&status=done&style=none&width=773)<br />其实就是交换一下左右节点，然后再递归的交换左节点，右节点<br />根据动画图我们可以总结出递归的两个条件如下：<br />
+这道题知道用递归做，但是递归函数无从从从从下手～～<br />![image.gif](/Users/dongqiudi/PycharmProjects/leetcode-bbbbrent/geekAlgorithm010/Week02/1592553146422-2d2b4c01-a50a-4842-a761-4aaf449d20c6.gif)<br />其实就是交换一下左右节点，然后再递归的交换左节点，右节点<br />根据动画图我们可以总结出递归的两个条件如下：<br />
 <br />终止条件：当前节点为null时返回<br />交换当前节点的左右节点，再递归的交换当前节点的左节点，递归的交换当前节点的右节点
 ```python
 def invertTree(self, root):
