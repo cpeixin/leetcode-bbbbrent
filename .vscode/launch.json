@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch _asteroidCollision",
+            "request": "launch",
+            "mainClass": "_asteroidCollision",
+            "projectName": "leetcode-bbbbrent_e49b5623"
+        },
+        {
+            "type": "java",
             "name": "Launch largestRectangleAreaForce",
             "request": "launch",
             "mainClass": "largestRectangleAreaForce",
