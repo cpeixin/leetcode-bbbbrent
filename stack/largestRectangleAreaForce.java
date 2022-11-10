@@ -33,7 +33,7 @@ public class largestRectangleAreaForce {
             while(left_index>0 && heights[left_index-1] >= heights[i]){
                 left_index -= 1;
             }
-            while(right_index>0 && right_index<n && heights[right_index+1] >= heights[i]){
+            while(right_index<n-1 && heights[right_index+1] >= heights[i]){
                 right_index += 1;
             }
             

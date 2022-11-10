@@ -11,10 +11,8 @@ import java.util.Deque;
 
 /*
  *
-        只做单调栈思路:参考"编程狂想曲"思路比较好理解
-        1.核心思想:求每条柱子可以向左右延伸的长度->矩形最大宽度;矩形的高->柱子的高度
-            计算以每一根柱子高度为高的矩形面积,维护面积最大值
-        2.朴素的想法:遍历每一根柱子的高度然后向两边进行扩散找到最大宽度
+        想到单调栈：主要是在经过暴力解法后，我们时候可以找到办法，可不可以在一次遍历中就确定其左右边界呢？
+                  在经历画图的过程中，发现这符合栈的性质，后进先出。
         3.单调栈优化:因为最终的目的是寻找对应柱子height[i]右边首个严格小于height[i]的柱子height[r]
             左边同理找到首个严格小于height[i]的柱子height[l]
             维护一个单调递增栈(栈底->栈顶),那么每当遇到新加入的元素<栈顶便可以确定栈顶柱子右边界
@@ -23,34 +21,42 @@ import java.util.Deque;
         时间复杂度:O(N),空间复杂度:O(N)
 */
 public class largestRectangleAreaMono {
-    public static void main(String[] args) {
-        int[] heights = {};
-        int n = heights.length;
-        int[] left = new int[n];
-        int[] right = new int[n];
-        
-        Deque<Integer> mono_stack = new ArrayDeque<Integer>();
-        for (int i = 0; i < n; ++i) {
-            while (!mono_stack.isEmpty() && heights[mono_stack.peek()] >= heights[i]) {
-                mono_stack.pop();
+    public int largestRectangleArea(int[] heights) {
+
+        // 特殊条件判断
+        if(heights.length==0) return 0;
+        if(heights.length==1) return heights[0];
+        Deque<Integer> stack = new ArrayDeque<Integer>();
+
+        // 遍历数组，判断栈顶与当前元素的大小关系
+        for(int i=0; i<heights.length; i++){
+            // 无论当前元素比栈顶元素大或者小，都是要入栈的。
+            // 栈顶涉及到是否要弹出元素，所以要判空。
+            int stack_top = heights[stack.peekLast()];
+            int current_height = 0;
+            int max_area = 0;
+            while(!stack.isEmpty() && stack_top > heights[i]){
+                int top_index = stack.pollLast();
+                current_height = heights[top_index];
+                max_area = Math.max(max_area, current_height * (i-top_index));
             }
-            left[i] = (mono_stack.isEmpty() ? -1 : mono_stack.peek());
-            mono_stack.push(i);
+            stack.addLast(i);
         }
 
-        mono_stack.clear();
-        for (int i = n - 1; i >= 0; --i) {
-            while (!mono_stack.isEmpty() && heights[mono_stack.peek()] >= heights[i]) {
-                mono_stack.pop();
-            }
-            right[i] = (mono_stack.isEmpty() ? n : mono_stack.peek());
-            mono_stack.push(i);
-        }
+
         
-        int ans = 0;
-        for (int i = 0; i < n; ++i) {
-            ans = Math.max(ans, (right[i] - left[i] - 1) * heights[i]);
-        }
-        System.out.println(ans);
+        // 栈顶元素 > 当前元素, 则栈顶元素出！因为可以确定右边界，左边界也可确定，就是左边相邻的元素，因为栈是单调递增
+        // 栈顶元素 < 当前元素, 则当前元素入栈！右侧元素比栈顶大，则右边界无法确定，左边界可确定，就是左边相邻的元素
+
+        
+        
+
+        return 0;
+    }
+    public static void main(String[] args) {
+        int[] heights = {2, 1, 5, 6, 2, 3};
+        largestRectangleAreaMono solution = new largestRectangleAreaMono();
+        int area = solution.largestRectangleArea(heights);
+        System.out.println(area);
     }
 }

@@ -9,6 +9,13 @@
             "name": "Launch _asteroidCollision",
             "request": "launch",
             "mainClass": "_asteroidCollision",
+            "projectName": "leetcode-bbbbrent_f5f45fb1"
+        },
+        {
+            "type": "java",
+            "name": "Launch _asteroidCollision",
+            "request": "launch",
+            "mainClass": "_asteroidCollision",
             "projectName": "leetcode-bbbbrent_e49b5623"
         },
         {

@@ -4,8 +4,8 @@ import java.util.Deque;
 /*
  * @Author: congpeixin congpeixin@dongqiudi.com
  * @Date: 2022-11-10 08:48:44
- * @LastEditors: congpeixin congpeixin@dongqiudi.com
- * @LastEditTime: 2022-11-10 09:54:35
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2022-11-10 22:33:46
  * @FilePath: /leetcode-bbbbrent/stack/_asteroidCollision.java
  * @Description: 给定一个整数数组 asteroids，表示在同一行的行星。
 
@@ -49,34 +49,43 @@ asteroids[i] != 0
 public class _asteroidCollision {
     public int[] asteroidCollision(int[] asteroids) {
         // 特例判断
-        if(asteroids.length==0 || asteroids.length==1) return asteroids;
+        if (asteroids.length == 0 || asteroids.length == 1)
+            return asteroids;
 
-        //创建栈
+        // 创建栈
         Deque<Integer> asteroids_stack = new ArrayDeque<Integer>();
-        
-        for(int i=0; i<asteroids.length; i++) {
+
+        for (int i = 0; i < asteroids.length; i++) {
             int current_asteroid = asteroids[i];
-            //栈是否为空
-            while(!asteroids_stack.isEmpty()){
-                int asteroids_stack_top = asteroids_stack.peekFirst();
+            // 栈是否为空
+            while (!asteroids_stack.isEmpty()) {
+                int asteroids_stack_top = asteroids_stack.peekLast();
                 // 判断当前行星和栈顶行星方向和大小。
-                if((current_asteroid>0 && asteroids_stack_top<0) || (current_asteroid<0 && asteroids_stack_top>0) ){
+                if ((current_asteroid > 0 && asteroids_stack_top < 0)
+                        || (current_asteroid < 0 && asteroids_stack_top > 0)) {
                     // 当前行星质量大于等于栈顶行星质量
-                    if((Math.abs(current_asteroid)>=Math.abs(asteroids_stack_top))){
+                    if ((Math.abs(current_asteroid) >= Math.abs(asteroids_stack_top))) {
                         // 栈顶行星被撞爆炸！！出栈
-                        asteroids_stack.removeFirst();
+                        asteroids_stack.removeLast();
                     }
+                } else {
+                    break;
                 } 
             }
-            asteroids_stack.addFirst(current_asteroid);
+            asteroids_stack.addLast(current_asteroid);
         }
-        return (Integer[]) asteroids_stack.toArray();
-    }   
+        return asteroids_stack.stream().mapToInt(x -> x).toArray();
+
+    }
 
     public static void main(String[] args) {
-        int[] asteroids = {4,5,-6};
+        int[] asteroids = {10,2,-5};
         _asteroidCollision solution = new _asteroidCollision();
         int[] res = solution.asteroidCollision(asteroids);
         System.out.println(res);
+
+        for(int i: res) {
+            System.out.println(i);
+        }
     }
 }
