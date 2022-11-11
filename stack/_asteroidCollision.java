@@ -4,8 +4,8 @@ import java.util.Deque;
 /*
  * @Author: congpeixin congpeixin@dongqiudi.com
  * @Date: 2022-11-10 08:48:44
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-11-10 22:33:46
+ * @LastEditors: congpeixin congpeixin@dongqiudi.com
+ * @LastEditTime: 2022-11-11 18:54:04
  * @FilePath: /leetcode-bbbbrent/stack/_asteroidCollision.java
  * @Description: 给定一个整数数组 asteroids，表示在同一行的行星。
 
@@ -56,30 +56,26 @@ public class _asteroidCollision {
         Deque<Integer> asteroids_stack = new ArrayDeque<Integer>();
 
         for (int i = 0; i < asteroids.length; i++) {
-            int current_asteroid = asteroids[i];
-            // 栈是否为空
-            while (!asteroids_stack.isEmpty()) {
-                int asteroids_stack_top = asteroids_stack.peekLast();
-                // 判断当前行星和栈顶行星方向和大小。
-                if ((current_asteroid > 0 && asteroids_stack_top < 0)
-                        || (current_asteroid < 0 && asteroids_stack_top > 0)) {
-                    // 当前行星质量大于等于栈顶行星质量
-                    if ((Math.abs(current_asteroid) >= Math.abs(asteroids_stack_top))) {
-                        // 栈顶行星被撞爆炸！！出栈
-                        asteroids_stack.removeLast();
-                    }
-                } else {
-                    break;
-                } 
+            // 正在飞行的行星
+            int flying_asteroid = asteroids[i];
+            // 正在飞行的行星时候还存在
+            boolean flying_asteroid_alive = true;
+            while(flying_asteroid_alive && flying_asteroid < 0 && asteroids_stack.peek() > 0 && !asteroids_stack.isEmpty()){
+                flying_asteroid_alive = asteroids_stack.peek() < -flying_asteroid;
+                if(asteroids_stack.peek() <= -flying_asteroid){
+                    // 栈顶行星质量小于飞进来的行星，栈顶行星出栈
+                    asteroids_stack.poll();
+                }
             }
-            asteroids_stack.addLast(current_asteroid);
+            asteroids_stack.push(flying_asteroid);
+
         }
         return asteroids_stack.stream().mapToInt(x -> x).toArray();
 
     }
 
     public static void main(String[] args) {
-        int[] asteroids = {10,2,-5};
+        int[] asteroids = {4,5,-6};
         _asteroidCollision solution = new _asteroidCollision();
         int[] res = solution.asteroidCollision(asteroids);
         System.out.println(res);
