@@ -10,8 +10,6 @@
                 输出：10
                 解释：最大的矩形为图中红色区域，面积为 10
  */
-import java.util.ArrayDeque;
-import java.util.Deque;
 
 /*
  * 暴力法
@@ -21,8 +19,10 @@ public class largestRectangleAreaForce {
 
     public int largestRectangleArea(int[] heights) {
         int n = heights.length;
-        if (heights.length == 0) return 0;
-        if (heights.length == 1) return heights[0];
+        if (heights.length == 0)
+            return 0;
+        if (heights.length == 1)
+            return heights[0];
 
         int max_area = 0;
         for (int i = 0; i < n; i++) {
@@ -30,20 +30,21 @@ public class largestRectangleAreaForce {
             int width = 0;
             int left_index = i;
             int right_index = i;
-            while(left_index>0 && heights[left_index-1] >= heights[i]){
+            while (left_index > 0 && heights[left_index - 1] >= heights[i]) {
                 left_index -= 1;
             }
-            while(right_index<n-1 && heights[right_index+1] >= heights[i]){
+            while (right_index < n - 1 && heights[right_index + 1] >= heights[i]) {
                 right_index += 1;
             }
-            
+
             width = right_index - left_index + 1;
-            max_area = Math.max(max_area, width*height);
+            max_area = Math.max(max_area, width * height);
         }
         return max_area;
     }
+
     public static void main(String[] args) {
-        int[] heights = {2, 1, 5, 6, 2, 3};
+        int[] heights = { 2, 1, 5, 6, 2, 3 };
         largestRectangleAreaForce solution = new largestRectangleAreaForce();
         int area = solution.largestRectangleArea(heights);
         System.out.println(area);
