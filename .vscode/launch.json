@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch nextGreaterElementSolution",
+            "request": "launch",
+            "mainClass": "nextGreaterElementSolution",
+            "projectName": "leetcode-bbbbrent_f5f45fb1"
+        },
+        {
+            "type": "java",
+            "name": "Launch largestRectangleAreaMono",
+            "request": "launch",
+            "mainClass": "largestRectangleAreaMono",
+            "projectName": "leetcode-bbbbrent_f5f45fb1"
+        },
+        {
+            "type": "java",
             "name": "Launch _asteroidCollision",
             "request": "launch",
             "mainClass": "_asteroidCollision",

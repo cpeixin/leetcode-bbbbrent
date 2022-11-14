@@ -1,13 +1,15 @@
+
 /*
  * @Author: congpeixin congpeixin@dongqiudi.com
  * @Date: 2022-11-08 09:20:57
- * @LastEditors: congpeixin congpeixin@dongqiudi.com
- * @LastEditTime: 2022-11-08 09:36:08
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2022-11-12 14:32:38
  * @FilePath: /leetcode-bbbbrent/stack/largestRectangleArea.java
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
 import java.util.ArrayDeque;
 import java.util.Deque;
+import java.util.Stack;
 
 /*
  *
@@ -22,39 +24,48 @@ import java.util.Deque;
 */
 public class largestRectangleAreaMono {
     public int largestRectangleArea(int[] heights) {
+        // 初始化最终结果为0
+        int res = 0;
+        Stack<Integer> stack = new Stack<>();
 
-        // 特殊条件判断
-        if(heights.length==0) return 0;
-        if(heights.length==1) return heights[0];
-        Deque<Integer> stack = new ArrayDeque<Integer>();
-
-        // 遍历数组，判断栈顶与当前元素的大小关系
-        for(int i=0; i<heights.length; i++){
-            // 无论当前元素比栈顶元素大或者小，都是要入栈的。
-            // 栈顶涉及到是否要弹出元素，所以要判空。
-            int stack_top = heights[stack.peekLast()];
-            int current_height = 0;
-            int max_area = 0;
-            while(!stack.isEmpty() && stack_top > heights[i]){
-                int top_index = stack.pollLast();
-                current_height = heights[top_index];
-                max_area = Math.max(max_area, current_height * (i-top_index));
-            }
-            stack.addLast(i);
+        // 将给定的原数组左右各添加一个元素0
+        int[] newHeights = new int[heights.length + 2];
+        newHeights[0] = 0;
+        newHeights[newHeights.length - 1] = 0;
+        for (int i = 1; i < heights.length + 1; i++) {
+            newHeights[i] = heights[i - 1];
         }
 
+        // 开始遍历
+        for (int i = 0; i < newHeights.length; i++) {
+            // 如果栈不为空且当前考察的元素值小于栈顶元素值，
+            // 则表示以栈顶元素值为高的矩形面积可以确定
+            while (!stack.isEmpty() && newHeights[i] < newHeights[stack.peek()]) {
+                // 弹出栈顶元素
+                int cur = stack.pop();
+                // 获取栈顶元素对应的高
+                int curHeight = newHeights[cur];
 
-        
-        // 栈顶元素 > 当前元素, 则栈顶元素出！因为可以确定右边界，左边界也可确定，就是左边相邻的元素，因为栈是单调递增
-        // 栈顶元素 < 当前元素, 则当前元素入栈！右侧元素比栈顶大，则右边界无法确定，左边界可确定，就是左边相邻的元素
+                // 栈顶元素弹出后，新的栈顶元素就是其左侧边界
+                int leftIndex = stack.peek();
+                // 右侧边界是当前考察的索引
+                int rightIndex = i;
+                // 计算矩形宽度
+                int curWidth = rightIndex - leftIndex - 1;
 
-        
-        
+                // 计算面积
+                res = Math.max(res, curWidth * curHeight);
+            }
 
-        return 0;
+            // 当前考察索引入栈
+            stack.push(i);
+        }
+
+        return res;
     }
+
     public static void main(String[] args) {
-        int[] heights = {2, 1, 5, 6, 2, 3};
+        int[] heights = { 2, 1, 5, 6, 2, 3 };
         largestRectangleAreaMono solution = new largestRectangleAreaMono();
         int area = solution.largestRectangleArea(heights);
         System.out.println(area);

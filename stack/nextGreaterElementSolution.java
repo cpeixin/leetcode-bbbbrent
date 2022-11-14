@@ -1,8 +1,12 @@
+import java.util.ArrayDeque;
+import java.util.Deque;
+import java.util.HashMap;
+
 /*
  * @Author: congpeixin congpeixin@dongqiudi.com
  * @Date: 2022-11-14 09:17:08
- * @LastEditors: congpeixin congpeixin@dongqiudi.com
- * @LastEditTime: 2022-11-14 09:47:56
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2022-11-14 22:32:43
  * @FilePath: /leetcode-bbbbrent/stack/nextGreaterElementSolution.java
  * @Description: nums1 中数字 x 的 下一个更大元素 是指 x 在 nums2 中对应位置 右侧 的 第一个 比 x 大的元素。
 
@@ -29,30 +33,60 @@
 nums1是nums2的子集，并且求得是nums1中元素，在nums2中相应下一个最大值
 
 
+时间复杂度：O(m + n)
+
+O(m+n)，其中 mm 是 \textit{nums}_1nums 
+1
+​
+  的长度，nn 是 \textit{nums}_2nums 
+2
+​
+  的长度。我们需要遍历 \textit{nums}_2nums 
+2
+​
+  以计算 \textit{nums}_2nums 
+2
+​
+  中每个元素右边的第一个更大的值；需要遍历 \textit{nums}_1nums 
+1
+​
+  以生成查询结果。
+
+空间复杂度：O(n)
+O(n)，用于存储哈希表。
 
  */
 public class nextGreaterElementSolution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
-        int[] res2 = new Int[nums2.length];
+        int[] res1 = new int[nums1.length];
+        HashMap<Integer, Integer> nums2Map = new HashMap<Integer, Integer>();
+        Deque<Integer> stack = new ArrayDeque<Integer>();
 
-        Deque<Integer> res = new ArrayDeque<Integer>();
-
-        for(int i=0;i<nums2.length;i++){
-            while(!stack.isEmpty() && stack.peekLast()<nums2[i]){
+        for (int i = 0; i < nums2.length; i++) {
+            while (!stack.isEmpty() && nums2[stack.peekLast()] < nums2[i]) {
                 int pre_index = stack.pollLast();
-                res2[pre_index] = nums2[i];
+                nums2Map.put(nums2[pre_index], nums2[i]);
             }
             stack.addLast(i);
         }
 
-        return res2;
+        for (int j = 0; j < nums1.length; j++) {
+            res1[j] = (int) nums2Map.getOrDefault(nums1[j], -1);
+        }
+
+        return res1;
     }
 
     public static void main(String[] args) {
-        int[] nums2 = {1,3,4,2};
+        int[] nums1 = { 4, 1, 2 };
+        int[] nums2 = { 1, 3, 4, 2 };
         nextGreaterElementSolution solution = new nextGreaterElementSolution();
 
-        int[] res = solution.nextGreaterElement(nums2);
-        System.out.println(res);
+        int[] res = solution.nextGreaterElement(nums1, nums2);
+        // System.out.println(res);
+
+        for (int i = 0; i < res.length; i++) {
+            System.out.println(res[i]);
+        }
     }
 }
