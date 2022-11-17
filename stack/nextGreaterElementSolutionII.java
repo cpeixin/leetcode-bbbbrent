@@ -1,12 +1,13 @@
 import java.util.ArrayDeque;
+import java.util.Arrays;
 import java.util.Deque;
 import java.util.HashMap;
 
 /*
  * @Author: congpeixin congpeixin@dongqiudi.com
  * @Date: 2022-11-14 09:17:08
- * @LastEditors: congpeixin congpeixin@dongqiudi.com
- * @LastEditTime: 2022-11-15 09:26:21
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2022-11-16 21:32:07
  * @FilePath: /leetcode-bbbbrent/stack/nextGreaterElementSolution.java
  * @Description: 给定一个循环数组 nums （ nums[nums.length - 1] 的下一个元素是 nums[0] ），返回 nums 中每个元素的 下一个更大元素 。
 
@@ -28,19 +29,22 @@ import java.util.HashMap;
 
  */
 public class nextGreaterElementSolutionII {
-  public int[] nextGreaterElements(int[] nums) {
-    for(int i=0; i<nums.length; i++) {
-        System.out.println(nums[i]);
-        if (i==nums.length - 1) {
-            i=-1;
+    public int[] nextGreaterElements(int[] nums) {
+        int n = nums.length;
+        int[] ret = new int[n];
+        Arrays.fill(ret, -1);
+        Deque<Integer> stack = new ArrayDeque<Integer>();
+        for (int i = 0; i < n * 2 - 1; i++) {
+            while (!stack.isEmpty() && nums[stack.peek()] < nums[i % n]) {
+                ret[stack.pop()] = nums[i % n];
+            }
+            stack.push(i % n);
         }
+        return ret;
     }
-    return new int[nums.length];
-  }
 
     public static void main(String[] args) {
         int[] nums1 = { 4, 1, 2 };
-        int[] nums2 = { 1, 3, 4, 2 };
         nextGreaterElementSolutionII solution = new nextGreaterElementSolutionII();
         int[] res = solution.nextGreaterElements(nums1);
         for (int i = 0; i < res.length; i++) {

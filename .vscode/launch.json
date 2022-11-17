@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch scoreOfParenthesesSolution",
+            "request": "launch",
+            "mainClass": "scoreOfParenthesesSolution",
+            "projectName": "leetcode-bbbbrent_f5f45fb1"
+        },
+        {
+            "type": "java",
+            "name": "Launch nextGreaterElementSolutionII",
+            "request": "launch",
+            "mainClass": "nextGreaterElementSolutionII",
+            "projectName": "leetcode-bbbbrent_f5f45fb1"
+        },
+        {
+            "type": "java",
             "name": "Launch nextGreaterElementSolution",
             "request": "launch",
             "mainClass": "nextGreaterElementSolution",
