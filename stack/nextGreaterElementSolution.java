@@ -6,7 +6,7 @@ import java.util.HashMap;
  * @Author: congpeixin congpeixin@dongqiudi.com
  * @Date: 2022-11-14 09:17:08
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-11-14 22:32:43
+ * @LastEditTime: 2022-11-17 09:12:51
  * @FilePath: /leetcode-bbbbrent/stack/nextGreaterElementSolution.java
  * @Description: nums1 中数字 x 的 下一个更大元素 是指 x 在 nums2 中对应位置 右侧 的 第一个 比 x 大的元素。
 

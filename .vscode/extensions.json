@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "wx-chevalier.google-java-format"
+        "wx-chevalier.google-java-format",
+        "redhat.java"
     ]
 }
