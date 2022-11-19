@@ -1,9 +1,13 @@
+import java.util.HashSet;
+import java.util.Set;
+import java.util.Stack;
+
 /*
  * @version: 
  * @Author: Brent
  * @Date: 2022-11-18 08:50:36
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-11-18 09:10:11
+ * @LastEditTime: 2022-11-19 08:23:13
  * @Descripttion: 给你一个由 '('、')' 和小写字母组成的字符串 s。
 
 你需要从字符串中删除最少数目的 '(' 或者 ')' （可以删除任意位置的括号)，使得剩下的「括号字符串」有效。
@@ -40,7 +44,7 @@ public class minRemoveToMakeValidSolution {
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == '(') {
                 stack.push(i);
-            } 
+            }
             if (s.charAt(i) == ')') {
                 if (stack.isEmpty()) {
                     indexesToRemove.add(i);
@@ -50,7 +54,8 @@ public class minRemoveToMakeValidSolution {
             }
         }
         // Put any indexes remaining on stack into the set.
-        while (!stack.isEmpty()) indexesToRemove.add(stack.pop());
+        while (!stack.isEmpty())
+            indexesToRemove.add(stack.pop());
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < s.length(); i++) {
             if (!indexesToRemove.contains(i)) {
@@ -60,11 +65,10 @@ public class minRemoveToMakeValidSolution {
         return sb.toString();
     }
 
-
     public static void main(String[] args) {
         String demo = "lee(t(c)o)de)";
         minRemoveToMakeValidSolution solution = new minRemoveToMakeValidSolution();
-        string res = solution.minRemoveToMakeValid(demo);
+        String res = solution.minRemoveToMakeValid(demo);
         System.out.println(res);
     }
 }

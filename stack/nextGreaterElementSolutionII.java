@@ -7,7 +7,7 @@ import java.util.HashMap;
  * @Author: congpeixin congpeixin@dongqiudi.com
  * @Date: 2022-11-14 09:17:08
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-11-18 10:06:39
+ * @LastEditTime: 2022-11-19 08:23:34
  * @FilePath: /leetcode-bbbbrent/stack/nextGreaterElementSolution.java
  * @Description: 给定一个循环数组 nums （ nums[nums.length - 1] 的下一个元素是 nums[0] ），返回 nums 中每个元素的 下一个更大元素 。
 
@@ -51,5 +51,4 @@ public class nextGreaterElementSolutionII {
             System.out.println(res[i]);
         }
     }
-  }
 }
