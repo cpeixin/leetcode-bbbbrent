@@ -1,3 +1,7 @@
+import java.util.HashSet;
+import java.util.Set;
+import java.util.Stack;
+
 /*
  * @version: 
  * @Author: Brent
@@ -64,7 +68,7 @@ public class minRemoveToMakeValidSolution {
     public static void main(String[] args) {
         String demo = "lee(t(c)o)de)";
         minRemoveToMakeValidSolution solution = new minRemoveToMakeValidSolution();
-        string res = solution.minRemoveToMakeValid(demo);
+        String res = solution.minRemoveToMakeValid(demo);
         System.out.println(res);
     }
 }
