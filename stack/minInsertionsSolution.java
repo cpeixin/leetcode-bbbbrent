@@ -42,36 +42,127 @@
 输入：s = ")))))))"
 输出：5
 解释：在字符串开头添加 4 个 '(' 并在结尾添加 1 个 ')' ，字符串变成平衡字符串 "(((())))))))" 。
- */
-public class minInsertionsSolution {
-    public int minInsertions(String s) {
-        int res = 0;
-        int need = 0;
+
+
+题解：用到了栈思想，但是可以不使用栈
+
+核心思路：
+
+首先抽象主干代码
+
+需要右括号数：right_need
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
             if (c == '(') {
+                // 遇到一个左括号，需要两个右括号
+                right_need += 2;
+            } else {
+                // 遇到一个右括号，将需要右括号的数量 -1
+                right_need -= 1;
+            }
+        }
+
+但是这里少了一个需要左括号数，因为回看题意，还有可能缺少左括号的情况。你可以在任意位置插入字符 '(' 和 ')' 使字符串平衡。
+
+看下这一段，如果全是右括号的情况怎么办？，或者字符串以右括号开始，我们就要补充左括号啦~~
+else {
+      // 遇到一个右括号，将需要右括号的数量 -1
+      right_need -= 1;
+}
+
+什么时候添加左括号？
+初步想法：当遇到两个连续的右括号 '))',这时添加一个左括号，并且右括号right_need归零，有没有问题呢？
+
+以下代码在偶数个全是右括号的情况下【'))))))'】没有问题
+但是在奇数个右括号')))))))'或者不成双出现右括号的情况')()'都有问题。
+
+到这里就可以想到，对于左括号的添加，不能等到两个连续的右括号 '))'，而是遇到一个')'，就要开始添加字符。
+
+else {
+    need--;
+    if (need == -2) {
+        res++;
+        need = 0;
+    }
+}
+
+')()' 遇到第一个右括号，此时 左括号需要一个，右括号需要一个，才能完成第一个右括号的匹配。
+need=0
+else {
+    need--;
+    if (need == -1) {
+        res++;
+        need = 1; // 如果是成对出现的右括号，下一次循环，就会将这个 1 减掉。
+    }
+}
+
+好了，现在主干代码变成这样了
+
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (c == '(') {
+                // 遇到一个左括号，需要两个右括号
+                right_need += 2;
+            } else {
+                need--;
+                if (need == -1) {
+                    res++;
+                    need = 1; // 如果是成对出现的右括号，下一次循环，就会将这个 1 减掉。
+                }
+            }
+        }
+
+但是 "(()))(()))()())))" 异常了~~
+
+看其他网友的题解，感觉这句话瞬间懂了~~ TQL！！！判断在遇到左括号时，要判断右括号的需求量，因为左右括号的匹配是 1:2 的。若对右括号的需求量为奇数，则只需要插入一个右括号
+
+所以在 if (c == '(') {
+                // 遇到一个左括号，需要两个右括号
+                right_need += 2;
+            }
+添加
+            if (c == '(') {
                 need += 2;
+                //因为右括号数量必须是偶数，所以当遇到左括号时判断need，如果是奇数则添加一个右括号以平衡（表现为res++），添加之后，我们对右的需求减少1个，因此need-- 
+//（我理解本质是发生的需求的转移，通过res将对右括号的需求转移到res，可以理解成逻辑上 我们前面部分已经“完全匹配”）--“（））” 把这个测试用例带进去就能理解了
                 if (need % 2 == 1) { // 右括号数量只能为偶数，但只能添（右括号少了）
                     res++; // 插入一个右括号
                     need--; // 对右括号的需求-1
                 }
+            }
+
+
+ */
+public class minInsertionsSolution {
+    public int minInsertions(String s) {
+        int add = 0;
+        int right_need = 0;
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (c == '(') {
+                right_need += 2;
+                // 判断右括号的需求量是否为奇数
+                if (right_need % 2 == 1) {
+                    // 插入一个右括号，同时右括号的需求减1 
+                    // add++; 
+                    right_need+=1;
+                }
             } else {
-                need--;
-                // need不可能小于-1，因为此处-1后若走上面必有+2
-                if (need == -1) { // 右括号多了
-                    res++; // 插入一个左括号
-                    need = 1;
+                right_need-=1;
+                if (right_need == -1) { // 右括号多了
+                    add++; // 插入一个左括号
+                    right_need = 1;
                 }
             }
         }
-        return res + need;
+        return add + right_need;
     }
 
     public static void main(String[] args) {
-        String demo = "(()))";
+        String demo = "(()))(()))()())))";
+        // String demo = "(()))(()))()())";
         minInsertionsSolution solution = new minInsertionsSolution();
         int res = solution.minInsertions(demo);
-        // System.out.println(res);
         System.out.println(res);
     }
 }

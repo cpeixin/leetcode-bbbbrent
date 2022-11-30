@@ -30,25 +30,28 @@ public class canBeValidSolution {
     public boolean canBeValid(String s, String locked) {
         // 特例判断
         // 字符串长度为奇数，直接返回FALSE
-        if(s.length()%2!=0) return false; 
+        if (s.length() % 2 != 0)
+            return false;
 
         Deque<Integer> left_stack = new ArrayDeque<Integer>();
         Deque<Integer> zero_stack = new ArrayDeque<Integer>();
 
-        for(int i=0; i< s.length();i++){
+        for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
             char lock_c = locked.charAt(i);
             // 不能变化的字符入栈
-            if(lock_c == '1'){
-                if(c=='('){
+            if (lock_c == '1') {
+                if (c == '(') {
                     left_stack.addLast(i);
-                }else{
-                    // 右括号
-                    if(!left_stack.isEmpty()){
+                } else {// 右括号
+                        // 寻找左括号抵消
+                    if (!left_stack.isEmpty()) {
                         left_stack.pollLast();
-                    }else if(!zero_stack.isEmpty()){
+                    } else if (!zero_stack.isEmpty()) {
+                        // 寻找 0 抵消
                         zero_stack.pollLast();
-                    }else return false;
+                    } else
+                        return false; // 左括号栈和0栈为空的情况下，直接返回FALSE
                 }
             } else {
                 // 可以变化的字符入栈
@@ -56,15 +59,17 @@ public class canBeValidSolution {
             }
         }
 
-        while(!left_stack.isEmpty() && !zero_stack.isEmpty()){
+        // 最后两栈如果都不为空，字符一次弹出进行抵消，如果 0的下标不是在左括号下标后面，则直接返回false
+        while (!left_stack.isEmpty() && !zero_stack.isEmpty()) {
             int left_stack_top = left_stack.pollLast();
             int zero_stack_top = zero_stack.pollLast();
-            if(left_stack_top>zero_stack_top){
+            if (left_stack_top > zero_stack_top) {
                 return false;
             }
         }
 
-        return left_stack.isEmpty() && zero_stack.size()%2==0;
+        // 左括号需要被完全匹配并且剩余的可变字符个数为偶数，以方便它们两两匹配
+        return left_stack.isEmpty() && zero_stack.size() % 2 == 0;
     }
 
     public static void main(String[] args) {
