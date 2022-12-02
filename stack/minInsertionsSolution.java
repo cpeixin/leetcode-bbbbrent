@@ -144,8 +144,8 @@ public class minInsertionsSolution {
                 // 判断右括号的需求量是否为奇数
                 if (right_need % 2 == 1) {
                     // 插入一个右括号，同时右括号的需求减1 
-                    // add++; 
-                    right_need+=1;
+                    add++; 
+                    right_need-=1;
                 }
             } else {
                 right_need-=1;
@@ -159,8 +159,8 @@ public class minInsertionsSolution {
     }
 
     public static void main(String[] args) {
-        String demo = "(()))(()))()())))";
-        // String demo = "(()))(()))()())";
+        // String demo = "(()))(()))()())))";
+        String demo = "(()))(()))()())";
         minInsertionsSolution solution = new minInsertionsSolution();
         int res = solution.minInsertions(demo);
         System.out.println(res);
