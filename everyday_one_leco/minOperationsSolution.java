@@ -44,7 +44,7 @@ package everyday_one_leco;
 
 public class minOperationsSolution {
     public int[] minOperations(String boxes) {
-        int left = Integer.valueOf(boxes.charAt(0)), right = 0, operations = 0;
+        int right = 0, operations = 0;
         int n = boxes.length();
         for (int i = 1; i < n; i++) {
             if (boxes.charAt(i) == '1') {
@@ -54,6 +54,8 @@ public class minOperationsSolution {
         }
         int[] res = new int[n];
         res[0] = operations;
+        // 从计算第1位操作步数开始，就需要统计左侧1的个数了
+        int left = Integer.valueOf(boxes.charAt(0));
         for (int i = 1; i < n; i++) {
             operations += left - right;
             if (boxes.charAt(i) == '1') {
