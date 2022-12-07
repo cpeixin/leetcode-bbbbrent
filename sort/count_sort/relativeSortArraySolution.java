@@ -21,6 +21,9 @@ arr2 中的每个元素都出现在 arr1 中
 arr2 中的元素 arr2[i] 各不相同
 arr2 中的每个元素 arr2[i] 都出现在 arr1 中
 
+
+
+
  */
 public class relativeSortArraySolution {
     public int[] relativeSortArray(int[] arr1, int[] arr2) {
@@ -33,6 +36,13 @@ public class relativeSortArraySolution {
 
         int i=0;
         for(int num: arr2){
+            while(counts[num] > 0){
+                arr1[i++] = num;
+                counts[num] -= 1;
+            }
+        }
+
+        for(int num=0; num < counts.length; num++){
             while(counts[num] > 0){
                 arr1[i++] = num;
                 counts[num] -= 1;
