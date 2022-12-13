@@ -1,5 +1,6 @@
 package quick_sort;
 
+import java.util.Arrays;
 import java.util.Random;
 /**
  * 912. 排序数组
@@ -19,6 +20,7 @@ import java.util.Random;
  */
 public class sortArraySolution {
     public int[] sortArray(int[] nums) {
+        Arrays.sort(nums);
         return nums;
     }
 
