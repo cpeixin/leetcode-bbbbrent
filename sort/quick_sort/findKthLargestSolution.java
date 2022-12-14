@@ -2,11 +2,13 @@
  * @version: 
  * @Author: Brent
  * @Date: 2022-12-12 22:20:34
- * @LastEditors: 
- * @LastEditTime: 2022-12-12 22:20:47
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2022-12-13 22:02:53
  * @Descripttion: 
  */
 package quick_sort;
+
+import java.util.Random;
 
 /**
  * 数组中的第K个最大元素
@@ -24,6 +26,50 @@ package quick_sort;
  */
 public class findKthLargestSolution {
     public int findKthLargest(int[] nums, int k) {
+        // 特例判断
+        if (nums.length == 1) {
+            return nums[0];
+        }
+        int res = quickSort(nums, 0, nums.length - 1, nums.length - k);
+        return res;
+    }
 
+    public int partition(int[] nums, int left, int right, int k) {
+        // int pivot_index = new Random().nextInt(right - left + 1) + left;
+        // swap(nums, pivot_index, right);
+
+        int head = left;
+        for (int i = left; i < right; i++) {
+            if (nums[i] <= nums[right]) {
+                swap(nums, i, head);
+                head += 1;
+            }
+        }
+        swap(nums, head, right);
+        return head;
+    }
+
+    public int quickSort(int[] nums, int left, int right, int k) {
+        int pivot = partition(nums, left, right, k);
+        if (pivot == k) {
+            return nums[pivot];
+        } else if (pivot < k) {
+            return quickSort(nums, pivot + 1, right, k);
+        } else {
+            return quickSort(nums, left, pivot - 1, k);
+        }
+    }
+
+    public void swap(int[] nums, int first, int second) {
+        int temp = nums[first];
+        nums[first] = nums[second];
+        nums[second] = temp;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = { 2, 1 };
+        findKthLargestSolution solution = new findKthLargestSolution();
+        int res = solution.findKthLargest(nums, 2);
+        System.out.println(res);
     }
 }

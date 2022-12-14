@@ -3,7 +3,7 @@
  * @Author: Brent
  * @Date: 2022-12-07 21:20:52
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-12-10 21:27:35
+ * @LastEditTime: 2022-12-13 21:54:21
  * @Descripttion: 
  * https://labuladong.oschina.io/algo/2/21/45/
  * 
@@ -89,14 +89,14 @@ public class quickSortSolution {
         if (left >= right) {
             return;
         }
-        int pivot = partition_middle(nums, left, right);
+        int pivot = partition_random(nums, left, right);
         // int pivot = partition(nums, left, right);
         quickSort(nums, left, pivot - 1);
         quickSort(nums, pivot + 1, right);
     }
 
     public static void main(String[] args) {
-        int[] array = { 3, 2, 3, 1, 2, 4, 5, 5, 6 };
+        int[] array = { 2, 1 };
         quickSortSolution solution = new quickSortSolution();
         int[] res = solution.quick(array);
         for (int num : res) {
