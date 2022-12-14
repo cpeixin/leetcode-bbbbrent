@@ -3,7 +3,7 @@
  * @Author: Brent
  * @Date: 2022-12-07 21:20:52
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-12-07 22:44:03
+ * @LastEditTime: 2022-12-10 21:27:35
  * @Descripttion: 
  * https://labuladong.oschina.io/algo/2/21/45/
  * 
@@ -13,41 +13,86 @@
  */
 package quick_sort;
 
+import java.util.Random;
+
 public class quickSortSolution {
 
-    // 划分
-    public int partition(int arr[], int head, int tail) {
-        int low = head;
-        int pivot = arr[tail];
+    public int[] quick(int[] nums) {
+        quickSort(nums, 0, nums.length - 1);
+        return nums;
+    }
 
-        for (int i = head; i < tail; i++) {
-            if (arr[i] < pivot) {
-                int tmp = arr[i];
-                arr[i] = arr[low];
-                arr[low] = tmp;
-                low += 1;
+    public void swap(int[] nums, int a, int b) {
+        int temp = nums[a];
+        nums[a] = nums[b];
+        nums[b] = temp;
+    }
+
+    public int partition_middle(int[] nums, int left, int right) {
+        int pivot_index = (right + left) / 2;
+        int pivot_value = nums[pivot_index];
+        // 将随机选出的主元交换到数组最右端
+        swap(nums, pivot_index, right);
+
+        int head = left;
+
+        // 遍历+小于nums[pivot_index]放在pivot_index左侧，大于nums[pivot_index]的放在右侧
+        for (int i = left; i < right; i++) {
+            if (nums[i] <= pivot_value) {
+                swap(nums, head, i);
+                head++;
             }
         }
-
-        arr[tail] = arr[low];
-        arr[low] = pivot;
-
-        return low;
+        nums[right] = nums[head];
+        nums[head] = pivot_value;
+        return head;
     }
 
-    public void quickSort(int[] array, int head, int tail) {
-        if (head >= tail)
+    public int partition_random(int[] nums, int left, int right) {
+        int pivot_index = new Random().nextInt(right - left) + left;
+        int pivot_value = nums[pivot_index];
+        // 将随机选出的主元交换到数组最右端
+        swap(nums, pivot_index, right);
+
+        int head = left;
+
+        // 遍历+小于nums[pivot_index]放在pivot_index左侧，大于nums[pivot_index]的放在右侧
+        for (int i = left; i < right; i++) {
+            if (nums[i] <= pivot_value) {
+                swap(nums, head, i);
+                head++;
+            }
+        }
+        nums[right] = nums[head];
+        nums[head] = pivot_value;
+        return head;
+    }
+
+    public int partition(int[] nums, int left, int right) {
+        int pivot_value = nums[right];
+
+        int head = left;
+
+        // 遍历+小于nums[pivot_index]放在pivot_index左侧，大于nums[pivot_index]的放在右侧
+        for (int i = left; i < right; i++) {
+            if (nums[i] <= pivot_value) {
+                swap(nums, head, i);
+                head++;
+            }
+        }
+        swap(nums, head, right);
+        return head;
+    }
+
+    public void quickSort(int[] nums, int left, int right) {
+        // 递归终止条件
+        if (left >= right) {
             return;
-        int pivot = partition(array, head, tail);
-        quickSort(array, head, pivot - 1);
-        quickSort(array, pivot + 1, tail);
-    }
-
-    public int[] quick(int[] array) {
-        int head = 0;
-        int tail = array.length - 1;
-        quickSort(array, head, tail);
-        return array;
+        }
+        int pivot = partition_middle(nums, left, right);
+        // int pivot = partition(nums, left, right);
+        quickSort(nums, left, pivot - 1);
+        quickSort(nums, pivot + 1, right);
     }
 
     public static void main(String[] args) {
