@@ -35,7 +35,8 @@ public class findKthLargestSolution {
     }
 
     public int partition(int[] nums, int left, int right, int k){
-        int pivot_index = new Random().nextInt(right-left)+left;
+        int pivot_index = (int) (Math.random() * (right - left + 1)) + left;
+
         swap(nums, pivot_index, right);
 
         int head = left;
