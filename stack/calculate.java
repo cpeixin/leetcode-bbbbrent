@@ -1,8 +1,9 @@
+
 /*
  * @Author: congpeixin congpeixin@dongqiudi.com
  * @Date: 2022-11-06 08:38:23
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-11-11 21:04:17
+ * @LastEditTime: 2022-12-15 16:09:27
  * @FilePath: /leetcode-bbbbrent/stack/calculate.java
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -25,17 +26,17 @@ public class calculate {
             }
             if (!Character.isDigit(s.charAt(i)) && s.charAt(i) != ' ' || i == n - 1) {
                 switch (preSign) {
-                case '+':
-                    stack.push(num);
-                    break;
-                case '-':
-                    stack.push(-num);
-                    break;
-                case '*':
-                    stack.push(stack.pop() * num);
-                    break;
-                default:
-                    stack.push(stack.pop() / num);
+                    case '+':
+                        stack.push(num);
+                        break;
+                    case '-':
+                        stack.push(-num);
+                        break;
+                    case '*':
+                        stack.push(stack.pop() * num);
+                        break;
+                    default:
+                        stack.push(stack.pop() / num);
                 }
                 preSign = s.charAt(i);
                 num = 0;

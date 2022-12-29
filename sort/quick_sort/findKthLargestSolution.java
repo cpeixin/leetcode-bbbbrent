@@ -2,11 +2,13 @@
  * @version: 
  * @Author: Brent
  * @Date: 2022-12-12 22:20:34
- * @LastEditors: 
- * @LastEditTime: 2022-12-12 22:20:47
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2022-12-19 10:40:59
  * @Descripttion: 
  */
 package quick_sort;
+
+import java.util.Random;
 
 import java.util.Random;
 
@@ -70,6 +72,11 @@ public class findKthLargestSolution {
 
     public static void main(String[] args) {
         int[] nums = {2,1};
+        findKthLargestSolution solution = new findKthLargestSolution();
+        int res = solution.findKthLargest(nums, 2);
+        System.out.println(res);
+    public static void main(String[] args) {
+        int[] nums = { 2, 1 };
         findKthLargestSolution solution = new findKthLargestSolution();
         int res = solution.findKthLargest(nums, 2);
         System.out.println(res);
