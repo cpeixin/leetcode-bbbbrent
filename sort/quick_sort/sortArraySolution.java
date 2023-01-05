@@ -59,6 +59,13 @@ public class sortArraySolution {
         return head;
     }
 
+<<<<<<< HEAD
+ */
+public class sortArraySolution {
+    public int[] sortArray(int[] nums) {
+        Arrays.sort(nums);
+        return nums;
+=======
     public int partition_random(int[] nums, int left, int right) {
         int pivot_index = new Random().nextInt(right - left) + left;
         int pivot_value = nums[pivot_index];
@@ -104,6 +111,7 @@ public class sortArraySolution {
         // int pivot = partition(nums, left, right);
         quickSort(nums, left, pivot - 1);
         quickSort(nums, pivot + 1, right);
+>>>>>>> 6d806b042276bfd829ab2c3470788a5193bdccd1
     }
 
     public static void main(String[] args) {
